@@ -1,0 +1,39 @@
+{
+  "segments": [
+    {
+      "index": 19,
+      "continuous_cover_pairs": 287,
+      "unresolved_candidates": []
+    },
+    {
+      "index": 20,
+      "continuous_cover_pairs": 287,
+      "unresolved_candidates": []
+    },
+    {
+      "index": 21,
+      "continuous_cover_pairs": 440,
+      "unresolved_candidates": []
+    }
+  ],
+  "tolerance_m": 1e-06,
+  "deck_triangle_coverage": {
+    "Deck_panel_04": {
+      "uncovered_triangle_indices": [],
+      "triangles": 326
+    },
+    "Deck_panel_05": {
+      "uncovered_triangle_indices": [],
+      "triangles": 300
+    }
+  },
+  "limits": [
+    "Only canonical missing segments 19,20,21. Kinematic conservative covers; no material strength or gravity.",
+    "Normalized convex planes contracted by 0.001 mm, as in original certificate."
+  ],
+  "status": "PASS",
+  "inputs_sha256": {
+    "assets/bridge_v2_assembly.glb": "a32bbec02e44201289545c4f99bd401e0869815cc55b360f87ed8e14313d64a8"
+  },
+  "trajectory_sha256": "c7cbcd01d9e0e694345a3d32eeb4f246151a0991a98c39bd32b1802863577e31"
+}

@@ -1,0 +1,170 @@
+{
+  "asset_sha256": "754dedef24453088a530f5f2c723d2a675ad7e9b4ec60b650b28b657cbf6f58e",
+  "source": "Beam_Front_03",
+  "target": "Beam_Back_03",
+  "rotation_rows": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "proper_rotation_determinant": 1.0,
+  "translation_m": [
+    0.0,
+    0.0,
+    -0.21000000089406967
+  ],
+  "source_extents_mm": [
+    205.48103749752045,
+    16.000017523765564,
+    13.0000039935112
+  ],
+  "target_extents_mm": [
+    205.48103749752045,
+    16.000017523765564,
+    13.0000039935112
+  ],
+  "triangles": [
+    752,
+    760
+  ],
+  "bidirectional_all_vertex_centroid_to_surface_max_mm": 1.4702103537398093e-05,
+  "nearest_vertex_set_error_mm": 1.7142891883850098,
+  "volume_mm3": [
+    39325.95618283388,
+    39325.954233760276
+  ],
+  "sampling_limit": "Every exported vertex and triangle centroid to opposite surface; not yet a full all-face equivalence proof.",
+  "all_face_projected_coverage": {
+    "forward": {
+      "pass": true,
+      "uncovered_face": null
+    },
+    "backward": {
+      "pass": true,
+      "uncovered_face": null
+    },
+    "plane_and_edge_band_m": 2.5e-07,
+    "conservative_surface_band_bound_m": 1e-06,
+    "method": "For every source triangle, choose an overlapping stable target plane containing all three source vertices within the plane band, irrespective of fragile sliver/winding normal. Subtract all coplanar target triangles from its projection using edge bands. Bidirectional full-face coverage, with residual projected area threshold 1e-16 square metres."
+  },
+  "authoring_invariance": {
+    "same_bevelled_beam_dimensions_m": [
+      0.2054810375,
+      0.016,
+      0.013
+    ],
+    "beam_transverse_slabs_m": [
+      [
+        0.0985,
+        0.1115
+      ],
+      [
+        -0.1115,
+        -0.0985
+      ]
+    ],
+    "rod_axial_span_m": [
+      -0.1275,
+      0.1275
+    ],
+    "grooves": "Same three extruded cylindrical cuts, at x=-0.0907405,0,+0.0907405 m; rod caps outside both beam slabs. Axial translation does not change cut cross-sections."
+  },
+  "equivalence_confirmed": true,
+  "previous_vertex_mismatch_reason": "Vertex sets encode different triangulation (752 vs 760 triangles); nearest vertex mismatch is not surface shape mismatch.",
+  "trigger_points": [
+    {
+      "slot_id": "slot_03",
+      "centre_m": [
+        0.0,
+        0.14665376394987106,
+        0.10500000044703484
+      ],
+      "effective_segment_points_m": [
+        [
+          -0.08219241499900819,
+          0.14665376394987106,
+          0.10500000044703484
+        ],
+        [
+          -0.041096207499504094,
+          0.14665376394987106,
+          0.10500000044703484
+        ],
+        [
+          0.0,
+          0.14665376394987106,
+          0.10500000044703484
+        ],
+        [
+          0.041096207499504094,
+          0.14665376394987106,
+          0.10500000044703484
+        ],
+        [
+          0.08219241499900819,
+          0.14665376394987106,
+          0.10500000044703484
+        ]
+      ],
+      "radius_m": 0.036,
+      "final_reference_anchor_unchanged_m": [
+        -0.04500000178813934,
+        0.13865375518798828,
+        0.1074999924749136
+      ]
+    },
+    {
+      "slot_id": "slot_08",
+      "centre_m": [
+        0.0,
+        0.14665376394987106,
+        -0.10500000044703484
+      ],
+      "effective_segment_points_m": [
+        [
+          -0.08219241499900819,
+          0.14665376394987106,
+          -0.10500000044703484
+        ],
+        [
+          -0.041096207499504094,
+          0.14665376394987106,
+          -0.10500000044703484
+        ],
+        [
+          0.0,
+          0.14665376394987106,
+          -0.10500000044703484
+        ],
+        [
+          0.041096207499504094,
+          0.14665376394987106,
+          -0.10500000044703484
+        ],
+        [
+          0.08219241499900819,
+          0.14665376394987106,
+          -0.10500000044703484
+        ]
+      ],
+      "radius_m": 0.036,
+      "final_reference_anchor_unchanged_m": [
+        -0.04500000178813934,
+        0.13865375518798828,
+        -0.10249999351799488
+      ]
+    }
+  ]
+}

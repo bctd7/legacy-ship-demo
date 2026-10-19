@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
+<!-- Distant oblique 2D composition placeholder; not a model rendering. -->
+<path d="M48 173L325 104L348 130L73 200Z" fill="#d8c6a5"/>
+<path d="M70 175Q178 22 327 111M91 192Q197 42 348 130" fill="none" stroke="#98754f" stroke-width="12" stroke-linecap="round"/>
+<path d="M64 185L338 116M83 185L83 206M337 118V146M139 123L150 171M213 100L220 153M283 105L287 135" fill="none" stroke="#805a3b" stroke-width="9" stroke-linecap="round"/>
+<path d="M65 215L118 209M284 161L352 145" fill="none" stroke="#8ba5a3" stroke-width="4" stroke-linecap="round" opacity=".65"/>
+</svg>

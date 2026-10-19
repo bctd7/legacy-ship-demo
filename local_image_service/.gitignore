@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+
+# User-filled temporary demo secrets and generated results.
+/private/*
+!/private/.gdignore
+!/private/api_key.example.json
+!/private/README.md

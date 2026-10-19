@@ -1,0 +1,703 @@
+{
+  "mesh_sha256": "754dedef24453088a530f5f2c723d2a675ad7e9b4ec60b650b28b657cbf6f58e",
+  "numeric_plane_edge_tolerance_m": 1e-06,
+  "conservative_surface_band_bound_m": 3e-06,
+  "method": "Proper rigid rotations only; each comparison records its evidence. Full projected-triangle coverage where stable; front/back copies additionally use authored axial-translation invariance plus sub-0.1 micrometre vertex correspondence. Deck classes require identical seven-box nominal dimensions, matching certified support contacts, and existing coverage of every exported triangle. Decorative bevel/tessellation is not assumed to be identical. Not a manufacturing tolerance claim.",
+  "comparisons": [
+    {
+      "reference": "Beam_Front_01",
+      "target": "Beam_Back_01",
+      "compatibility_pass": true,
+      "evidence": "authored_axial_translation_plus_actual_vertex_correspondence",
+      "maximum_vertex_error_m": 2.004746203876289e-08,
+      "proper_rotation_determinant": 1.0
+    },
+    {
+      "reference": "Beam_Front_01",
+      "target": "Beam_Front_05",
+      "compatibility_pass": true,
+      "evidence": "projected_triangle_coverage",
+      "maximum_vertex_error_m": null,
+      "proper_rotation_determinant": 1.0
+    },
+    {
+      "reference": "Beam_Front_01",
+      "target": "Beam_Back_05",
+      "compatibility_pass": true,
+      "evidence": "authored_axial_translation_plus_actual_vertex_correspondence",
+      "maximum_vertex_error_m": 5.416239011052246e-08,
+      "proper_rotation_determinant": 1.0
+    },
+    {
+      "reference": "Beam_Front_02",
+      "target": "Beam_Back_02",
+      "compatibility_pass": true,
+      "evidence": "authored_axial_translation_plus_actual_vertex_correspondence",
+      "maximum_vertex_error_m": 2.1075531491700785e-08,
+      "proper_rotation_determinant": 1.0
+    },
+    {
+      "reference": "Beam_Front_02",
+      "target": "Beam_Front_04",
+      "compatibility_pass": true,
+      "evidence": "projected_triangle_coverage",
+      "maximum_vertex_error_m": null,
+      "proper_rotation_determinant": 1.0
+    },
+    {
+      "reference": "Beam_Front_02",
+      "target": "Beam_Back_04",
+      "compatibility_pass": true,
+      "evidence": "projected_triangle_coverage",
+      "maximum_vertex_error_m": 0.00017474202707589277,
+      "proper_rotation_determinant": 1.0
+    },
+    {
+      "reference": "Beam_Front_03",
+      "target": "Beam_Back_03",
+      "compatibility_pass": true,
+      "evidence": "bidirectional_all_face_projected_coverage_and_authored_axial_invariance",
+      "proper_rotation_determinant": 1.0,
+      "maximum_sample_surface_error_m": 1.4702103537398093e-08,
+      "conservative_surface_band_bound_m": 1e-06,
+      "proof": "centre_beam_equivalence.json"
+    },
+    {
+      "reference": "Cross_rod_01",
+      "target": "Cross_rod_02",
+      "compatibility_pass": true,
+      "evidence": "projected_triangle_coverage",
+      "maximum_vertex_error_m": null,
+      "proper_rotation_determinant": 1.0
+    },
+    {
+      "reference": "Cross_rod_01",
+      "target": "Cross_rod_03",
+      "compatibility_pass": true,
+      "evidence": "projected_triangle_coverage",
+      "maximum_vertex_error_m": null,
+      "proper_rotation_determinant": 1.0
+    },
+    {
+      "reference": "Cross_rod_01",
+      "target": "Cross_rod_04",
+      "compatibility_pass": true,
+      "evidence": "projected_triangle_coverage",
+      "maximum_vertex_error_m": null,
+      "proper_rotation_determinant": 1.0
+    },
+    {
+      "reference": "Cross_rod_01",
+      "target": "Cross_rod_05",
+      "compatibility_pass": true,
+      "evidence": "projected_triangle_coverage",
+      "maximum_vertex_error_m": null,
+      "proper_rotation_determinant": 1.0
+    },
+    {
+      "reference": "Deck_panel_01",
+      "target": "Deck_panel_04",
+      "compatibility_pass": true,
+      "evidence": "identical_seven_box_interface_and_certified_contacts",
+      "maximum_vertex_error_m": null,
+      "proper_rotation_determinant": 1.0
+    },
+    {
+      "reference": "Deck_panel_02",
+      "target": "Deck_panel_05",
+      "compatibility_pass": true,
+      "evidence": "identical_seven_box_interface_and_certified_contacts",
+      "maximum_vertex_error_m": null,
+      "proper_rotation_determinant": 1.0
+    }
+  ],
+  "types": [
+    {
+      "id": "beam_end",
+      "label": "端部梁",
+      "quantity": 4,
+      "representative_part_id": "Beam_Front_01",
+      "compatible_slot_parts": [
+        "Beam_Front_01",
+        "Beam_Back_01",
+        "Beam_Front_05",
+        "Beam_Back_05"
+      ],
+      "to_slot_pose": {
+        "Beam_Front_01": {
+          "rotation_rows": [
+            [
+              0.9999999999999999,
+              -4.0418127008487015e-18,
+              0.0
+            ],
+            [
+              -4.0418127008487015e-18,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            -2.7755575615628914e-17,
+            1.3877787807814457e-17,
+            0.0
+          ]
+        },
+        "Beam_Back_01": {
+          "rotation_rows": [
+            [
+              0.9999999999999999,
+              -4.0418127008487015e-18,
+              0.0
+            ],
+            [
+              -4.0418127008487015e-18,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            -2.7755575615628914e-17,
+            1.3877787807814457e-17,
+            -0.15000000000000002
+          ]
+        },
+        "Beam_Front_05": {
+          "rotation_rows": [
+            [
+              -0.9999999999999999,
+              4.0418127008487015e-18,
+              0.0
+            ],
+            [
+              -4.0418127008487015e-18,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "translation_m": [
+            2.7755575615628914e-17,
+            1.3877787807814457e-17,
+            0.16500000000000004
+          ]
+        },
+        "Beam_Back_05": {
+          "rotation_rows": [
+            [
+              -0.9999999999999999,
+              4.0418127008487015e-18,
+              0.0
+            ],
+            [
+              -4.0418127008487015e-18,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "translation_m": [
+            2.7755575615628914e-17,
+            1.3877787807814457e-17,
+            -0.015
+          ]
+        }
+      }
+    },
+    {
+      "id": "beam_flank",
+      "label": "侧段梁",
+      "quantity": 4,
+      "representative_part_id": "Beam_Front_02",
+      "compatible_slot_parts": [
+        "Beam_Front_02",
+        "Beam_Back_02",
+        "Beam_Front_04",
+        "Beam_Back_04"
+      ],
+      "to_slot_pose": {
+        "Beam_Front_02": {
+          "rotation_rows": [
+            [
+              0.9999999999999999,
+              1.1377979983821338e-17,
+              0.0
+            ],
+            [
+              1.1377979983821338e-17,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            -1.3877787807814457e-17,
+            2.7755575615628914e-17,
+            0.0
+          ]
+        },
+        "Beam_Back_02": {
+          "rotation_rows": [
+            [
+              0.9999999999999999,
+              1.1377979983821338e-17,
+              0.0
+            ],
+            [
+              1.1377979983821338e-17,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            -1.3877787807814457e-17,
+            2.7755575615628914e-17,
+            -0.18000000000000002
+          ]
+        },
+        "Beam_Front_04": {
+          "rotation_rows": [
+            [
+              -0.9999999999999999,
+              -1.1377979983821338e-17,
+              0.0
+            ],
+            [
+              1.1377979983821338e-17,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "translation_m": [
+            1.3877787807814457e-17,
+            2.7755575615628914e-17,
+            0.16500000000000004
+          ]
+        },
+        "Beam_Back_04": {
+          "rotation_rows": [
+            [
+              -0.9999999999999999,
+              -1.1377979983821338e-17,
+              0.0
+            ],
+            [
+              1.1377979983821338e-17,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "translation_m": [
+            1.3877787807814457e-17,
+            2.7755575615628914e-17,
+            0.015
+          ]
+        }
+      }
+    },
+    {
+      "id": "beam_crown",
+      "label": "中梁",
+      "quantity": 2,
+      "representative_part_id": "Beam_Front_03",
+      "compatible_slot_parts": [
+        "Beam_Front_03",
+        "Beam_Back_03"
+      ],
+      "to_slot_pose": {
+        "Beam_Front_03": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Beam_Back_03": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.0,
+            0.0,
+            -0.21000000089406967
+          ]
+        }
+      }
+    },
+    {
+      "id": "round_rod",
+      "label": "横向圆杆",
+      "quantity": 5,
+      "representative_part_id": "Cross_rod_01",
+      "compatible_slot_parts": [
+        "Cross_rod_01",
+        "Cross_rod_02",
+        "Cross_rod_03",
+        "Cross_rod_04",
+        "Cross_rod_05"
+      ],
+      "to_slot_pose": {
+        "Cross_rod_01": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Cross_rod_02": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.07979586720466614,
+            0.046070173382759094,
+            0.0
+          ]
+        },
+        "Cross_rod_03": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.1705363765358925,
+            0.06207016110420227,
+            0.0
+          ]
+        },
+        "Cross_rod_04": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.26127688586711884,
+            0.046070173382759094,
+            0.0
+          ]
+        },
+        "Cross_rod_05": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.341072753071785,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "deck_narrow_support",
+      "label": "桥面 · 窄支脚距",
+      "quantity": 2,
+      "representative_part_id": "Deck_panel_01",
+      "compatible_slot_parts": [
+        "Deck_panel_01",
+        "Deck_panel_04"
+      ],
+      "to_slot_pose": {
+        "Deck_panel_01": {
+          "rotation_rows": [
+            [
+              0.9999999999999999,
+              -4.0418127008487015e-18,
+              0.0
+            ],
+            [
+              -4.0418127008487015e-18,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            -2.7755575615628914e-17,
+            1.3877787807814457e-17,
+            -0.0
+          ]
+        },
+        "Deck_panel_04": {
+          "rotation_rows": [
+            [
+              0.4999999999999999,
+              0.8660254037844386,
+              0.0
+            ],
+            [
+              -0.8660254037844386,
+              0.4999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.09582895844616139,
+            -0.05532687495505273,
+            -0.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "deck_mid_support",
+      "label": "桥面 · 中支脚距",
+      "quantity": 2,
+      "representative_part_id": "Deck_panel_02",
+      "compatible_slot_parts": [
+        "Deck_panel_02",
+        "Deck_panel_05"
+      ],
+      "to_slot_pose": {
+        "Deck_panel_02": {
+          "rotation_rows": [
+            [
+              0.9999999999999999,
+              1.1377979983821338e-17,
+              0.0
+            ],
+            [
+              1.1377979983821338e-17,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            -1.3877787807814457e-17,
+            2.7755575615628914e-17,
+            -0.0
+          ]
+        },
+        "Deck_panel_05": {
+          "rotation_rows": [
+            [
+              0.4999999999999999,
+              0.8660254037844386,
+              0.0
+            ],
+            [
+              -0.8660254037844386,
+              0.4999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.0958289584461614,
+            -0.05532687495505274,
+            -0.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "deck_wide_support",
+      "label": "桥面 · 宽支脚距",
+      "quantity": 1,
+      "representative_part_id": "Deck_panel_03",
+      "compatible_slot_parts": [
+        "Deck_panel_03"
+      ],
+      "to_slot_pose": {
+        "Deck_panel_03": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.0,
+            0.0,
+            -0.0
+          ]
+        }
+      }
+    }
+  ],
+  "type_count": 7,
+  "total_quantity": 20,
+  "comparison_history": [
+    {
+      "superseded": true,
+      "reason": "Conservative vertex/face check previously unresolved; now independently verified full-face translation equivalence.",
+      "comparison": {
+        "reference": "Beam_Front_03",
+        "target": "Beam_Back_03",
+        "compatibility_pass": false,
+        "evidence": "projected_triangle_coverage",
+        "maximum_vertex_error_m": 0.0017142817378044128,
+        "proper_rotation_determinant": null
+      }
+    }
+  ],
+  "centre_update": "Front03/Back03 are equivalent by proper identity rotation plus 210mm axial translation; original undecided comparison retained as history."
+}

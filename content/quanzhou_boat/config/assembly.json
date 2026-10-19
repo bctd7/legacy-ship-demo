@@ -1,0 +1,1563 @@
+{
+  "drop_tolerance": {
+    "min_radius_px": 56.0,
+    "max_radius_px": 96.0,
+    "note": "Logical viewport pixel tolerance for the held object's connection anchor; only its own compatible slot is offered."
+  },
+  "grouping": "17 operation groups; only the twelve bulkhead-and-local-beam groups combined; other sixteen groups preserved",
+  "groups": [
+    {
+      "id": "keel_center",
+      "label": "中央龙骨",
+      "roots": [
+        "K1"
+      ],
+      "requires": [],
+      "mode": "rigid",
+      "radius_m": 0.13,
+      "anchor_m": [
+        1.3715,
+        0.0187257,
+        0
+      ],
+      "connection_meshes": [
+        "Keel segment 1"
+      ],
+      "approach_m": [
+        0,
+        0.035,
+        0
+      ],
+      "lesson": {
+        "title": "企口基准定位",
+        "kind": "seat",
+        "focus_m": [
+          1.3715,
+          0.0187257,
+          0
+        ],
+        "distance_m": 0.7,
+        "yaw": -0.65,
+        "pitch": 0.5,
+        "section_half_m": [
+          0.3,
+          0.14,
+          0.12
+        ],
+        "context_roots": [
+          "K1"
+        ],
+        "moving_meshes": [
+          "Keel segment 1"
+        ],
+        "source_note": "WA1997 p36/PDF45；中央龙骨为定位基准，后续底板进入其企口。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75
+      },
+      "connection_basis": "单根连续中央龙骨。",
+      "source_mesh_count": 1,
+      "source_bounds_m": {
+        "min": [
+          0.726000010967255,
+          0.00240939552895725,
+          -0.0209999997168779
+        ],
+        "max": [
+          2.016999900341035,
+          0.03504201467148955,
+          0.020999999716878003
+        ]
+      }
+    },
+    {
+      "id": "keel_bow",
+      "label": "艏段龙骨",
+      "roots": [
+        "K0"
+      ],
+      "requires": [
+        "keel_center"
+      ],
+      "mode": "rigid",
+      "radius_m": 0.075,
+      "anchor_m": [
+        0.743,
+        0.035,
+        0
+      ],
+      "connection_meshes": [
+        "Keel segment 0"
+      ],
+      "approach_m": [
+        -0.065,
+        0,
+        0
+      ],
+      "lesson": {
+        "title": "艏段短斜接靠合",
+        "kind": "scarf",
+        "focus_m": [
+          0.743,
+          0.035,
+          0
+        ],
+        "distance_m": 0.43,
+        "yaw": -0.65,
+        "pitch": 0.52,
+        "section_half_m": [
+          0.14,
+          0.1,
+          0.12
+        ],
+        "context_roots": [
+          "K0",
+          "K1"
+        ],
+        "moving_meshes": [
+          "Keel segment 0"
+        ],
+        "source_note": "WA1997 p36/PDF45；短斜接由轻肘材与少量钉辅助定位，未建模肘材，不补造自锁结构。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75
+      },
+      "connection_basis": "艏段接中央龙骨前端，与艉段相隔约1.65m，单独操作。",
+      "source_mesh_count": 1,
+      "source_bounds_m": {
+        "min": [
+          0.375,
+          0.00804201513528824,
+          -0.0209999997168779
+        ],
+        "max": [
+          0.7599999904632571,
+          0.17654562741518023,
+          0.020999999716878003
+        ]
+      }
+    },
+    {
+      "id": "keel_stern",
+      "label": "艉段龙骨",
+      "roots": [
+        "K2"
+      ],
+      "requires": [
+        "keel_center"
+      ],
+      "mode": "rigid",
+      "radius_m": 0.075,
+      "anchor_m": [
+        2.0,
+        0.035,
+        0
+      ],
+      "connection_meshes": [
+        "Keel segment 2"
+      ],
+      "approach_m": [
+        0.065,
+        0,
+        0
+      ],
+      "lesson": {
+        "title": "艉段短斜接靠合",
+        "kind": "scarf",
+        "focus_m": [
+          2.0,
+          0.035,
+          0
+        ],
+        "distance_m": 0.43,
+        "yaw": -0.65,
+        "pitch": 0.52,
+        "section_half_m": [
+          0.14,
+          0.1,
+          0.12
+        ],
+        "context_roots": [
+          "K2",
+          "K1"
+        ],
+        "moving_meshes": [
+          "Keel segment 2"
+        ],
+        "source_note": "WA1997 p36/PDF45；短斜接由轻肘材与少量钉辅助定位，未建模肘材，不补造自锁结构。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75
+      },
+      "connection_basis": "艉段接中央龙骨后端，未与艏段合为同一卡。",
+      "source_mesh_count": 1,
+      "source_bounds_m": {
+        "min": [
+          1.98300004005432,
+          0.00240939552895725,
+          -0.0209999997168779
+        ],
+        "max": [
+          2.440000057220458,
+          0.15394627745263326,
+          0.020999999716878003
+        ]
+      }
+    },
+    {
+      "id": "shell_port",
+      "label": "左舷内板与钉固组",
+      "roots": [
+        "SP_01",
+        "SP_02",
+        "SP_03",
+        "SP_04",
+        "SP_05",
+        "SP_06",
+        "SP_07",
+        "SP_08",
+        "F-1"
+      ],
+      "requires": [
+        "keel_bow",
+        "keel_stern"
+      ],
+      "mode": "build",
+      "radius_m": 0.075,
+      "anchor_m": [
+        0.901,
+        0.045,
+        0.035
+      ],
+      "connection_meshes": [
+        "Inner strake -1 01 board 1"
+      ],
+      "approach_m": [
+        0,
+        0,
+        0.025
+      ],
+      "lesson": {
+        "title": "底板—龙骨企口与斜钉",
+        "kind": "planking",
+        "focus_m": [
+          0.901,
+          0.045,
+          0.035
+        ],
+        "distance_m": 0.36,
+        "yaw": -0.6,
+        "pitch": 0.55,
+        "section_half_m": [
+          0.15,
+          0.1,
+          0.12
+        ],
+        "context_roots": [
+          "K1",
+          "SP_01",
+          "SP_02"
+        ],
+        "moving_meshes": [
+          "Inner strake -1 01 board 2"
+        ],
+        "source_note": "WA1997 p37/41/44（PDF46/50/53）；厚底板贴靠企口并钉固。代表钉的具体长度、位置为源模型示意。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75,
+        "nail_side": "F-1"
+      },
+      "connection_basis": "同侧连续板列互相邻接，钉固件归入其附着船侧；整组原位建造，不演示整壳刚体插入。",
+      "source_mesh_count": 432,
+      "source_bounds_m": {
+        "min": [
+          0.00146234116982669,
+          0.00723188696429133,
+          -1.50952502857597e-14
+        ],
+        "max": [
+          2.799999952316289,
+          0.5966560468077657,
+          0.5117130875587459
+        ]
+      }
+    },
+    {
+      "id": "shell_starboard",
+      "label": "右舷内板与钉固组",
+      "roots": [
+        "SS_01",
+        "SS_02",
+        "SS_03",
+        "SS_04",
+        "SS_05",
+        "SS_06",
+        "SS_07",
+        "SS_08",
+        "F1"
+      ],
+      "requires": [
+        "keel_bow",
+        "keel_stern"
+      ],
+      "mode": "build",
+      "radius_m": 0.075,
+      "anchor_m": [
+        0.901,
+        0.045,
+        -0.035
+      ],
+      "connection_meshes": [
+        "Inner strake 1 01 board 1"
+      ],
+      "approach_m": [
+        0,
+        0,
+        -0.025
+      ],
+      "lesson": {
+        "title": "右舷底板企口与斜钉",
+        "kind": "planking",
+        "focus_m": [
+          0.901,
+          0.045,
+          -0.035
+        ],
+        "distance_m": 0.36,
+        "yaw": 2.6,
+        "pitch": 0.55,
+        "section_half_m": [
+          0.15,
+          0.1,
+          0.12
+        ],
+        "context_roots": [
+          "K1",
+          "SS_01",
+          "SS_02"
+        ],
+        "moving_meshes": [
+          "Inner strake 1 01 board 2"
+        ],
+        "source_note": "与左舷对称的连接类型；WA1997 p41/44，具体几何沿用交付模型。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75,
+        "nail_side": "F1"
+      },
+      "connection_basis": "同侧连续板列互相邻接，钉固件归入其附着船侧；整组原位建造，不演示整壳刚体插入。",
+      "source_mesh_count": 432,
+      "source_bounds_m": {
+        "min": [
+          0.00146234116982669,
+          0.00723188696429133,
+          -0.511713087558746
+        ],
+        "max": [
+          2.799999952316289,
+          0.5966560468077657,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "bulkheads_beams",
+      "label": "隔舱与梁（12道整体）",
+      "roots": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B10",
+        "B11",
+        "B12"
+      ],
+      "requires": [
+        "shell_port",
+        "shell_starboard"
+      ],
+      "mode": "build",
+      "radius_m": 0.075,
+      "anchor_m": [
+        1.5600000619888306,
+        0.203600815497339,
+        0.0
+      ],
+      "connection_meshes": [
+        "Bulkhead 01 half frame -1",
+        "Bulkhead 02 half frame -1",
+        "Bulkhead 03 half frame -1",
+        "Bulkhead 04 half frame -1",
+        "Bulkhead 05 half frame -1",
+        "Bulkhead 06 half frame -1",
+        "Bulkhead 07 half frame -1",
+        "Bulkhead 08 half frame -1",
+        "Bulkhead 09 half frame -1",
+        "Bulkhead 10 half frame -1",
+        "Bulkhead 11 half frame -1",
+        "Bulkhead 12 solid partition"
+      ],
+      "approach_m": [
+        0,
+        0.045,
+        0
+      ],
+      "lesson": {
+        "title": "隔舱与梁依次整体装配",
+        "kind": "partition_sequence",
+        "focus_m": [
+          1.5600000619888306,
+          0.203600815497339,
+          0.0
+        ],
+        "distance_m": 0.45,
+        "yaw": -0.8,
+        "pitch": 0.6,
+        "section_half_m": [
+          0.1,
+          0.2,
+          0.18
+        ],
+        "context_roots": [
+          "B01",
+          "K1",
+          "SP_02",
+          "SP_03",
+          "SP_04",
+          "SP_05",
+          "SP_06",
+          "SP_07",
+          "B02",
+          "B03",
+          "B04",
+          "B05",
+          "B06",
+          "B07",
+          "B08",
+          "B09",
+          "B10",
+          "B11",
+          "B12"
+        ],
+        "moving_meshes": [
+          "Bulkhead 01 half frame -1",
+          "Bulkhead 01 half frame 1",
+          "Bulkhead 01 solid partition",
+          "Deck crossbeam 01",
+          "Bulkhead 02 half frame -1",
+          "Bulkhead 02 half frame 1",
+          "Bulkhead 02 solid partition",
+          "Deck crossbeam 02",
+          "Bulkhead 03 half frame -1",
+          "Bulkhead 03 half frame 1",
+          "Bulkhead 03 solid partition",
+          "Deck crossbeam 03",
+          "Bulkhead 04 half frame -1",
+          "Bulkhead 04 half frame 1",
+          "Bulkhead 04 solid partition",
+          "Deck crossbeam 04",
+          "Bulkhead 05 half frame -1",
+          "Bulkhead 05 half frame 1",
+          "Bulkhead 05 solid partition",
+          "Deck crossbeam 05",
+          "Bulkhead 06 half frame -1",
+          "Bulkhead 06 half frame 1",
+          "Bulkhead 06 solid partition",
+          "Deck crossbeam 06",
+          "Bulkhead 07 half frame -1",
+          "Bulkhead 07 half frame 1",
+          "Bulkhead 07 solid partition",
+          "Deck crossbeam 07",
+          "Bulkhead 08 half frame -1",
+          "Bulkhead 08 half frame 1",
+          "Bulkhead 08 solid partition",
+          "Deck crossbeam 08",
+          "Bulkhead 09 half frame -1",
+          "Bulkhead 09 half frame 1",
+          "Bulkhead 09 solid partition",
+          "Deck crossbeam 09",
+          "Bulkhead 10 half frame -1",
+          "Bulkhead 10 half frame 1",
+          "Bulkhead 10 solid partition",
+          "Deck crossbeam 10",
+          "Bulkhead 11 half frame -1",
+          "Bulkhead 11 half frame 1",
+          "Bulkhead 11 solid partition",
+          "Deck crossbeam 11",
+          "Bulkhead 12 solid partition",
+          "Deck crossbeam 12"
+        ],
+        "source_note": "WA1997 p44/PDF53：L形铁件连接船板与隔舱。交付资源缺少独立L形铁件，本步显示板壁就位并说明，不用普通钉替代。 12道合为一次操作，仍按源模块逐道就位；不是整片刚体插入。",
+        "wood_seconds": 1.44,
+        "fixed_seconds": 0.3,
+        "sequence_roots": [
+          "B01",
+          "B02",
+          "B03",
+          "B04",
+          "B05",
+          "B06",
+          "B07",
+          "B08",
+          "B09",
+          "B10",
+          "B11",
+          "B12"
+        ],
+        "sequence_step_seconds": 0.12
+      },
+      "connection_basis": "用户授权的单次整体操作：12道隔舱及其当地梁；逐道短落位，不声称古代整片预装或经碰撞验证。",
+      "source_mesh_count": 46,
+      "source_bounds_m": {
+        "min": [
+          0.736999988555908,
+          0.0215255748480558,
+          -0.480286180973053
+        ],
+        "max": [
+          2.383000135421753,
+          0.3856760561466222,
+          0.480286180973053
+        ]
+      },
+      "drop_anchor": "mesh_center"
+    },
+    {
+      "id": "mast_bed_fore",
+      "label": "前桅座与夹木",
+      "roots": [
+        "MS_fore"
+      ],
+      "requires": [
+        "bulkheads_beams"
+      ],
+      "mode": "build",
+      "radius_m": 0.075,
+      "anchor_m": [
+        0.721,
+        0.119,
+        0.03275
+      ],
+      "connection_meshes": [
+        "Fore apron major timber -1"
+      ],
+      "approach_m": [
+        0,
+        0.045,
+        0
+      ],
+      "lesson": {
+        "title": "前桅座与夹木就位",
+        "kind": "contact",
+        "focus_m": [
+          0.721,
+          0.119,
+          0.03275
+        ],
+        "distance_m": 0.32,
+        "yaw": -0.65,
+        "pitch": 0.6,
+        "section_half_m": [
+          0.13,
+          0.15,
+          0.13
+        ],
+        "context_roots": [
+          "MS_fore",
+          "K1"
+        ],
+        "moving_meshes": [
+          "Fore apron major timber -1",
+          "Fore apron major timber 1",
+          "fore fitted longitudinal seat bearer",
+          "fore fitted longitudinal seat bearer_001",
+          "fore mast cheek -1",
+          "fore mast cheek 1",
+          "fore shaped broad transverse bed"
+        ],
+        "source_note": "交付整船前桅座的真实局部。未把主桅v3扩展局部冒充前桅原件。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75
+      },
+      "connection_basis": "前桅的宽座、夹木和纵向承座局部相接，与主桅座分开。",
+      "source_mesh_count": 7,
+      "source_bounds_m": {
+        "min": [
+          0.594999969005585,
+          0.0349880233407021,
+          -0.0879999995231628
+        ],
+        "max": [
+          0.73800003528595,
+          0.21000878512859378,
+          0.08799999952316319
+        ]
+      }
+    },
+    {
+      "id": "mast_bed_main",
+      "label": "主桅座与夹木",
+      "roots": [
+        "MS_main"
+      ],
+      "requires": [
+        "bulkheads_beams"
+      ],
+      "mode": "build",
+      "radius_m": 0.075,
+      "anchor_m": [
+        1.453,
+        0.1,
+        0.03275
+      ],
+      "connection_meshes": [
+        "main fitted longitudinal seat bearer"
+      ],
+      "approach_m": [
+        0,
+        0.045,
+        0
+      ],
+      "lesson": {
+        "title": "桅脚直榫入卯 · 互动扩展",
+        "kind": "tenon",
+        "focus_m": [
+          1.453,
+          0.1,
+          0.03275
+        ],
+        "distance_m": 0.32,
+        "yaw": -0.65,
+        "pitch": 0.6,
+        "section_half_m": [
+          0.13,
+          0.15,
+          0.13
+        ],
+        "context_roots": [
+          "MS_main",
+          "K1"
+        ],
+        "moving_meshes": [
+          "main mast cheek -1"
+        ],
+        "source_note": "桅脚直榫为互动扩展，非考古原件复原；用交付局部模型演示直榫入卯，仍可向上拔出。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75,
+        "joint_id": "mast_foot",
+        "joint_origin_m": [
+          1.453,
+          0.0900578,
+          0.03275
+        ]
+      },
+      "connection_basis": "主桅宽座与两侧夹木、承座相连，位于前桅座之后约0.73m。",
+      "source_mesh_count": 5,
+      "source_bounds_m": {
+        "min": [
+          1.36300003528595,
+          0.0230752285569906,
+          -0.137000009417534
+        ],
+        "max": [
+          1.4819999933242776,
+          0.150057777762413,
+          0.137000009417534
+        ]
+      }
+    },
+    {
+      "id": "outer_port",
+      "label": "左舷外护板与压木",
+      "roots": [
+        "O-1_0",
+        "O-1_1",
+        "RAIL-1"
+      ],
+      "requires": [
+        "bulkheads_beams"
+      ],
+      "mode": "build",
+      "radius_m": 0.075,
+      "anchor_m": [
+        1.343,
+        0.13,
+        0.155
+      ],
+      "connection_meshes": [
+        "Outer 50 mm cover -1 0 0"
+      ],
+      "approach_m": [
+        0,
+        0,
+        0.025
+      ],
+      "lesson": {
+        "title": "外护板贴合 · 轻钉模型未单列",
+        "kind": "sheathing",
+        "focus_m": [
+          1.343,
+          0.13,
+          0.155
+        ],
+        "distance_m": 0.46,
+        "yaw": -0.7,
+        "pitch": 0.6,
+        "section_half_m": [
+          0.17,
+          0.16,
+          0.12
+        ],
+        "context_roots": [
+          "O-1_0",
+          "O-1_1",
+          "RAIL-1",
+          "K1",
+          "SP_03",
+          "SP_04",
+          "SP_05",
+          "SP_06"
+        ],
+        "moving_meshes": [
+          "Outer 50 mm cover -1 0 0",
+          "Outer 50 mm cover -1 0 1",
+          "Outer 50 mm cover -1 0 10",
+          "Outer 50 mm cover -1 0 11",
+          "Outer 50 mm cover -1 0 12",
+          "Outer 50 mm cover -1 0 13",
+          "Outer 50 mm cover -1 0 14",
+          "Outer 50 mm cover -1 0 15",
+          "Outer 50 mm cover -1 0 2",
+          "Outer 50 mm cover -1 0 3",
+          "Outer 50 mm cover -1 0 4",
+          "Outer 50 mm cover -1 0 5",
+          "Outer 50 mm cover -1 0 6",
+          "Outer 50 mm cover -1 0 7",
+          "Outer 50 mm cover -1 0 8",
+          "Outer 50 mm cover -1 0 9",
+          "Third 25 mm sheathing -1 0 10",
+          "Third 25 mm sheathing -1 0 11",
+          "Third 25 mm sheathing -1 0 12",
+          "Third 25 mm sheathing -1 0 13",
+          "Third 25 mm sheathing -1 0 14",
+          "Third 25 mm sheathing -1 0 15",
+          "Third 25 mm sheathing -1 0 6",
+          "Third 25 mm sheathing -1 0 7",
+          "Third 25 mm sheathing -1 0 8",
+          "Third 25 mm sheathing -1 0 9",
+          "Outer 50 mm cover -1 1 0",
+          "Outer 50 mm cover -1 1 1",
+          "Outer 50 mm cover -1 1 10",
+          "Outer 50 mm cover -1 1 11",
+          "Outer 50 mm cover -1 1 12",
+          "Outer 50 mm cover -1 1 13",
+          "Outer 50 mm cover -1 1 14",
+          "Outer 50 mm cover -1 1 15",
+          "Outer 50 mm cover -1 1 2",
+          "Outer 50 mm cover -1 1 3",
+          "Outer 50 mm cover -1 1 4",
+          "Outer 50 mm cover -1 1 5",
+          "Outer 50 mm cover -1 1 6",
+          "Outer 50 mm cover -1 1 7",
+          "Outer 50 mm cover -1 1 8",
+          "Outer 50 mm cover -1 1 9",
+          "Third 25 mm sheathing -1 1 10",
+          "Third 25 mm sheathing -1 1 11",
+          "Third 25 mm sheathing -1 1 12",
+          "Third 25 mm sheathing -1 1 13",
+          "Third 25 mm sheathing -1 1 14",
+          "Third 25 mm sheathing -1 1 15",
+          "Third 25 mm sheathing -1 1 6",
+          "Third 25 mm sheathing -1 1 7",
+          "Third 25 mm sheathing -1 1 8",
+          "Third 25 mm sheathing -1 1 9",
+          "Continuous gunwale cap -1"
+        ],
+        "source_note": "WA1997 p40/PDF49区分外护层轻钉与p41主结构板跨缝斜钉。交付F±1为本包按内板贴面的结构钉；外护轻钉未单列，不复用结构钉冒充。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75,
+        "nail_side": "F-1"
+      },
+      "connection_basis": "同一船侧前后护板在中段接缝相邻，缘压木沿该侧上缘连接；左右舷不合并。",
+      "source_mesh_count": 53,
+      "source_bounds_m": {
+        "min": [
+          -0.00221672537736595,
+          0.00340691744349897,
+          -5.8058653642102e-15
+        ],
+        "max": [
+          2.7999999523162904,
+          0.606656014919281,
+          0.512818410992622
+        ]
+      }
+    },
+    {
+      "id": "outer_starboard",
+      "label": "右舷外护板与压木",
+      "roots": [
+        "O1_0",
+        "O1_1",
+        "RAIL1"
+      ],
+      "requires": [
+        "bulkheads_beams"
+      ],
+      "mode": "build",
+      "radius_m": 0.075,
+      "anchor_m": [
+        1.343,
+        0.13,
+        -0.155
+      ],
+      "connection_meshes": [
+        "Outer 50 mm cover 1 0 0"
+      ],
+      "approach_m": [
+        0,
+        0,
+        -0.025
+      ],
+      "lesson": {
+        "title": "外护板贴合 · 轻钉模型未单列",
+        "kind": "sheathing",
+        "focus_m": [
+          1.343,
+          0.13,
+          -0.155
+        ],
+        "distance_m": 0.46,
+        "yaw": -0.7,
+        "pitch": 0.6,
+        "section_half_m": [
+          0.17,
+          0.16,
+          0.12
+        ],
+        "context_roots": [
+          "O1_0",
+          "O1_1",
+          "RAIL1",
+          "K1",
+          "SS_03",
+          "SS_04",
+          "SS_05",
+          "SS_06"
+        ],
+        "moving_meshes": [
+          "Outer 50 mm cover 1 0 0",
+          "Outer 50 mm cover 1 0 1",
+          "Outer 50 mm cover 1 0 10",
+          "Outer 50 mm cover 1 0 11",
+          "Outer 50 mm cover 1 0 12",
+          "Outer 50 mm cover 1 0 13",
+          "Outer 50 mm cover 1 0 14",
+          "Outer 50 mm cover 1 0 15",
+          "Outer 50 mm cover 1 0 2",
+          "Outer 50 mm cover 1 0 3",
+          "Outer 50 mm cover 1 0 4",
+          "Outer 50 mm cover 1 0 5",
+          "Outer 50 mm cover 1 0 6",
+          "Outer 50 mm cover 1 0 7",
+          "Outer 50 mm cover 1 0 8",
+          "Outer 50 mm cover 1 0 9",
+          "Third 25 mm sheathing 1 0 10",
+          "Third 25 mm sheathing 1 0 11",
+          "Third 25 mm sheathing 1 0 12",
+          "Third 25 mm sheathing 1 0 13",
+          "Third 25 mm sheathing 1 0 14",
+          "Third 25 mm sheathing 1 0 15",
+          "Third 25 mm sheathing 1 0 6",
+          "Third 25 mm sheathing 1 0 7",
+          "Third 25 mm sheathing 1 0 8",
+          "Third 25 mm sheathing 1 0 9",
+          "Outer 50 mm cover 1 1 0",
+          "Outer 50 mm cover 1 1 1",
+          "Outer 50 mm cover 1 1 10",
+          "Outer 50 mm cover 1 1 11",
+          "Outer 50 mm cover 1 1 12",
+          "Outer 50 mm cover 1 1 13",
+          "Outer 50 mm cover 1 1 14",
+          "Outer 50 mm cover 1 1 15",
+          "Outer 50 mm cover 1 1 2",
+          "Outer 50 mm cover 1 1 3",
+          "Outer 50 mm cover 1 1 4",
+          "Outer 50 mm cover 1 1 5",
+          "Outer 50 mm cover 1 1 6",
+          "Outer 50 mm cover 1 1 7",
+          "Outer 50 mm cover 1 1 8",
+          "Outer 50 mm cover 1 1 9",
+          "Third 25 mm sheathing 1 1 10",
+          "Third 25 mm sheathing 1 1 11",
+          "Third 25 mm sheathing 1 1 12",
+          "Third 25 mm sheathing 1 1 13",
+          "Third 25 mm sheathing 1 1 14",
+          "Third 25 mm sheathing 1 1 15",
+          "Third 25 mm sheathing 1 1 6",
+          "Third 25 mm sheathing 1 1 7",
+          "Third 25 mm sheathing 1 1 8",
+          "Third 25 mm sheathing 1 1 9",
+          "Continuous gunwale cap 1"
+        ],
+        "source_note": "WA1997 p40/PDF49区分外护层轻钉与p41主结构板跨缝斜钉。交付F±1为本包按内板贴面的结构钉；外护轻钉未单列，不复用结构钉冒充。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75,
+        "nail_side": "F1"
+      },
+      "connection_basis": "同一船侧前后护板在中段接缝相邻，缘压木沿该侧上缘连接；左右舷不合并。",
+      "source_mesh_count": 53,
+      "source_bounds_m": {
+        "min": [
+          -0.00221672537736595,
+          0.00340691744349897,
+          -0.512818396091461
+        ],
+        "max": [
+          2.7999999523162904,
+          0.606656014919281,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "deck_bow",
+      "label": "艏甲板与当地支承",
+      "roots": [
+        "D0"
+      ],
+      "requires": [
+        "mast_bed_fore",
+        "bulkheads_beams"
+      ],
+      "mode": "build",
+      "radius_m": 0.075,
+      "anchor_m": [
+        0.3,
+        0.3474,
+        0.1122
+      ],
+      "connection_meshes": [
+        "Deck plank panel 0 -1 0"
+      ],
+      "approach_m": [
+        0,
+        0.045,
+        0
+      ],
+      "lesson": {
+        "title": "柱梁方榫与甲板建造 · 扩展",
+        "kind": "tenon",
+        "focus_m": [
+          0.3,
+          0.3474,
+          0.1122
+        ],
+        "distance_m": 0.33,
+        "yaw": -0.65,
+        "pitch": 0.55,
+        "section_half_m": [
+          0.16,
+          0.15,
+          0.14
+        ],
+        "context_roots": [
+          "D0",
+          "K1"
+        ],
+        "moving_meshes": [
+          "Completion deck crossbeam"
+        ],
+        "source_note": "柱梁方榫为互动扩展，非考古原件复原；端部甲板本身属假设复原。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75,
+        "joint_id": "deck_tenon",
+        "joint_origin_m": [
+          0.3,
+          0.3474168,
+          0.112227
+        ]
+      },
+      "connection_basis": "艏甲板、x=0.30/0.52m的承梁及对应柱脚相接；艉部支承不在此卡。",
+      "mesh_members": [
+        "Completion beam support post",
+        "Completion beam support post_001",
+        "Completion beam support post_002",
+        "Completion beam support post_003",
+        "Completion deck crossbeam",
+        "Completion deck crossbeam_001"
+      ],
+      "source_mesh_count": 16,
+      "source_bounds_m": {
+        "min": [
+          0.259999990463257,
+          0.228808999061584,
+          -0.344452530145645
+        ],
+        "max": [
+          0.745000004768372,
+          0.37921884655952476,
+          0.34445253014564503
+        ]
+      }
+    },
+    {
+      "id": "deck_walkway_port",
+      "label": "左舷舱口边甲板",
+      "roots": [],
+      "requires": [
+        "bulkheads_beams",
+        "mast_bed_fore",
+        "mast_bed_main"
+      ],
+      "mode": "build",
+      "radius_m": 0.075,
+      "anchor_m": [
+        1.3400000333786035,
+        0.31884060800075537,
+        0.28476370871067047
+      ],
+      "connection_meshes": [
+        "Cargo hatch coaming"
+      ],
+      "approach_m": [
+        0,
+        0.045,
+        0
+      ],
+      "lesson": {
+        "title": "同侧舱口边板逐段就位",
+        "kind": "planking",
+        "focus_m": [
+          1.3400000333786035,
+          0.31884060800075537,
+          0.28476370871067047
+        ],
+        "distance_m": 0.33,
+        "yaw": -0.65,
+        "pitch": 0.55,
+        "section_half_m": [
+          0.16,
+          0.15,
+          0.14
+        ],
+        "context_roots": [
+          "K1"
+        ],
+        "moving_meshes": [
+          "Cargo hatch coaming",
+          "Deck plank panel 1 -1 0",
+          "Deck plank panel 1 -1 1",
+          "Deck plank panel 1 -1 2",
+          "Deck plank panel 1 -1 3",
+          "Deck plank panel 1 -1 4",
+          "Cargo hatch coaming_002",
+          "Deck plank panel 2 -1 0",
+          "Deck plank panel 2 -1 1",
+          "Deck plank panel 2 -1 2",
+          "Deck plank panel 2 -1 3",
+          "Deck plank panel 2 -1 4"
+        ],
+        "source_note": "展示复原的边甲板与围板，按实际同侧邻接组合。板列为原位建造示意，不宣称整组刚体插入。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75
+      },
+      "connection_basis": "同侧前后舱口边甲板在x≈1.343m相邻接续，含该侧围板；左右之间有舱口，不合成一块。",
+      "mesh_members": [
+        "Cargo hatch coaming",
+        "Deck plank panel 1 -1 0",
+        "Deck plank panel 1 -1 1",
+        "Deck plank panel 1 -1 2",
+        "Deck plank panel 1 -1 3",
+        "Deck plank panel 1 -1 4",
+        "Cargo hatch coaming_002",
+        "Deck plank panel 2 -1 0",
+        "Deck plank panel 2 -1 1",
+        "Deck plank panel 2 -1 2",
+        "Deck plank panel 2 -1 3",
+        "Deck plank panel 2 -1 4"
+      ],
+      "source_mesh_count": 12,
+      "source_bounds_m": {
+        "min": [
+          0.745000004768372,
+          0.288779377937317,
+          0.0879999995231628
+        ],
+        "max": [
+          1.935000061988835,
+          0.3489018380641937,
+          0.4815274178981781
+        ]
+      }
+    },
+    {
+      "id": "deck_walkway_starboard",
+      "label": "右舷舱口边甲板",
+      "roots": [],
+      "requires": [
+        "bulkheads_beams",
+        "mast_bed_fore",
+        "mast_bed_main"
+      ],
+      "mode": "build",
+      "radius_m": 0.075,
+      "anchor_m": [
+        1.3400000333786035,
+        0.31884060800075537,
+        -0.28476370871067025
+      ],
+      "connection_meshes": [
+        "Cargo hatch coaming_001"
+      ],
+      "approach_m": [
+        0,
+        0.045,
+        0
+      ],
+      "lesson": {
+        "title": "同侧舱口边板逐段就位",
+        "kind": "planking",
+        "focus_m": [
+          1.3400000333786035,
+          0.31884060800075537,
+          -0.28476370871067025
+        ],
+        "distance_m": 0.33,
+        "yaw": -0.65,
+        "pitch": 0.55,
+        "section_half_m": [
+          0.16,
+          0.15,
+          0.14
+        ],
+        "context_roots": [
+          "K1"
+        ],
+        "moving_meshes": [
+          "Cargo hatch coaming_001",
+          "Deck plank panel 1 1 0",
+          "Deck plank panel 1 1 1",
+          "Deck plank panel 1 1 2",
+          "Deck plank panel 1 1 3",
+          "Deck plank panel 1 1 4",
+          "Cargo hatch coaming_003",
+          "Deck plank panel 2 1 0",
+          "Deck plank panel 2 1 1",
+          "Deck plank panel 2 1 2",
+          "Deck plank panel 2 1 3",
+          "Deck plank panel 2 1 4"
+        ],
+        "source_note": "展示复原的边甲板与围板，按实际同侧邻接组合。板列为原位建造示意，不宣称整组刚体插入。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75
+      },
+      "connection_basis": "同侧前后舱口边甲板在x≈1.343m相邻接续，含该侧围板；左右之间有舱口，不合成一块。",
+      "mesh_members": [
+        "Cargo hatch coaming_001",
+        "Deck plank panel 1 1 0",
+        "Deck plank panel 1 1 1",
+        "Deck plank panel 1 1 2",
+        "Deck plank panel 1 1 3",
+        "Deck plank panel 1 1 4",
+        "Cargo hatch coaming_003",
+        "Deck plank panel 2 1 0",
+        "Deck plank panel 2 1 1",
+        "Deck plank panel 2 1 2",
+        "Deck plank panel 2 1 3",
+        "Deck plank panel 2 1 4"
+      ],
+      "source_mesh_count": 12,
+      "source_bounds_m": {
+        "min": [
+          0.745000004768372,
+          0.288779377937317,
+          -0.481527417898178
+        ],
+        "max": [
+          1.935000061988835,
+          0.3489018380641937,
+          -0.08799999952316251
+        ]
+      }
+    },
+    {
+      "id": "deck_stern",
+      "label": "艉甲板与当地支承",
+      "roots": [
+        "D3"
+      ],
+      "requires": [
+        "bulkheads_beams"
+      ],
+      "mode": "build",
+      "radius_m": 0.075,
+      "anchor_m": [
+        2.5,
+        0.4,
+        0.2
+      ],
+      "connection_meshes": [
+        "Deck plank panel 3 -1 0"
+      ],
+      "approach_m": [
+        0,
+        0.045,
+        0
+      ],
+      "lesson": {
+        "title": "艉部甲板与支承就位",
+        "kind": "planking",
+        "focus_m": [
+          2.5,
+          0.4,
+          0.2
+        ],
+        "distance_m": 0.33,
+        "yaw": -0.65,
+        "pitch": 0.55,
+        "section_half_m": [
+          0.16,
+          0.15,
+          0.14
+        ],
+        "context_roots": [
+          "D3",
+          "K1"
+        ],
+        "moving_meshes": [
+          "Deck plank panel 3 -1 0",
+          "Deck plank panel 3 -1 1",
+          "Deck plank panel 3 -1 2",
+          "Deck plank panel 3 -1 3",
+          "Deck plank panel 3 -1 4",
+          "Deck plank panel 3 1 0",
+          "Deck plank panel 3 1 1",
+          "Deck plank panel 3 1 2",
+          "Deck plank panel 3 1 3",
+          "Deck plank panel 3 1 4",
+          "Completion beam support post_004",
+          "Completion beam support post_005",
+          "Completion beam support post_006",
+          "Completion beam support post_007",
+          "Completion deck crossbeam_002",
+          "Completion deck crossbeam_003"
+        ],
+        "source_note": "艉部甲板与当地支承均为交付展示复原，未复制艏部v3柱梁扩展作为艉部原件。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75
+      },
+      "connection_basis": "艉甲板、x=2.50/2.625m的承梁及柱脚相接，与艏支承分离。",
+      "mesh_members": [
+        "Completion beam support post_004",
+        "Completion beam support post_005",
+        "Completion beam support post_006",
+        "Completion beam support post_007",
+        "Completion deck crossbeam_002",
+        "Completion deck crossbeam_003"
+      ],
+      "source_mesh_count": 16,
+      "source_bounds_m": {
+        "min": [
+          1.93500006198883,
+          0.255771666765213,
+          -0.465389549732208
+        ],
+        "max": [
+          2.6500000953674308,
+          0.47092467546463,
+          0.46538954973220903
+        ]
+      }
+    },
+    {
+      "id": "mast_rig_fore",
+      "label": "前桅帆索总成",
+      "roots": [
+        "M_fore",
+        "SAIL_fore",
+        "RIG_fore",
+        "RIG_HARDWARE_fore"
+      ],
+      "requires": [
+        "mast_bed_fore",
+        "deck_bow",
+        "deck_walkway_port",
+        "deck_walkway_starboard"
+      ],
+      "mode": "build",
+      "radius_m": 0.12,
+      "anchor_m": [
+        0.721,
+        0.15,
+        0
+      ],
+      "connection_meshes": [
+        "fore rope collar"
+      ],
+      "approach_m": [
+        0,
+        0.06,
+        0
+      ],
+      "lesson": {
+        "title": "前桅定位与帆索系装",
+        "kind": "rigged_mast",
+        "focus_m": [
+          0.721,
+          0.15,
+          0
+        ],
+        "distance_m": 0.55,
+        "yaw": -0.7,
+        "pitch": 0.45,
+        "section_half_m": [
+          0.15,
+          0.23,
+          0.16
+        ],
+        "context_roots": [
+          "M_fore",
+          "SAIL_fore",
+          "RIG_fore",
+          "RIG_HARDWARE_fore",
+          "K1",
+          "MS_fore"
+        ],
+        "moving_meshes": [
+          "fore rope collar",
+          "fore rope collar_001",
+          "fore tapered mast"
+        ],
+        "source_note": "整船交付的同桅帆索连接网络，桅高、风帆及部分系装为展示复原。帆索逐步显现，不作为整套刚体插入。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75,
+        "core_roots": [
+          "M_fore"
+        ]
+      },
+      "connection_basis": "同一桅杆、帆桁/帆面、相系索具与相连系桩构成一个连接网络；前主桅分开，帆索按就地展开呈现。",
+      "source_mesh_count": 73,
+      "source_bounds_m": {
+        "min": [
+          0.401000022888184,
+          0.150008782744408,
+          -0.359915018081665
+        ],
+        "max": [
+          1.2210000753402674,
+          1.2500088065862678,
+          0.3599150180816655
+        ]
+      }
+    },
+    {
+      "id": "mast_rig_main",
+      "label": "主桅帆索总成",
+      "roots": [
+        "M_main",
+        "SAIL_main",
+        "RIG_main",
+        "RIG_HARDWARE_main"
+      ],
+      "requires": [
+        "mast_bed_main",
+        "deck_stern",
+        "deck_walkway_port",
+        "deck_walkway_starboard"
+      ],
+      "mode": "build",
+      "radius_m": 0.12,
+      "anchor_m": [
+        1.453,
+        0.15,
+        0
+      ],
+      "connection_meshes": [
+        "main rope collar"
+      ],
+      "approach_m": [
+        0,
+        0.06,
+        0
+      ],
+      "lesson": {
+        "title": "主桅定位与帆索系装",
+        "kind": "rigged_mast",
+        "focus_m": [
+          1.453,
+          0.15,
+          0
+        ],
+        "distance_m": 0.55,
+        "yaw": -0.7,
+        "pitch": 0.45,
+        "section_half_m": [
+          0.15,
+          0.23,
+          0.16
+        ],
+        "context_roots": [
+          "M_main",
+          "SAIL_main",
+          "RIG_main",
+          "RIG_HARDWARE_main",
+          "K1",
+          "MS_main"
+        ],
+        "moving_meshes": [
+          "main rope collar",
+          "main rope collar_001",
+          "main tapered mast"
+        ],
+        "source_note": "整船交付的同桅帆索连接网络，桅高、风帆及部分系装为展示复原。帆索逐步显现，不作为整套刚体插入。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75,
+        "core_roots": [
+          "M_main"
+        ]
+      },
+      "connection_basis": "同一桅杆、帆桁/帆面、相系索具与相连系桩构成一个连接网络；前主桅分开，帆索按就地展开呈现。",
+      "source_mesh_count": 74,
+      "source_bounds_m": {
+        "min": [
+          1.13300001621246,
+          0.0900577753782272,
+          -0.452735006809235
+        ],
+        "max": [
+          2.0929999351501474,
+          1.6900577992200871,
+          0.45273500680923445
+        ]
+      }
+    },
+    {
+      "id": "rudder",
+      "label": "艉舵架与升降舵总成",
+      "roots": [
+        "RUDDER_FRAME",
+        "RUDDER_SLIDE",
+        "RUDDER_CAPS",
+        "RUDDER_CAP_PEGS",
+        "RUDDER_HOIST_ROPE"
+      ],
+      "requires": [
+        "deck_stern",
+        "outer_port",
+        "outer_starboard"
+      ],
+      "mode": "build",
+      "radius_m": 0.12,
+      "anchor_m": [
+        2.62,
+        0.47,
+        0
+      ],
+      "connection_meshes": [
+        "Rudder gantry deck foot -1"
+      ],
+      "approach_m": [
+        0.085,
+        0,
+        0
+      ],
+      "lesson": {
+        "title": "艉部开槽与水平入舵",
+        "kind": "rudder",
+        "focus_m": [
+          2.62,
+          0.47,
+          0
+        ],
+        "distance_m": 0.7,
+        "yaw": -0.9,
+        "pitch": 0.4,
+        "section_half_m": [
+          0.23,
+          0.36,
+          0.23
+        ],
+        "context_roots": [
+          "RUDDER_FRAME",
+          "RUDDER_SLIDE",
+          "RUDDER_CAPS",
+          "RUDDER_CAP_PEGS",
+          "RUDDER_HOIST_ROPE",
+          "K1"
+        ],
+        "moving_meshes": [
+          "Rudder gantry deck foot -1",
+          "Rudder gantry deck foot 1",
+          "Rudder gantry diagonal knee",
+          "Rudder gantry diagonal knee_001",
+          "Rudder gantry diagonal knee_002",
+          "Rudder gantry diagonal knee_003",
+          "Rudder gantry supported upright -1",
+          "Rudder gantry supported upright 1",
+          "Rudder hoist beam strop",
+          "Rudder hoist belaying pin",
+          "Rudder hoist block cheek",
+          "Rudder hoist block cheek_001",
+          "Rudder hoist upper transverse beam",
+          "Rudder hoist wooden sheave",
+          "Rudder lower guide forward cheek",
+          "Rudder lower guide side cheek -1",
+          "Rudder lower guide side cheek 1",
+          "Rudder upper guide forward cheek",
+          "Rudder upper guide halfbeam -1",
+          "Rudder upper guide halfbeam 1",
+          "Rudder blade batten fixing",
+          "Rudder blade batten fixing_001",
+          "Rudder blade batten fixing_002",
+          "Rudder blade batten fixing_003",
+          "Rudder blade batten fixing_004",
+          "Rudder blade batten fixing_005",
+          "Rudder blade batten fixing_006",
+          "Rudder blade batten fixing_007",
+          "Rudder blade face joining batten",
+          "Rudder blade face joining batten_001",
+          "Rudder blade face joining batten_002",
+          "Rudder blade face joining batten_003",
+          "Rudder blade joined to stock",
+          "Rudder blade plank seam",
+          "Rudder blade plank seam_001",
+          "Rudder blade plank seam_002",
+          "Rudder blade plank seam_003",
+          "Rudder forward tiller with head mortise",
+          "Rudder lifting head collar",
+          "Rudder lifting head sling",
+          "Rudder stock blade root lashing",
+          "Rudder stock blade root lashing_001",
+          "Rudder tiller head binding",
+          "Vertical lifting rudder stock",
+          "Removable lower aft guide cap with real half-laps",
+          "Removable upper aft guide cap with real half-laps",
+          "Separate guide wooden locking peg",
+          "Separate guide wooden locking peg_001",
+          "Separate guide wooden locking peg_002",
+          "Separate guide wooden locking peg_003",
+          "Rudder continuous lifting purchase rope",
+          "Rudder hoist belay turn"
+        ],
+        "source_note": "展示复原：后开槽允许舵从艉部水平进入；WA1997 p46讨论舵槽，完整支架与压块为教学复原。",
+        "wood_seconds": 0.85,
+        "fixed_seconds": 0.75
+      },
+      "connection_basis": "同一艉部舵槽、舵身、导木压块与穿过提升横架的提舵索局部连结；没有把前部索具捆入。",
+      "source_mesh_count": 52,
+      "source_bounds_m": {
+        "min": [
+          2.45563077926636,
+          0.0240000002086163,
+          -0.155000001192093
+        ],
+        "max": [
+          2.763000011444089,
+          0.706666171550751,
+          0.155000001192093
+        ]
+      }
+    }
+  ]
+}

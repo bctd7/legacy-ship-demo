@@ -1,0 +1,2840 @@
+{
+  "scheme": "WA1997 Figure 92, 28 m nominal calibration",
+  "model_scale": 0.1,
+  "bulkheads_x": [
+    7.45,
+    9.01,
+    10.43,
+    11.98,
+    13.43,
+    14.88,
+    16.4,
+    17.98,
+    19.35,
+    20.84,
+    22.75,
+    23.73
+  ],
+  "keel_registration": [
+    3.75,
+    7.43,
+    20.0,
+    24.4
+  ],
+  "assemblies": [
+    {
+      "id": "K1",
+      "label": "中央樟木龙骨",
+      "category": "keel",
+      "meshes": [
+        "Keel segment 1"
+      ],
+      "offset": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "K0",
+      "label": "艏段龙骨与短斜接",
+      "category": "keel",
+      "meshes": [
+        "Keel segment 0"
+      ],
+      "offset": [
+        -10,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "K2",
+      "label": "艉段龙骨与短斜接",
+      "category": "keel",
+      "meshes": [
+        "Keel segment 2"
+      ],
+      "offset": [
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "SP_01",
+      "label": "左舷第1、2板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake -1 01 board 1",
+        "Inner strake -1 01 board 2",
+        "Inner strake -1 01 board 3",
+        "Inner strake -1 02 board 1",
+        "Inner strake -1 02 board 2",
+        "Inner strake -1 02 board 3"
+      ],
+      "offset": [
+        0.0,
+        -10.0,
+        0.0
+      ]
+    },
+    {
+      "id": "SS_01",
+      "label": "右舷第1、2板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake 1 01 board 1",
+        "Inner strake 1 01 board 2",
+        "Inner strake 1 01 board 3",
+        "Inner strake 1 02 board 1",
+        "Inner strake 1 02 board 2",
+        "Inner strake 1 02 board 3"
+      ],
+      "offset": [
+        0.0,
+        10.0,
+        0.0
+      ]
+    },
+    {
+      "id": "SP_02",
+      "label": "左舷第3、4板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake -1 03 board 1",
+        "Inner strake -1 03 board 2",
+        "Inner strake -1 03 board 3",
+        "Inner strake -1 04 board 1",
+        "Inner strake -1 04 board 2",
+        "Inner strake -1 04 board 3"
+      ],
+      "offset": [
+        0.0,
+        -10.5,
+        0.0
+      ]
+    },
+    {
+      "id": "SS_02",
+      "label": "右舷第3、4板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake 1 03 board 1",
+        "Inner strake 1 03 board 2",
+        "Inner strake 1 03 board 3",
+        "Inner strake 1 04 board 1",
+        "Inner strake 1 04 board 2",
+        "Inner strake 1 04 board 3"
+      ],
+      "offset": [
+        0.0,
+        10.5,
+        0.0
+      ]
+    },
+    {
+      "id": "SP_03",
+      "label": "左舷第5、6板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake -1 05 board 1",
+        "Inner strake -1 05 board 2",
+        "Inner strake -1 05 board 3",
+        "Inner strake -1 06 board 1",
+        "Inner strake -1 06 board 2",
+        "Inner strake -1 06 board 3"
+      ],
+      "offset": [
+        0.0,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "id": "SS_03",
+      "label": "右舷第5、6板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake 1 05 board 1",
+        "Inner strake 1 05 board 2",
+        "Inner strake 1 05 board 3",
+        "Inner strake 1 06 board 1",
+        "Inner strake 1 06 board 2",
+        "Inner strake 1 06 board 3"
+      ],
+      "offset": [
+        0.0,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "id": "SP_04",
+      "label": "左舷第7、8板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake -1 07 board 1",
+        "Inner strake -1 07 board 2",
+        "Inner strake -1 07 board 3",
+        "Inner strake -1 08 board 1",
+        "Inner strake -1 08 board 2",
+        "Inner strake -1 08 board 3"
+      ],
+      "offset": [
+        0.0,
+        -11.5,
+        0.0
+      ]
+    },
+    {
+      "id": "SS_04",
+      "label": "右舷第7、8板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake 1 07 board 1",
+        "Inner strake 1 07 board 2",
+        "Inner strake 1 07 board 3",
+        "Inner strake 1 08 board 1",
+        "Inner strake 1 08 board 2",
+        "Inner strake 1 08 board 3"
+      ],
+      "offset": [
+        0.0,
+        11.5,
+        0.0
+      ]
+    },
+    {
+      "id": "SP_05",
+      "label": "左舷第9、10板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake -1 09 board 1",
+        "Inner strake -1 09 board 2",
+        "Inner strake -1 09 board 3",
+        "Inner strake -1 10 board 1",
+        "Inner strake -1 10 board 2",
+        "Inner strake -1 10 board 3"
+      ],
+      "offset": [
+        0.0,
+        -12.0,
+        0.0
+      ]
+    },
+    {
+      "id": "SS_05",
+      "label": "右舷第9、10板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake 1 09 board 1",
+        "Inner strake 1 09 board 2",
+        "Inner strake 1 09 board 3",
+        "Inner strake 1 10 board 1",
+        "Inner strake 1 10 board 2",
+        "Inner strake 1 10 board 3"
+      ],
+      "offset": [
+        0.0,
+        12.0,
+        0.0
+      ]
+    },
+    {
+      "id": "SP_06",
+      "label": "左舷第11、12板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake -1 11 board 1",
+        "Inner strake -1 11 board 2",
+        "Inner strake -1 11 board 3",
+        "Inner strake -1 12 board 1",
+        "Inner strake -1 12 board 2",
+        "Inner strake -1 12 board 3"
+      ],
+      "offset": [
+        0.0,
+        -12.5,
+        0.0
+      ]
+    },
+    {
+      "id": "SS_06",
+      "label": "右舷第11、12板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake 1 11 board 1",
+        "Inner strake 1 11 board 2",
+        "Inner strake 1 11 board 3",
+        "Inner strake 1 12 board 1",
+        "Inner strake 1 12 board 2",
+        "Inner strake 1 12 board 3"
+      ],
+      "offset": [
+        0.0,
+        12.5,
+        0.0
+      ]
+    },
+    {
+      "id": "SP_07",
+      "label": "左舷第13、14板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake -1 13 board 1",
+        "Inner strake -1 13 board 2",
+        "Inner strake -1 13 board 3",
+        "Inner strake -1 14 board 1",
+        "Inner strake -1 14 board 2",
+        "Inner strake -1 14 board 3"
+      ],
+      "offset": [
+        0.0,
+        -13.0,
+        0.0
+      ]
+    },
+    {
+      "id": "SS_07",
+      "label": "右舷第13、14板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake 1 13 board 1",
+        "Inner strake 1 13 board 2",
+        "Inner strake 1 13 board 3",
+        "Inner strake 1 14 board 1",
+        "Inner strake 1 14 board 2",
+        "Inner strake 1 14 board 3"
+      ],
+      "offset": [
+        0.0,
+        13.0,
+        0.0
+      ]
+    },
+    {
+      "id": "SP_08",
+      "label": "左舷第15、16板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake -1 15 board 1",
+        "Inner strake -1 15 board 2",
+        "Inner strake -1 15 board 3",
+        "Inner strake -1 16 board 1",
+        "Inner strake -1 16 board 2",
+        "Inner strake -1 16 board 3"
+      ],
+      "offset": [
+        0.0,
+        -13.5,
+        0.0
+      ]
+    },
+    {
+      "id": "SS_08",
+      "label": "右舷第15、16板列",
+      "category": "shell",
+      "meshes": [
+        "Inner strake 1 15 board 1",
+        "Inner strake 1 15 board 2",
+        "Inner strake 1 15 board 3",
+        "Inner strake 1 16 board 1",
+        "Inner strake 1 16 board 2",
+        "Inner strake 1 16 board 3"
+      ],
+      "offset": [
+        0.0,
+        13.5,
+        0.0
+      ]
+    },
+    {
+      "id": "B01",
+      "label": "第1道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "meshes": [
+        "Bulkhead 01 half frame -1",
+        "Bulkhead 01 half frame 1",
+        "Bulkhead 01 solid partition",
+        "Deck crossbeam 01"
+      ],
+      "offset": [
+        22.55,
+        14.0,
+        0.0
+      ]
+    },
+    {
+      "id": "B02",
+      "label": "第2道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "meshes": [
+        "Bulkhead 02 half frame -1",
+        "Bulkhead 02 half frame 1",
+        "Bulkhead 02 solid partition",
+        "Deck crossbeam 02"
+      ],
+      "offset": [
+        21.54,
+        -14.0,
+        0.0
+      ]
+    },
+    {
+      "id": "B03",
+      "label": "第3道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "meshes": [
+        "Bulkhead 03 half frame -1",
+        "Bulkhead 03 half frame 1",
+        "Bulkhead 03 solid partition",
+        "Deck crossbeam 03"
+      ],
+      "offset": [
+        20.67,
+        14.0,
+        0.0
+      ]
+    },
+    {
+      "id": "B04",
+      "label": "第4道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "meshes": [
+        "Bulkhead 04 half frame -1",
+        "Bulkhead 04 half frame 1",
+        "Bulkhead 04 solid partition",
+        "Deck crossbeam 04"
+      ],
+      "offset": [
+        19.669999999999998,
+        -14.0,
+        0.0
+      ]
+    },
+    {
+      "id": "B05",
+      "label": "第5道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "meshes": [
+        "Bulkhead 05 half frame -1",
+        "Bulkhead 05 half frame 1",
+        "Bulkhead 05 solid partition",
+        "Deck crossbeam 05"
+      ],
+      "offset": [
+        18.770000000000003,
+        14.0,
+        0.0
+      ]
+    },
+    {
+      "id": "B06",
+      "label": "第6道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "meshes": [
+        "Bulkhead 06 half frame -1",
+        "Bulkhead 06 half frame 1",
+        "Bulkhead 06 solid partition",
+        "Deck crossbeam 06"
+      ],
+      "offset": [
+        17.869999999999997,
+        -14.0,
+        0.0
+      ]
+    },
+    {
+      "id": "B07",
+      "label": "第7道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "meshes": [
+        "Bulkhead 07 half frame -1",
+        "Bulkhead 07 half frame 1",
+        "Bulkhead 07 solid partition",
+        "Deck crossbeam 07"
+      ],
+      "offset": [
+        16.9,
+        14.0,
+        0.0
+      ]
+    },
+    {
+      "id": "B08",
+      "label": "第8道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "meshes": [
+        "Bulkhead 08 half frame -1",
+        "Bulkhead 08 half frame 1",
+        "Bulkhead 08 solid partition",
+        "Deck crossbeam 08"
+      ],
+      "offset": [
+        15.870000000000001,
+        -14.0,
+        0.0
+      ]
+    },
+    {
+      "id": "B09",
+      "label": "第9道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "meshes": [
+        "Bulkhead 09 half frame -1",
+        "Bulkhead 09 half frame 1",
+        "Bulkhead 09 solid partition",
+        "Deck crossbeam 09"
+      ],
+      "offset": [
+        15.049999999999997,
+        14.0,
+        0.0
+      ]
+    },
+    {
+      "id": "B10",
+      "label": "第10道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "meshes": [
+        "Bulkhead 10 half frame -1",
+        "Bulkhead 10 half frame 1",
+        "Bulkhead 10 solid partition",
+        "Deck crossbeam 10"
+      ],
+      "offset": [
+        14.110000000000003,
+        -14.0,
+        0.0
+      ]
+    },
+    {
+      "id": "B11",
+      "label": "第11道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "meshes": [
+        "Bulkhead 11 half frame -1",
+        "Bulkhead 11 half frame 1",
+        "Bulkhead 11 solid partition",
+        "Deck crossbeam 11"
+      ],
+      "offset": [
+        12.75,
+        14.0,
+        0.0
+      ]
+    },
+    {
+      "id": "B12",
+      "label": "第12道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "meshes": [
+        "Bulkhead 12 solid partition",
+        "Deck crossbeam 12"
+      ],
+      "offset": [
+        12.319999999999997,
+        -14.0,
+        0.0
+      ]
+    },
+    {
+      "id": "MS_fore",
+      "label": "前桅宽座与夹柱",
+      "category": "mast_step",
+      "meshes": [
+        "Fore apron major timber -1",
+        "Fore apron major timber 1",
+        "fore fitted longitudinal seat bearer",
+        "fore fitted longitudinal seat bearer.001",
+        "fore mast cheek -1",
+        "fore mast cheek 1",
+        "fore shaped broad transverse bed"
+      ],
+      "offset": [
+        0,
+        12,
+        6
+      ]
+    },
+    {
+      "id": "MS_main",
+      "label": "主桅宽座与夹柱",
+      "category": "mast_step",
+      "meshes": [
+        "main fitted longitudinal seat bearer",
+        "main fitted longitudinal seat bearer.001",
+        "main mast cheek -1",
+        "main mast cheek 1",
+        "main shaped broad transverse bed"
+      ],
+      "offset": [
+        0,
+        -12,
+        6
+      ]
+    },
+    {
+      "id": "O-1_0",
+      "label": "左前外层护板组",
+      "category": "cover",
+      "meshes": [
+        "Outer 50 mm cover -1 0 0",
+        "Outer 50 mm cover -1 0 1",
+        "Outer 50 mm cover -1 0 10",
+        "Outer 50 mm cover -1 0 11",
+        "Outer 50 mm cover -1 0 12",
+        "Outer 50 mm cover -1 0 13",
+        "Outer 50 mm cover -1 0 14",
+        "Outer 50 mm cover -1 0 15",
+        "Outer 50 mm cover -1 0 2",
+        "Outer 50 mm cover -1 0 3",
+        "Outer 50 mm cover -1 0 4",
+        "Outer 50 mm cover -1 0 5",
+        "Outer 50 mm cover -1 0 6",
+        "Outer 50 mm cover -1 0 7",
+        "Outer 50 mm cover -1 0 8",
+        "Outer 50 mm cover -1 0 9",
+        "Third 25 mm sheathing -1 0 10",
+        "Third 25 mm sheathing -1 0 11",
+        "Third 25 mm sheathing -1 0 12",
+        "Third 25 mm sheathing -1 0 13",
+        "Third 25 mm sheathing -1 0 14",
+        "Third 25 mm sheathing -1 0 15",
+        "Third 25 mm sheathing -1 0 6",
+        "Third 25 mm sheathing -1 0 7",
+        "Third 25 mm sheathing -1 0 8",
+        "Third 25 mm sheathing -1 0 9"
+      ],
+      "offset": [
+        0,
+        -13,
+        0
+      ]
+    },
+    {
+      "id": "O-1_1",
+      "label": "左后外层护板组",
+      "category": "cover",
+      "meshes": [
+        "Outer 50 mm cover -1 1 0",
+        "Outer 50 mm cover -1 1 1",
+        "Outer 50 mm cover -1 1 10",
+        "Outer 50 mm cover -1 1 11",
+        "Outer 50 mm cover -1 1 12",
+        "Outer 50 mm cover -1 1 13",
+        "Outer 50 mm cover -1 1 14",
+        "Outer 50 mm cover -1 1 15",
+        "Outer 50 mm cover -1 1 2",
+        "Outer 50 mm cover -1 1 3",
+        "Outer 50 mm cover -1 1 4",
+        "Outer 50 mm cover -1 1 5",
+        "Outer 50 mm cover -1 1 6",
+        "Outer 50 mm cover -1 1 7",
+        "Outer 50 mm cover -1 1 8",
+        "Outer 50 mm cover -1 1 9",
+        "Third 25 mm sheathing -1 1 10",
+        "Third 25 mm sheathing -1 1 11",
+        "Third 25 mm sheathing -1 1 12",
+        "Third 25 mm sheathing -1 1 13",
+        "Third 25 mm sheathing -1 1 14",
+        "Third 25 mm sheathing -1 1 15",
+        "Third 25 mm sheathing -1 1 6",
+        "Third 25 mm sheathing -1 1 7",
+        "Third 25 mm sheathing -1 1 8",
+        "Third 25 mm sheathing -1 1 9"
+      ],
+      "offset": [
+        0,
+        -13,
+        0
+      ]
+    },
+    {
+      "id": "O1_0",
+      "label": "右前外层护板组",
+      "category": "cover",
+      "meshes": [
+        "Outer 50 mm cover 1 0 0",
+        "Outer 50 mm cover 1 0 1",
+        "Outer 50 mm cover 1 0 10",
+        "Outer 50 mm cover 1 0 11",
+        "Outer 50 mm cover 1 0 12",
+        "Outer 50 mm cover 1 0 13",
+        "Outer 50 mm cover 1 0 14",
+        "Outer 50 mm cover 1 0 15",
+        "Outer 50 mm cover 1 0 2",
+        "Outer 50 mm cover 1 0 3",
+        "Outer 50 mm cover 1 0 4",
+        "Outer 50 mm cover 1 0 5",
+        "Outer 50 mm cover 1 0 6",
+        "Outer 50 mm cover 1 0 7",
+        "Outer 50 mm cover 1 0 8",
+        "Outer 50 mm cover 1 0 9",
+        "Third 25 mm sheathing 1 0 10",
+        "Third 25 mm sheathing 1 0 11",
+        "Third 25 mm sheathing 1 0 12",
+        "Third 25 mm sheathing 1 0 13",
+        "Third 25 mm sheathing 1 0 14",
+        "Third 25 mm sheathing 1 0 15",
+        "Third 25 mm sheathing 1 0 6",
+        "Third 25 mm sheathing 1 0 7",
+        "Third 25 mm sheathing 1 0 8",
+        "Third 25 mm sheathing 1 0 9"
+      ],
+      "offset": [
+        0,
+        13,
+        0
+      ]
+    },
+    {
+      "id": "O1_1",
+      "label": "右后外层护板组",
+      "category": "cover",
+      "meshes": [
+        "Outer 50 mm cover 1 1 0",
+        "Outer 50 mm cover 1 1 1",
+        "Outer 50 mm cover 1 1 10",
+        "Outer 50 mm cover 1 1 11",
+        "Outer 50 mm cover 1 1 12",
+        "Outer 50 mm cover 1 1 13",
+        "Outer 50 mm cover 1 1 14",
+        "Outer 50 mm cover 1 1 15",
+        "Outer 50 mm cover 1 1 2",
+        "Outer 50 mm cover 1 1 3",
+        "Outer 50 mm cover 1 1 4",
+        "Outer 50 mm cover 1 1 5",
+        "Outer 50 mm cover 1 1 6",
+        "Outer 50 mm cover 1 1 7",
+        "Outer 50 mm cover 1 1 8",
+        "Outer 50 mm cover 1 1 9",
+        "Third 25 mm sheathing 1 1 10",
+        "Third 25 mm sheathing 1 1 11",
+        "Third 25 mm sheathing 1 1 12",
+        "Third 25 mm sheathing 1 1 13",
+        "Third 25 mm sheathing 1 1 14",
+        "Third 25 mm sheathing 1 1 15",
+        "Third 25 mm sheathing 1 1 6",
+        "Third 25 mm sheathing 1 1 7",
+        "Third 25 mm sheathing 1 1 8",
+        "Third 25 mm sheathing 1 1 9"
+      ],
+      "offset": [
+        0,
+        13,
+        0
+      ]
+    },
+    {
+      "id": "RAIL-1",
+      "label": "左舷缘压木",
+      "category": "rail",
+      "meshes": [
+        "Continuous gunwale cap -1"
+      ],
+      "offset": [
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "id": "RAIL1",
+      "label": "右舷缘压木",
+      "category": "rail",
+      "meshes": [
+        "Continuous gunwale cap 1"
+      ],
+      "offset": [
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "id": "DECK_SUPPORTS",
+      "label": "首尾补绘甲板支承",
+      "category": "bulkhead",
+      "meshes": [
+        "Completion beam support post",
+        "Completion beam support post.001",
+        "Completion beam support post.002",
+        "Completion beam support post.003",
+        "Completion beam support post.004",
+        "Completion beam support post.005",
+        "Completion beam support post.006",
+        "Completion beam support post.007",
+        "Completion deck crossbeam",
+        "Completion deck crossbeam.001",
+        "Completion deck crossbeam.002",
+        "Completion deck crossbeam.003"
+      ],
+      "offset": [
+        0,
+        17,
+        10
+      ]
+    },
+    {
+      "id": "D0",
+      "label": "艏部甲板",
+      "category": "deck",
+      "meshes": [
+        "Deck plank panel 0 -1 0",
+        "Deck plank panel 0 -1 1",
+        "Deck plank panel 0 -1 2",
+        "Deck plank panel 0 -1 3",
+        "Deck plank panel 0 -1 4",
+        "Deck plank panel 0 1 0",
+        "Deck plank panel 0 1 1",
+        "Deck plank panel 0 1 2",
+        "Deck plank panel 0 1 3",
+        "Deck plank panel 0 1 4"
+      ],
+      "offset": [
+        0,
+        15,
+        9
+      ]
+    },
+    {
+      "id": "D1",
+      "label": "前货舱边甲板",
+      "category": "deck",
+      "meshes": [
+        "Cargo hatch coaming",
+        "Cargo hatch coaming.001",
+        "Deck plank panel 1 -1 0",
+        "Deck plank panel 1 -1 1",
+        "Deck plank panel 1 -1 2",
+        "Deck plank panel 1 -1 3",
+        "Deck plank panel 1 -1 4",
+        "Deck plank panel 1 1 0",
+        "Deck plank panel 1 1 1",
+        "Deck plank panel 1 1 2",
+        "Deck plank panel 1 1 3",
+        "Deck plank panel 1 1 4"
+      ],
+      "offset": [
+        0,
+        -15,
+        9
+      ]
+    },
+    {
+      "id": "D2",
+      "label": "后货舱边甲板",
+      "category": "deck",
+      "meshes": [
+        "Cargo hatch coaming.002",
+        "Cargo hatch coaming.003",
+        "Deck plank panel 2 -1 0",
+        "Deck plank panel 2 -1 1",
+        "Deck plank panel 2 -1 2",
+        "Deck plank panel 2 -1 3",
+        "Deck plank panel 2 -1 4",
+        "Deck plank panel 2 1 0",
+        "Deck plank panel 2 1 1",
+        "Deck plank panel 2 1 2",
+        "Deck plank panel 2 1 3",
+        "Deck plank panel 2 1 4"
+      ],
+      "offset": [
+        0,
+        15,
+        9
+      ]
+    },
+    {
+      "id": "D3",
+      "label": "艉部甲板",
+      "category": "deck",
+      "meshes": [
+        "Deck plank panel 3 -1 0",
+        "Deck plank panel 3 -1 1",
+        "Deck plank panel 3 -1 2",
+        "Deck plank panel 3 -1 3",
+        "Deck plank panel 3 -1 4",
+        "Deck plank panel 3 1 0",
+        "Deck plank panel 3 1 1",
+        "Deck plank panel 3 1 2",
+        "Deck plank panel 3 1 3",
+        "Deck plank panel 3 1 4"
+      ],
+      "offset": [
+        0,
+        -15,
+        9
+      ]
+    },
+    {
+      "id": "M_fore",
+      "label": "前桅杆（复原高度）",
+      "category": "mast",
+      "meshes": [
+        "fore rope collar",
+        "fore rope collar.001",
+        "fore tapered mast"
+      ],
+      "offset": [
+        0,
+        18,
+        12
+      ]
+    },
+    {
+      "id": "M_main",
+      "label": "主桅杆（复原高度）",
+      "category": "mast",
+      "meshes": [
+        "main rope collar",
+        "main rope collar.001",
+        "main tapered mast"
+      ],
+      "offset": [
+        0,
+        18,
+        12
+      ]
+    },
+    {
+      "id": "F-1",
+      "label": "左舷钉固可视组",
+      "category": "fastener",
+      "meshes": [
+        "Driven iron shank",
+        "Driven iron shank.001",
+        "Driven iron shank.002",
+        "Driven iron shank.003",
+        "Driven iron shank.004",
+        "Driven iron shank.005",
+        "Driven iron shank.006",
+        "Driven iron shank.007",
+        "Driven iron shank.008",
+        "Driven iron shank.009",
+        "Driven iron shank.010",
+        "Driven iron shank.011",
+        "Driven iron shank.012",
+        "Driven iron shank.013",
+        "Driven iron shank.014",
+        "Driven iron shank.015",
+        "Driven iron shank.016",
+        "Driven iron shank.017",
+        "Driven iron shank.018",
+        "Driven iron shank.019",
+        "Driven iron shank.020",
+        "Driven iron shank.021",
+        "Driven iron shank.022",
+        "Driven iron shank.023",
+        "Driven iron shank.024",
+        "Driven iron shank.025",
+        "Driven iron shank.026",
+        "Driven iron shank.027",
+        "Driven iron shank.028",
+        "Driven iron shank.029",
+        "Driven iron shank.030",
+        "Driven iron shank.031",
+        "Driven iron shank.032",
+        "Driven iron shank.033",
+        "Driven iron shank.034",
+        "Driven iron shank.035",
+        "Driven iron shank.036",
+        "Driven iron shank.037",
+        "Driven iron shank.038",
+        "Driven iron shank.039",
+        "Driven iron shank.040",
+        "Driven iron shank.041",
+        "Driven iron shank.042",
+        "Driven iron shank.043",
+        "Driven iron shank.044",
+        "Driven iron shank.045",
+        "Driven iron shank.046",
+        "Driven iron shank.047",
+        "Driven iron shank.048",
+        "Driven iron shank.049",
+        "Driven iron shank.050",
+        "Driven iron shank.051",
+        "Driven iron shank.052",
+        "Driven iron shank.053",
+        "Driven iron shank.054",
+        "Driven iron shank.055",
+        "Driven iron shank.056",
+        "Driven iron shank.057",
+        "Driven iron shank.058",
+        "Driven iron shank.059",
+        "Driven iron shank.060",
+        "Driven iron shank.061",
+        "Driven iron shank.062",
+        "Driven iron shank.063",
+        "Driven iron shank.064",
+        "Driven iron shank.065",
+        "Driven iron shank.066",
+        "Driven iron shank.067",
+        "Driven iron shank.068",
+        "Driven iron shank.069",
+        "Driven iron shank.070",
+        "Driven iron shank.071",
+        "Driven iron shank.072",
+        "Driven iron shank.073",
+        "Driven iron shank.074",
+        "Driven iron shank.075",
+        "Driven iron shank.076",
+        "Driven iron shank.077",
+        "Driven iron shank.078",
+        "Driven iron shank.079",
+        "Driven iron shank.080",
+        "Driven iron shank.081",
+        "Driven iron shank.082",
+        "Driven iron shank.083",
+        "Driven iron shank.084",
+        "Driven iron shank.085",
+        "Driven iron shank.086",
+        "Driven iron shank.087",
+        "Driven iron shank.088",
+        "Driven iron shank.089",
+        "Driven iron shank.090",
+        "Driven iron shank.091",
+        "Driven iron shank.092",
+        "Driven iron shank.093",
+        "Driven iron shank.094",
+        "Driven iron shank.095",
+        "Driven iron shank.096",
+        "Driven iron shank.097",
+        "Driven iron shank.098",
+        "Driven iron shank.099",
+        "Driven iron shank.100",
+        "Driven iron shank.101",
+        "Driven iron shank.102",
+        "Driven iron shank.103",
+        "Driven iron shank.104",
+        "Driven iron shank.105",
+        "Driven iron shank.106",
+        "Driven iron shank.107",
+        "Driven iron shank.108",
+        "Driven iron shank.109",
+        "Driven iron shank.110",
+        "Driven iron shank.111",
+        "Driven iron shank.112",
+        "Driven iron shank.113",
+        "Driven iron shank.114",
+        "Driven iron shank.115",
+        "Driven iron shank.116",
+        "Driven iron shank.117",
+        "Driven iron shank.118",
+        "Driven iron shank.119",
+        "Driven iron shank.120",
+        "Driven iron shank.121",
+        "Driven iron shank.122",
+        "Driven iron shank.123",
+        "Driven iron shank.124",
+        "Driven iron shank.125",
+        "Driven iron shank.126",
+        "Driven iron shank.127",
+        "Driven iron shank.128",
+        "Driven iron shank.129",
+        "Driven iron shank.130",
+        "Driven iron shank.131",
+        "Driven iron shank.132",
+        "Driven iron shank.133",
+        "Driven iron shank.134",
+        "Driven iron shank.135",
+        "Driven iron shank.136",
+        "Driven iron shank.137",
+        "Driven iron shank.138",
+        "Driven iron shank.139",
+        "Driven iron shank.140",
+        "Driven iron shank.141",
+        "Driven iron shank.142",
+        "Driven iron shank.143",
+        "Driven iron shank.144",
+        "Driven iron shank.145",
+        "Driven iron shank.146",
+        "Driven iron shank.147",
+        "Driven iron shank.148",
+        "Driven iron shank.149",
+        "Driven iron shank.150",
+        "Driven iron shank.151",
+        "Driven iron shank.152",
+        "Driven iron shank.153",
+        "Driven iron shank.154",
+        "Driven iron shank.155",
+        "Driven iron shank.156",
+        "Driven iron shank.157",
+        "Driven iron shank.158",
+        "Driven iron shank.159",
+        "Driven iron shank.160",
+        "Driven iron shank.161",
+        "Driven iron shank.162",
+        "Driven iron shank.163",
+        "Driven iron shank.164",
+        "Driven iron shank.165",
+        "Driven iron shank.166",
+        "Driven iron shank.167",
+        "Driven iron shank.168",
+        "Driven iron shank.169",
+        "Driven iron shank.170",
+        "Driven iron shank.171",
+        "Driven iron shank.172",
+        "Driven iron shank.173",
+        "Driven iron shank.174",
+        "Driven iron shank.175",
+        "Driven iron shank.176",
+        "Driven iron shank.177",
+        "Driven iron shank.178",
+        "Driven iron shank.179",
+        "Driven iron shank.180",
+        "Driven iron shank.181",
+        "Driven iron shank.182",
+        "Driven iron shank.183",
+        "Driven iron shank.184",
+        "Driven iron shank.185",
+        "Driven iron shank.186",
+        "Driven iron shank.187",
+        "Driven iron shank.188",
+        "Driven iron shank.189",
+        "Driven iron shank.190",
+        "Driven iron shank.191",
+        "Iron fastening head",
+        "Iron fastening head.001",
+        "Iron fastening head.002",
+        "Iron fastening head.003",
+        "Iron fastening head.004",
+        "Iron fastening head.005",
+        "Iron fastening head.006",
+        "Iron fastening head.007",
+        "Iron fastening head.008",
+        "Iron fastening head.009",
+        "Iron fastening head.010",
+        "Iron fastening head.011",
+        "Iron fastening head.012",
+        "Iron fastening head.013",
+        "Iron fastening head.014",
+        "Iron fastening head.015",
+        "Iron fastening head.016",
+        "Iron fastening head.017",
+        "Iron fastening head.018",
+        "Iron fastening head.019",
+        "Iron fastening head.020",
+        "Iron fastening head.021",
+        "Iron fastening head.022",
+        "Iron fastening head.023",
+        "Iron fastening head.024",
+        "Iron fastening head.025",
+        "Iron fastening head.026",
+        "Iron fastening head.027",
+        "Iron fastening head.028",
+        "Iron fastening head.029",
+        "Iron fastening head.030",
+        "Iron fastening head.031",
+        "Iron fastening head.032",
+        "Iron fastening head.033",
+        "Iron fastening head.034",
+        "Iron fastening head.035",
+        "Iron fastening head.036",
+        "Iron fastening head.037",
+        "Iron fastening head.038",
+        "Iron fastening head.039",
+        "Iron fastening head.040",
+        "Iron fastening head.041",
+        "Iron fastening head.042",
+        "Iron fastening head.043",
+        "Iron fastening head.044",
+        "Iron fastening head.045",
+        "Iron fastening head.046",
+        "Iron fastening head.047",
+        "Iron fastening head.048",
+        "Iron fastening head.049",
+        "Iron fastening head.050",
+        "Iron fastening head.051",
+        "Iron fastening head.052",
+        "Iron fastening head.053",
+        "Iron fastening head.054",
+        "Iron fastening head.055",
+        "Iron fastening head.056",
+        "Iron fastening head.057",
+        "Iron fastening head.058",
+        "Iron fastening head.059",
+        "Iron fastening head.060",
+        "Iron fastening head.061",
+        "Iron fastening head.062",
+        "Iron fastening head.063",
+        "Iron fastening head.064",
+        "Iron fastening head.065",
+        "Iron fastening head.066",
+        "Iron fastening head.067",
+        "Iron fastening head.068",
+        "Iron fastening head.069",
+        "Iron fastening head.070",
+        "Iron fastening head.071",
+        "Iron fastening head.072",
+        "Iron fastening head.073",
+        "Iron fastening head.074",
+        "Iron fastening head.075",
+        "Iron fastening head.076",
+        "Iron fastening head.077",
+        "Iron fastening head.078",
+        "Iron fastening head.079",
+        "Iron fastening head.080",
+        "Iron fastening head.081",
+        "Iron fastening head.082",
+        "Iron fastening head.083",
+        "Iron fastening head.084",
+        "Iron fastening head.085",
+        "Iron fastening head.086",
+        "Iron fastening head.087",
+        "Iron fastening head.088",
+        "Iron fastening head.089",
+        "Iron fastening head.090",
+        "Iron fastening head.091",
+        "Iron fastening head.092",
+        "Iron fastening head.093",
+        "Iron fastening head.094",
+        "Iron fastening head.095",
+        "Iron fastening head.096",
+        "Iron fastening head.097",
+        "Iron fastening head.098",
+        "Iron fastening head.099",
+        "Iron fastening head.100",
+        "Iron fastening head.101",
+        "Iron fastening head.102",
+        "Iron fastening head.103",
+        "Iron fastening head.104",
+        "Iron fastening head.105",
+        "Iron fastening head.106",
+        "Iron fastening head.107",
+        "Iron fastening head.108",
+        "Iron fastening head.109",
+        "Iron fastening head.110",
+        "Iron fastening head.111",
+        "Iron fastening head.112",
+        "Iron fastening head.113",
+        "Iron fastening head.114",
+        "Iron fastening head.115",
+        "Iron fastening head.116",
+        "Iron fastening head.117",
+        "Iron fastening head.118",
+        "Iron fastening head.119",
+        "Iron fastening head.120",
+        "Iron fastening head.121",
+        "Iron fastening head.122",
+        "Iron fastening head.123",
+        "Iron fastening head.124",
+        "Iron fastening head.125",
+        "Iron fastening head.126",
+        "Iron fastening head.127",
+        "Iron fastening head.128",
+        "Iron fastening head.129",
+        "Iron fastening head.130",
+        "Iron fastening head.131",
+        "Iron fastening head.132",
+        "Iron fastening head.133",
+        "Iron fastening head.134",
+        "Iron fastening head.135",
+        "Iron fastening head.136",
+        "Iron fastening head.137",
+        "Iron fastening head.138",
+        "Iron fastening head.139",
+        "Iron fastening head.140",
+        "Iron fastening head.141",
+        "Iron fastening head.142",
+        "Iron fastening head.143",
+        "Iron fastening head.144",
+        "Iron fastening head.145",
+        "Iron fastening head.146",
+        "Iron fastening head.147",
+        "Iron fastening head.148",
+        "Iron fastening head.149",
+        "Iron fastening head.150",
+        "Iron fastening head.151",
+        "Iron fastening head.152",
+        "Iron fastening head.153",
+        "Iron fastening head.154",
+        "Iron fastening head.155",
+        "Iron fastening head.156",
+        "Iron fastening head.157",
+        "Iron fastening head.158",
+        "Iron fastening head.159",
+        "Iron fastening head.160",
+        "Iron fastening head.161",
+        "Iron fastening head.162",
+        "Iron fastening head.163",
+        "Iron fastening head.164",
+        "Iron fastening head.165",
+        "Iron fastening head.166",
+        "Iron fastening head.167",
+        "Iron fastening head.168",
+        "Iron fastening head.169",
+        "Iron fastening head.170",
+        "Iron fastening head.171",
+        "Iron fastening head.172",
+        "Iron fastening head.173",
+        "Iron fastening head.174",
+        "Iron fastening head.175",
+        "Iron fastening head.176",
+        "Iron fastening head.177",
+        "Iron fastening head.178",
+        "Iron fastening head.179",
+        "Iron fastening head.180",
+        "Iron fastening head.181",
+        "Iron fastening head.182",
+        "Iron fastening head.183",
+        "Iron fastening head.184",
+        "Iron fastening head.185",
+        "Iron fastening head.186",
+        "Iron fastening head.187",
+        "Iron fastening head.188",
+        "Iron fastening head.189",
+        "Iron fastening head.190",
+        "Iron fastening head.191"
+      ],
+      "offset": [
+        0,
+        -8,
+        0
+      ]
+    },
+    {
+      "id": "F1",
+      "label": "右舷钉固可视组",
+      "category": "fastener",
+      "meshes": [
+        "Driven iron shank.192",
+        "Driven iron shank.193",
+        "Driven iron shank.194",
+        "Driven iron shank.195",
+        "Driven iron shank.196",
+        "Driven iron shank.197",
+        "Driven iron shank.198",
+        "Driven iron shank.199",
+        "Driven iron shank.200",
+        "Driven iron shank.201",
+        "Driven iron shank.202",
+        "Driven iron shank.203",
+        "Driven iron shank.204",
+        "Driven iron shank.205",
+        "Driven iron shank.206",
+        "Driven iron shank.207",
+        "Driven iron shank.208",
+        "Driven iron shank.209",
+        "Driven iron shank.210",
+        "Driven iron shank.211",
+        "Driven iron shank.212",
+        "Driven iron shank.213",
+        "Driven iron shank.214",
+        "Driven iron shank.215",
+        "Driven iron shank.216",
+        "Driven iron shank.217",
+        "Driven iron shank.218",
+        "Driven iron shank.219",
+        "Driven iron shank.220",
+        "Driven iron shank.221",
+        "Driven iron shank.222",
+        "Driven iron shank.223",
+        "Driven iron shank.224",
+        "Driven iron shank.225",
+        "Driven iron shank.226",
+        "Driven iron shank.227",
+        "Driven iron shank.228",
+        "Driven iron shank.229",
+        "Driven iron shank.230",
+        "Driven iron shank.231",
+        "Driven iron shank.232",
+        "Driven iron shank.233",
+        "Driven iron shank.234",
+        "Driven iron shank.235",
+        "Driven iron shank.236",
+        "Driven iron shank.237",
+        "Driven iron shank.238",
+        "Driven iron shank.239",
+        "Driven iron shank.240",
+        "Driven iron shank.241",
+        "Driven iron shank.242",
+        "Driven iron shank.243",
+        "Driven iron shank.244",
+        "Driven iron shank.245",
+        "Driven iron shank.246",
+        "Driven iron shank.247",
+        "Driven iron shank.248",
+        "Driven iron shank.249",
+        "Driven iron shank.250",
+        "Driven iron shank.251",
+        "Driven iron shank.252",
+        "Driven iron shank.253",
+        "Driven iron shank.254",
+        "Driven iron shank.255",
+        "Driven iron shank.256",
+        "Driven iron shank.257",
+        "Driven iron shank.258",
+        "Driven iron shank.259",
+        "Driven iron shank.260",
+        "Driven iron shank.261",
+        "Driven iron shank.262",
+        "Driven iron shank.263",
+        "Driven iron shank.264",
+        "Driven iron shank.265",
+        "Driven iron shank.266",
+        "Driven iron shank.267",
+        "Driven iron shank.268",
+        "Driven iron shank.269",
+        "Driven iron shank.270",
+        "Driven iron shank.271",
+        "Driven iron shank.272",
+        "Driven iron shank.273",
+        "Driven iron shank.274",
+        "Driven iron shank.275",
+        "Driven iron shank.276",
+        "Driven iron shank.277",
+        "Driven iron shank.278",
+        "Driven iron shank.279",
+        "Driven iron shank.280",
+        "Driven iron shank.281",
+        "Driven iron shank.282",
+        "Driven iron shank.283",
+        "Driven iron shank.284",
+        "Driven iron shank.285",
+        "Driven iron shank.286",
+        "Driven iron shank.287",
+        "Driven iron shank.288",
+        "Driven iron shank.289",
+        "Driven iron shank.290",
+        "Driven iron shank.291",
+        "Driven iron shank.292",
+        "Driven iron shank.293",
+        "Driven iron shank.294",
+        "Driven iron shank.295",
+        "Driven iron shank.296",
+        "Driven iron shank.297",
+        "Driven iron shank.298",
+        "Driven iron shank.299",
+        "Driven iron shank.300",
+        "Driven iron shank.301",
+        "Driven iron shank.302",
+        "Driven iron shank.303",
+        "Driven iron shank.304",
+        "Driven iron shank.305",
+        "Driven iron shank.306",
+        "Driven iron shank.307",
+        "Driven iron shank.308",
+        "Driven iron shank.309",
+        "Driven iron shank.310",
+        "Driven iron shank.311",
+        "Driven iron shank.312",
+        "Driven iron shank.313",
+        "Driven iron shank.314",
+        "Driven iron shank.315",
+        "Driven iron shank.316",
+        "Driven iron shank.317",
+        "Driven iron shank.318",
+        "Driven iron shank.319",
+        "Driven iron shank.320",
+        "Driven iron shank.321",
+        "Driven iron shank.322",
+        "Driven iron shank.323",
+        "Driven iron shank.324",
+        "Driven iron shank.325",
+        "Driven iron shank.326",
+        "Driven iron shank.327",
+        "Driven iron shank.328",
+        "Driven iron shank.329",
+        "Driven iron shank.330",
+        "Driven iron shank.331",
+        "Driven iron shank.332",
+        "Driven iron shank.333",
+        "Driven iron shank.334",
+        "Driven iron shank.335",
+        "Driven iron shank.336",
+        "Driven iron shank.337",
+        "Driven iron shank.338",
+        "Driven iron shank.339",
+        "Driven iron shank.340",
+        "Driven iron shank.341",
+        "Driven iron shank.342",
+        "Driven iron shank.343",
+        "Driven iron shank.344",
+        "Driven iron shank.345",
+        "Driven iron shank.346",
+        "Driven iron shank.347",
+        "Driven iron shank.348",
+        "Driven iron shank.349",
+        "Driven iron shank.350",
+        "Driven iron shank.351",
+        "Driven iron shank.352",
+        "Driven iron shank.353",
+        "Driven iron shank.354",
+        "Driven iron shank.355",
+        "Driven iron shank.356",
+        "Driven iron shank.357",
+        "Driven iron shank.358",
+        "Driven iron shank.359",
+        "Driven iron shank.360",
+        "Driven iron shank.361",
+        "Driven iron shank.362",
+        "Driven iron shank.363",
+        "Driven iron shank.364",
+        "Driven iron shank.365",
+        "Driven iron shank.366",
+        "Driven iron shank.367",
+        "Driven iron shank.368",
+        "Driven iron shank.369",
+        "Driven iron shank.370",
+        "Driven iron shank.371",
+        "Driven iron shank.372",
+        "Driven iron shank.373",
+        "Driven iron shank.374",
+        "Driven iron shank.375",
+        "Driven iron shank.376",
+        "Driven iron shank.377",
+        "Driven iron shank.378",
+        "Driven iron shank.379",
+        "Driven iron shank.380",
+        "Driven iron shank.381",
+        "Driven iron shank.382",
+        "Driven iron shank.383",
+        "Iron fastening head.192",
+        "Iron fastening head.193",
+        "Iron fastening head.194",
+        "Iron fastening head.195",
+        "Iron fastening head.196",
+        "Iron fastening head.197",
+        "Iron fastening head.198",
+        "Iron fastening head.199",
+        "Iron fastening head.200",
+        "Iron fastening head.201",
+        "Iron fastening head.202",
+        "Iron fastening head.203",
+        "Iron fastening head.204",
+        "Iron fastening head.205",
+        "Iron fastening head.206",
+        "Iron fastening head.207",
+        "Iron fastening head.208",
+        "Iron fastening head.209",
+        "Iron fastening head.210",
+        "Iron fastening head.211",
+        "Iron fastening head.212",
+        "Iron fastening head.213",
+        "Iron fastening head.214",
+        "Iron fastening head.215",
+        "Iron fastening head.216",
+        "Iron fastening head.217",
+        "Iron fastening head.218",
+        "Iron fastening head.219",
+        "Iron fastening head.220",
+        "Iron fastening head.221",
+        "Iron fastening head.222",
+        "Iron fastening head.223",
+        "Iron fastening head.224",
+        "Iron fastening head.225",
+        "Iron fastening head.226",
+        "Iron fastening head.227",
+        "Iron fastening head.228",
+        "Iron fastening head.229",
+        "Iron fastening head.230",
+        "Iron fastening head.231",
+        "Iron fastening head.232",
+        "Iron fastening head.233",
+        "Iron fastening head.234",
+        "Iron fastening head.235",
+        "Iron fastening head.236",
+        "Iron fastening head.237",
+        "Iron fastening head.238",
+        "Iron fastening head.239",
+        "Iron fastening head.240",
+        "Iron fastening head.241",
+        "Iron fastening head.242",
+        "Iron fastening head.243",
+        "Iron fastening head.244",
+        "Iron fastening head.245",
+        "Iron fastening head.246",
+        "Iron fastening head.247",
+        "Iron fastening head.248",
+        "Iron fastening head.249",
+        "Iron fastening head.250",
+        "Iron fastening head.251",
+        "Iron fastening head.252",
+        "Iron fastening head.253",
+        "Iron fastening head.254",
+        "Iron fastening head.255",
+        "Iron fastening head.256",
+        "Iron fastening head.257",
+        "Iron fastening head.258",
+        "Iron fastening head.259",
+        "Iron fastening head.260",
+        "Iron fastening head.261",
+        "Iron fastening head.262",
+        "Iron fastening head.263",
+        "Iron fastening head.264",
+        "Iron fastening head.265",
+        "Iron fastening head.266",
+        "Iron fastening head.267",
+        "Iron fastening head.268",
+        "Iron fastening head.269",
+        "Iron fastening head.270",
+        "Iron fastening head.271",
+        "Iron fastening head.272",
+        "Iron fastening head.273",
+        "Iron fastening head.274",
+        "Iron fastening head.275",
+        "Iron fastening head.276",
+        "Iron fastening head.277",
+        "Iron fastening head.278",
+        "Iron fastening head.279",
+        "Iron fastening head.280",
+        "Iron fastening head.281",
+        "Iron fastening head.282",
+        "Iron fastening head.283",
+        "Iron fastening head.284",
+        "Iron fastening head.285",
+        "Iron fastening head.286",
+        "Iron fastening head.287",
+        "Iron fastening head.288",
+        "Iron fastening head.289",
+        "Iron fastening head.290",
+        "Iron fastening head.291",
+        "Iron fastening head.292",
+        "Iron fastening head.293",
+        "Iron fastening head.294",
+        "Iron fastening head.295",
+        "Iron fastening head.296",
+        "Iron fastening head.297",
+        "Iron fastening head.298",
+        "Iron fastening head.299",
+        "Iron fastening head.300",
+        "Iron fastening head.301",
+        "Iron fastening head.302",
+        "Iron fastening head.303",
+        "Iron fastening head.304",
+        "Iron fastening head.305",
+        "Iron fastening head.306",
+        "Iron fastening head.307",
+        "Iron fastening head.308",
+        "Iron fastening head.309",
+        "Iron fastening head.310",
+        "Iron fastening head.311",
+        "Iron fastening head.312",
+        "Iron fastening head.313",
+        "Iron fastening head.314",
+        "Iron fastening head.315",
+        "Iron fastening head.316",
+        "Iron fastening head.317",
+        "Iron fastening head.318",
+        "Iron fastening head.319",
+        "Iron fastening head.320",
+        "Iron fastening head.321",
+        "Iron fastening head.322",
+        "Iron fastening head.323",
+        "Iron fastening head.324",
+        "Iron fastening head.325",
+        "Iron fastening head.326",
+        "Iron fastening head.327",
+        "Iron fastening head.328",
+        "Iron fastening head.329",
+        "Iron fastening head.330",
+        "Iron fastening head.331",
+        "Iron fastening head.332",
+        "Iron fastening head.333",
+        "Iron fastening head.334",
+        "Iron fastening head.335",
+        "Iron fastening head.336",
+        "Iron fastening head.337",
+        "Iron fastening head.338",
+        "Iron fastening head.339",
+        "Iron fastening head.340",
+        "Iron fastening head.341",
+        "Iron fastening head.342",
+        "Iron fastening head.343",
+        "Iron fastening head.344",
+        "Iron fastening head.345",
+        "Iron fastening head.346",
+        "Iron fastening head.347",
+        "Iron fastening head.348",
+        "Iron fastening head.349",
+        "Iron fastening head.350",
+        "Iron fastening head.351",
+        "Iron fastening head.352",
+        "Iron fastening head.353",
+        "Iron fastening head.354",
+        "Iron fastening head.355",
+        "Iron fastening head.356",
+        "Iron fastening head.357",
+        "Iron fastening head.358",
+        "Iron fastening head.359",
+        "Iron fastening head.360",
+        "Iron fastening head.361",
+        "Iron fastening head.362",
+        "Iron fastening head.363",
+        "Iron fastening head.364",
+        "Iron fastening head.365",
+        "Iron fastening head.366",
+        "Iron fastening head.367",
+        "Iron fastening head.368",
+        "Iron fastening head.369",
+        "Iron fastening head.370",
+        "Iron fastening head.371",
+        "Iron fastening head.372",
+        "Iron fastening head.373",
+        "Iron fastening head.374",
+        "Iron fastening head.375",
+        "Iron fastening head.376",
+        "Iron fastening head.377",
+        "Iron fastening head.378",
+        "Iron fastening head.379",
+        "Iron fastening head.380",
+        "Iron fastening head.381",
+        "Iron fastening head.382",
+        "Iron fastening head.383"
+      ],
+      "offset": [
+        0,
+        8,
+        0
+      ]
+    },
+    {
+      "id": "RUDDER_FRAME",
+      "label": "艉舵槽导木与有脚提升横架（推拟）",
+      "category": "rudder_support",
+      "meshes": [
+        "Rudder gantry deck foot -1",
+        "Rudder gantry deck foot 1",
+        "Rudder gantry diagonal knee",
+        "Rudder gantry diagonal knee.001",
+        "Rudder gantry diagonal knee.002",
+        "Rudder gantry diagonal knee.003",
+        "Rudder gantry supported upright -1",
+        "Rudder gantry supported upright 1",
+        "Rudder hoist beam strop",
+        "Rudder hoist belaying pin",
+        "Rudder hoist block cheek",
+        "Rudder hoist block cheek.001",
+        "Rudder hoist upper transverse beam",
+        "Rudder hoist wooden sheave",
+        "Rudder lower guide forward cheek",
+        "Rudder lower guide side cheek -1",
+        "Rudder lower guide side cheek 1",
+        "Rudder upper guide forward cheek",
+        "Rudder upper guide halfbeam -1",
+        "Rudder upper guide halfbeam 1"
+      ],
+      "offset": [
+        0,
+        11,
+        4
+      ]
+    },
+    {
+      "id": "RUDDER_SLIDE",
+      "label": "竖杆木舵与舵柄（由艉外入槽；推拟）",
+      "category": "rudder_slide",
+      "meshes": [
+        "Rudder blade batten fixing",
+        "Rudder blade batten fixing.001",
+        "Rudder blade batten fixing.002",
+        "Rudder blade batten fixing.003",
+        "Rudder blade batten fixing.004",
+        "Rudder blade batten fixing.005",
+        "Rudder blade batten fixing.006",
+        "Rudder blade batten fixing.007",
+        "Rudder blade face joining batten",
+        "Rudder blade face joining batten.001",
+        "Rudder blade face joining batten.002",
+        "Rudder blade face joining batten.003",
+        "Rudder blade joined to stock",
+        "Rudder blade plank seam",
+        "Rudder blade plank seam.001",
+        "Rudder blade plank seam.002",
+        "Rudder blade plank seam.003",
+        "Rudder forward tiller with head mortise",
+        "Rudder lifting head collar",
+        "Rudder lifting head sling",
+        "Rudder stock blade root lashing",
+        "Rudder stock blade root lashing.001",
+        "Rudder tiller head binding",
+        "Vertical lifting rudder stock"
+      ],
+      "offset": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "RUDDER_CAPS",
+      "label": "入槽后装可拆导木压块（教学补配）",
+      "category": "rudder_cap",
+      "meshes": [
+        "Removable lower aft guide cap with real half-laps",
+        "Removable upper aft guide cap with real half-laps"
+      ],
+      "offset": [
+        1.5,
+        0.0,
+        2.25
+      ]
+    },
+    {
+      "id": "RUDDER_CAP_PEGS",
+      "label": "导木压块木销插入实体销孔（教学补配）",
+      "category": "rudder_cap_pegs",
+      "meshes": [
+        "Separate guide wooden locking peg",
+        "Separate guide wooden locking peg.001",
+        "Separate guide wooden locking peg.002",
+        "Separate guide wooden locking peg.003"
+      ],
+      "offset": [
+        0.0,
+        4.0,
+        2.25
+      ]
+    },
+    {
+      "id": "RIG_HARDWARE_fore",
+      "label": "前桅甲板系桩与升帆木滑轮（推拟）",
+      "category": "deck_hardware",
+      "meshes": [
+        "fore fore aft stay attachment cross pin",
+        "fore fore aft stay attachment cross pin.001",
+        "fore fore aft stay attachment deck footprint",
+        "fore fore aft stay attachment deck footprint.001",
+        "fore fore aft stay attachment timber pin",
+        "fore fore aft stay attachment timber pin.001",
+        "fore halyard belay cross pin",
+        "fore halyard belay deck footprint",
+        "fore halyard belay timber pin",
+        "fore halyard wooden block",
+        "fore sheet belay cross pin",
+        "fore sheet belay deck footprint",
+        "fore sheet belay timber pin",
+        "fore shroud attachment cross pin",
+        "fore shroud attachment cross pin.001",
+        "fore shroud attachment cross pin.002",
+        "fore shroud attachment cross pin.003",
+        "fore shroud attachment deck footprint",
+        "fore shroud attachment deck footprint.001",
+        "fore shroud attachment deck footprint.002",
+        "fore shroud attachment deck footprint.003",
+        "fore shroud attachment timber pin",
+        "fore shroud attachment timber pin.001",
+        "fore shroud attachment timber pin.002",
+        "fore shroud attachment timber pin.003",
+        "fore tack belay cross pin",
+        "fore tack belay deck footprint",
+        "fore tack belay timber pin"
+      ],
+      "offset": [
+        0,
+        0,
+        8
+      ]
+    },
+    {
+      "id": "RIG_HARDWARE_main",
+      "label": "主桅甲板系桩与升帆木滑轮（推拟）",
+      "category": "deck_hardware",
+      "meshes": [
+        "main fore aft stay attachment cross pin",
+        "main fore aft stay attachment cross pin.001",
+        "main fore aft stay attachment deck footprint",
+        "main fore aft stay attachment deck footprint.001",
+        "main fore aft stay attachment timber pin",
+        "main fore aft stay attachment timber pin.001",
+        "main halyard belay cross pin",
+        "main halyard belay deck footprint",
+        "main halyard belay timber pin",
+        "main halyard wooden block",
+        "main sheet belay cross pin",
+        "main sheet belay deck footprint",
+        "main sheet belay timber pin",
+        "main shroud attachment cross pin",
+        "main shroud attachment cross pin.001",
+        "main shroud attachment cross pin.002",
+        "main shroud attachment cross pin.003",
+        "main shroud attachment deck footprint",
+        "main shroud attachment deck footprint.001",
+        "main shroud attachment deck footprint.002",
+        "main shroud attachment deck footprint.003",
+        "main shroud attachment timber pin",
+        "main shroud attachment timber pin.001",
+        "main shroud attachment timber pin.002",
+        "main shroud attachment timber pin.003",
+        "main tack belay cross pin",
+        "main tack belay deck footprint",
+        "main tack belay timber pin"
+      ],
+      "offset": [
+        0,
+        0,
+        8
+      ]
+    },
+    {
+      "id": "SAIL_fore",
+      "label": "前桅轻型方头横骨四角帆（展示复原）",
+      "category": "sail",
+      "meshes": [
+        "fore foot spar",
+        "fore head lacing",
+        "fore head lacing.001",
+        "fore head lacing.002",
+        "fore head lacing.003",
+        "fore head lacing.004",
+        "fore head lacing.005",
+        "fore head lacing.006",
+        "fore head lacing.007",
+        "fore head lacing.008",
+        "fore head lacing.009",
+        "fore head lacing.010",
+        "fore light linen lug sail",
+        "fore lightweight transverse batten",
+        "fore lightweight transverse batten.001",
+        "fore narrow sewn cloth panel seam",
+        "fore narrow sewn cloth panel seam.001",
+        "fore narrow sewn cloth panel seam.002",
+        "fore narrow sewn cloth panel seam.003",
+        "fore narrow sewn cloth panel seam.004",
+        "fore reinforced sail edge",
+        "fore reinforced sail edge.001",
+        "fore reinforced sail edge.002",
+        "fore reinforced sail edge.003",
+        "fore upper yard"
+      ],
+      "offset": [
+        0,
+        -13,
+        0
+      ]
+    },
+    {
+      "id": "SAIL_main",
+      "label": "主桅轻型方头横骨四角帆（展示复原）",
+      "category": "sail",
+      "meshes": [
+        "main foot spar",
+        "main head lacing",
+        "main head lacing.001",
+        "main head lacing.002",
+        "main head lacing.003",
+        "main head lacing.004",
+        "main head lacing.005",
+        "main head lacing.006",
+        "main head lacing.007",
+        "main head lacing.008",
+        "main head lacing.009",
+        "main head lacing.010",
+        "main light linen lug sail",
+        "main lightweight transverse batten",
+        "main lightweight transverse batten.001",
+        "main lightweight transverse batten.002",
+        "main narrow sewn cloth panel seam",
+        "main narrow sewn cloth panel seam.001",
+        "main narrow sewn cloth panel seam.002",
+        "main narrow sewn cloth panel seam.003",
+        "main narrow sewn cloth panel seam.004",
+        "main reinforced sail edge",
+        "main reinforced sail edge.001",
+        "main reinforced sail edge.002",
+        "main reinforced sail edge.003",
+        "main upper yard"
+      ],
+      "offset": [
+        0,
+        -13,
+        0
+      ]
+    },
+    {
+      "id": "RIG_fore",
+      "label": "前桅柔性支索与帆桅系结（就地系装示意）",
+      "category": "flexible_rigging",
+      "meshes": [
+        "fore aft sheet",
+        "fore foot flexible mast parrel",
+        "fore forward tack line",
+        "fore halyard belay turn",
+        "fore halyard block strop",
+        "fore halyard return to belay",
+        "fore halyard standing lift",
+        "fore longitudinal stay",
+        "fore longitudinal stay.001",
+        "fore sheet belay turn",
+        "fore side shroud",
+        "fore side shroud.001",
+        "fore side shroud.002",
+        "fore side shroud.003",
+        "fore standing rig collar",
+        "fore tack belay turn",
+        "fore yard flexible mast parrel"
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "RIG_main",
+      "label": "主桅柔性支索与帆桅系结（就地系装示意）",
+      "category": "flexible_rigging",
+      "meshes": [
+        "main aft sheet",
+        "main foot flexible mast parrel",
+        "main forward tack line",
+        "main halyard belay turn",
+        "main halyard block strop",
+        "main halyard return to belay",
+        "main halyard standing lift",
+        "main longitudinal stay",
+        "main longitudinal stay.001",
+        "main sheet belay turn",
+        "main side shroud",
+        "main side shroud.001",
+        "main side shroud.002",
+        "main side shroud.003",
+        "main standing rig collar",
+        "main tack belay turn",
+        "main yard flexible mast parrel"
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "RUDDER_HOIST_ROPE",
+      "label": "最后系装提舵索（穿索系结过程未模拟）",
+      "category": "flexible_rigging",
+      "meshes": [
+        "Rudder continuous lifting purchase rope",
+        "Rudder hoist belay turn"
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "display_reconstruction": {
+    "evidence_status": "展示性上部复原；尺寸与机构为教学建模选择，非原宋船实测",
+    "rig_source_scope": "WA1997 p47 square-headed battened lug discussion; dimensions absent",
+    "rudder_source_scope": "WA1997 p46 rudder groove and inferred higher beam; full mechanism conjectural",
+    "assembly_ids": [
+      "RUDDER_FRAME",
+      "RUDDER_SLIDE",
+      "RUDDER_CAPS",
+      "RUDDER_CAP_PEGS",
+      "RIG_HARDWARE_fore",
+      "RIG_HARDWARE_main",
+      "SAIL_fore",
+      "SAIL_main",
+      "RIG_fore",
+      "RIG_main",
+      "RUDDER_HOIST_ROPE"
+    ],
+    "cordage_animation": "Three flexible_rigging groups are progressively shown in place; threading and knot tying are not simulated",
+    "sails": [
+      {
+        "mast": "fore",
+        "mast_x_m": 7.21,
+        "mast_base_m": 1.500087890625,
+        "display_area_m2": 19.678750052452074,
+        "light_battens": 2
+      },
+      {
+        "mast": "main",
+        "mast_x_m": 14.53,
+        "mast_base_m": 0.9005776977539063,
+        "display_area_m2": 46.71124534130104,
+        "light_battens": 3
+      }
+    ],
+    "rudder": {
+      "axis_x_m": 26.2,
+      "stock_radius_m": 0.16,
+      "stock_top_z_m": 6.1119570504349365,
+      "slot": {
+        "x_min": 25.92,
+        "x_max": 28.01,
+        "y_min": -0.25,
+        "y_max": 0.25
+      },
+      "guide_z_m": 5.371957050434936,
+      "upper_beam_z_m": 6.881957050434936,
+      "blade_z_min_m": 0.24,
+      "blade_z_max_m": 2.24,
+      "assembly_path": "Aft-open slot; horizontal insertion from +x, then removable caps"
+    }
+  },
+  "timeline": [
+    {
+      "id": "K1",
+      "label": "中央樟木龙骨",
+      "category": "keel",
+      "start": 46,
+      "end": 76,
+      "offset": [
+        0,
+        0,
+        7
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "K0",
+      "label": "艏段龙骨与短斜接",
+      "category": "keel",
+      "start": 83,
+      "end": 113,
+      "offset": [
+        -10,
+        0,
+        0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "K2",
+      "label": "艉段龙骨与短斜接",
+      "category": "keel",
+      "start": 120,
+      "end": 150,
+      "offset": [
+        10,
+        0,
+        0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "SP_01",
+      "label": "左舷第1、2板列",
+      "category": "shell",
+      "start": 157,
+      "end": 183,
+      "offset": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SS_01",
+      "label": "右舷第1、2板列",
+      "category": "shell",
+      "start": 190,
+      "end": 216,
+      "offset": [
+        0.0,
+        10.0,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SP_02",
+      "label": "左舷第3、4板列",
+      "category": "shell",
+      "start": 223,
+      "end": 249,
+      "offset": [
+        0.0,
+        -10.5,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SS_02",
+      "label": "右舷第3、4板列",
+      "category": "shell",
+      "start": 256,
+      "end": 282,
+      "offset": [
+        0.0,
+        10.5,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SP_03",
+      "label": "左舷第5、6板列",
+      "category": "shell",
+      "start": 289,
+      "end": 315,
+      "offset": [
+        0.0,
+        -11.0,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SS_03",
+      "label": "右舷第5、6板列",
+      "category": "shell",
+      "start": 322,
+      "end": 348,
+      "offset": [
+        0.0,
+        11.0,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SP_04",
+      "label": "左舷第7、8板列",
+      "category": "shell",
+      "start": 355,
+      "end": 381,
+      "offset": [
+        0.0,
+        -11.5,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SS_04",
+      "label": "右舷第7、8板列",
+      "category": "shell",
+      "start": 388,
+      "end": 414,
+      "offset": [
+        0.0,
+        11.5,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SP_05",
+      "label": "左舷第9、10板列",
+      "category": "shell",
+      "start": 421,
+      "end": 447,
+      "offset": [
+        0.0,
+        -12.0,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SS_05",
+      "label": "右舷第9、10板列",
+      "category": "shell",
+      "start": 454,
+      "end": 480,
+      "offset": [
+        0.0,
+        12.0,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SP_06",
+      "label": "左舷第11、12板列",
+      "category": "shell",
+      "start": 487,
+      "end": 513,
+      "offset": [
+        0.0,
+        -12.5,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SS_06",
+      "label": "右舷第11、12板列",
+      "category": "shell",
+      "start": 520,
+      "end": 546,
+      "offset": [
+        0.0,
+        12.5,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SP_07",
+      "label": "左舷第13、14板列",
+      "category": "shell",
+      "start": 553,
+      "end": 579,
+      "offset": [
+        0.0,
+        -13.0,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SS_07",
+      "label": "右舷第13、14板列",
+      "category": "shell",
+      "start": 586,
+      "end": 612,
+      "offset": [
+        0.0,
+        13.0,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SP_08",
+      "label": "左舷第15、16板列",
+      "category": "shell",
+      "start": 619,
+      "end": 645,
+      "offset": [
+        0.0,
+        -13.5,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "SS_08",
+      "label": "右舷第15、16板列",
+      "category": "shell",
+      "start": 652,
+      "end": 678,
+      "offset": [
+        0.0,
+        13.5,
+        0.0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "B01",
+      "label": "第1道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "start": 685,
+      "end": 713,
+      "offset": [
+        22.55,
+        14.0,
+        0.0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "B02",
+      "label": "第2道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "start": 720,
+      "end": 748,
+      "offset": [
+        21.54,
+        -14.0,
+        0.0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "B03",
+      "label": "第3道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "start": 755,
+      "end": 783,
+      "offset": [
+        20.67,
+        14.0,
+        0.0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "B04",
+      "label": "第4道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "start": 790,
+      "end": 818,
+      "offset": [
+        19.669999999999998,
+        -14.0,
+        0.0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "B05",
+      "label": "第5道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "start": 825,
+      "end": 853,
+      "offset": [
+        18.770000000000003,
+        14.0,
+        0.0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "B06",
+      "label": "第6道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "start": 860,
+      "end": 888,
+      "offset": [
+        17.869999999999997,
+        -14.0,
+        0.0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "B07",
+      "label": "第7道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "start": 895,
+      "end": 923,
+      "offset": [
+        16.9,
+        14.0,
+        0.0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "B08",
+      "label": "第8道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "start": 930,
+      "end": 958,
+      "offset": [
+        15.870000000000001,
+        -14.0,
+        0.0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "B09",
+      "label": "第9道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "start": 965,
+      "end": 993,
+      "offset": [
+        15.049999999999997,
+        14.0,
+        0.0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "B10",
+      "label": "第10道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "start": 1000,
+      "end": 1028,
+      "offset": [
+        14.110000000000003,
+        -14.0,
+        0.0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "B11",
+      "label": "第11道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "start": 1035,
+      "end": 1063,
+      "offset": [
+        12.75,
+        14.0,
+        0.0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "B12",
+      "label": "第12道实心隔舱壁与梁",
+      "category": "bulkhead",
+      "start": 1070,
+      "end": 1098,
+      "offset": [
+        12.319999999999997,
+        -14.0,
+        0.0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "MS_fore",
+      "label": "前桅宽座与夹柱",
+      "category": "mast_step",
+      "start": 1105,
+      "end": 1135,
+      "offset": [
+        0,
+        12,
+        6
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "MS_main",
+      "label": "主桅宽座与夹柱",
+      "category": "mast_step",
+      "start": 1142,
+      "end": 1172,
+      "offset": [
+        0,
+        -12,
+        6
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "O-1_0",
+      "label": "左前外层护板组",
+      "category": "cover",
+      "start": 1179,
+      "end": 1207,
+      "offset": [
+        0,
+        -13,
+        0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "O-1_1",
+      "label": "左后外层护板组",
+      "category": "cover",
+      "start": 1214,
+      "end": 1242,
+      "offset": [
+        0,
+        -13,
+        0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "O1_0",
+      "label": "右前外层护板组",
+      "category": "cover",
+      "start": 1249,
+      "end": 1277,
+      "offset": [
+        0,
+        13,
+        0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "O1_1",
+      "label": "右后外层护板组",
+      "category": "cover",
+      "start": 1284,
+      "end": 1312,
+      "offset": [
+        0,
+        13,
+        0
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "RAIL-1",
+      "label": "左舷缘压木",
+      "category": "rail",
+      "start": 1319,
+      "end": 1343,
+      "offset": [
+        0,
+        0,
+        5
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "RAIL1",
+      "label": "右舷缘压木",
+      "category": "rail",
+      "start": 1350,
+      "end": 1374,
+      "offset": [
+        0,
+        0,
+        5
+      ],
+      "animation_method": "progressive_in_place_planking"
+    },
+    {
+      "id": "DECK_SUPPORTS",
+      "label": "首尾补绘甲板支承",
+      "category": "bulkhead",
+      "start": 1381,
+      "end": 1407,
+      "offset": [
+        0,
+        17,
+        10
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "D0",
+      "label": "艏部甲板",
+      "category": "deck",
+      "start": 1414,
+      "end": 1444,
+      "offset": [
+        0,
+        15,
+        9
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "D1",
+      "label": "前货舱边甲板",
+      "category": "deck",
+      "start": 1451,
+      "end": 1481,
+      "offset": [
+        0,
+        -15,
+        9
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "D2",
+      "label": "后货舱边甲板",
+      "category": "deck",
+      "start": 1488,
+      "end": 1518,
+      "offset": [
+        0,
+        15,
+        9
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "D3",
+      "label": "艉部甲板",
+      "category": "deck",
+      "start": 1525,
+      "end": 1555,
+      "offset": [
+        0,
+        -15,
+        9
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "M_fore",
+      "label": "前桅杆（复原高度）",
+      "category": "mast",
+      "start": 1562,
+      "end": 1597,
+      "offset": [
+        0,
+        18,
+        12
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "M_main",
+      "label": "主桅杆（复原高度）",
+      "category": "mast",
+      "start": 1604,
+      "end": 1639,
+      "offset": [
+        0,
+        18,
+        12
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "F-1",
+      "label": "左舷钉固可视组",
+      "category": "fastener",
+      "start": 1646,
+      "end": 1666,
+      "offset": [
+        0,
+        -8,
+        0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "F1",
+      "label": "右舷钉固可视组",
+      "category": "fastener",
+      "start": 1673,
+      "end": 1693,
+      "offset": [
+        0,
+        8,
+        0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "RUDDER_FRAME",
+      "label": "艉舵槽导木与有脚提升横架（推拟）",
+      "category": "rudder_support",
+      "start": 1700,
+      "end": 1730,
+      "offset": [
+        0,
+        11,
+        4
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "RUDDER_SLIDE",
+      "label": "竖杆木舵与舵柄（由艉外入槽；推拟）",
+      "category": "rudder_slide",
+      "start": 1737,
+      "end": 1773,
+      "offset": [
+        8,
+        0,
+        0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "RUDDER_CAPS",
+      "label": "入槽后装可拆导木压块（教学补配）",
+      "category": "rudder_cap",
+      "start": 1780,
+      "end": 1804,
+      "offset": [
+        1.5,
+        0.0,
+        2.25
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "RUDDER_CAP_PEGS",
+      "label": "导木压块木销插入实体销孔（教学补配）",
+      "category": "rudder_cap_pegs",
+      "start": 1811,
+      "end": 1829,
+      "offset": [
+        0.0,
+        4.0,
+        2.25
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "RIG_HARDWARE_fore",
+      "label": "前桅甲板系桩与升帆木滑轮（推拟）",
+      "category": "deck_hardware",
+      "start": 1836,
+      "end": 1860,
+      "offset": [
+        0,
+        0,
+        8
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "RIG_HARDWARE_main",
+      "label": "主桅甲板系桩与升帆木滑轮（推拟）",
+      "category": "deck_hardware",
+      "start": 1867,
+      "end": 1891,
+      "offset": [
+        0,
+        0,
+        8
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "SAIL_fore",
+      "label": "前桅轻型方头横骨四角帆（展示复原）",
+      "category": "sail",
+      "start": 1898,
+      "end": 1932,
+      "offset": [
+        0,
+        -13,
+        0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "SAIL_main",
+      "label": "主桅轻型方头横骨四角帆（展示复原）",
+      "category": "sail",
+      "start": 1939,
+      "end": 1973,
+      "offset": [
+        0,
+        -13,
+        0
+      ],
+      "animation_method": "rigid_translation"
+    },
+    {
+      "id": "RIG_fore",
+      "label": "前桅柔性支索与帆桅系结（就地系装示意）",
+      "category": "flexible_rigging",
+      "start": 1980,
+      "end": 2008,
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "animation_method": "progressive_cordage"
+    },
+    {
+      "id": "RIG_main",
+      "label": "主桅柔性支索与帆桅系结（就地系装示意）",
+      "category": "flexible_rigging",
+      "start": 2015,
+      "end": 2043,
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "animation_method": "progressive_cordage"
+    },
+    {
+      "id": "RUDDER_HOIST_ROPE",
+      "label": "最后系装提舵索（穿索系结过程未模拟）",
+      "category": "flexible_rigging",
+      "start": 2050,
+      "end": 2068,
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "animation_method": "progressive_cordage"
+    }
+  ]
+}

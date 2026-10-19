@@ -1,0 +1,18 @@
+{
+  "source_objects": [
+    "Completion beam support post",
+    "Completion deck crossbeam"
+  ],
+  "source_center_m": [
+    3.0,
+    -1.1222736835479736,
+    3.474168300628662
+  ],
+  "new_game_design": "Existing plain bearing replaced locally by rectangular shouldered tenon .08 x .10m, nominal projection .10m into beam bottom; blind mortise exact matching subtraction; no nails/pins",
+  "offset": [
+    0,
+    0,
+    0.45
+  ],
+  "interpretation": "not an excavated Quanzhou joint; original completion deck itself hypothetical; unchanged external envelope at final pose"
+}

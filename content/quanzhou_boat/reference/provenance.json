@@ -1,0 +1,22 @@
+{
+  "assets": [
+    {
+      "library_file_id": "libfile_e4ae1fdda0448191b473a9eaf9210bfe",
+      "archive": "boat_models.zip",
+      "sha256": "d81dca8a731908e97412cfabb6b1aa94f0c42eb2ea1dea0ceda8f26ad25da3c1"
+    },
+    {
+      "library_file_id": "libfile_ff4d0eb730d48191a249caf5954fbd5f",
+      "archive": "boat_source.zip",
+      "sha256": "b4bc6e06cdad5c831689ac6c58cac99f9e8eb7a40384f7f70b62bca02feff7f3"
+    },
+    {
+      "library_file_id": "libfile_1fdd2c5919788191acb7c59b062e0a10",
+      "archive": "joinery_v3.zip",
+      "sha256": "a0a5a1c13ded6113084b2e005b312f48d24d50199219512d0cbc9cae7a6b97f5"
+    }
+  ],
+  "assembly_groups": 59,
+  "boat_meshes": 1286,
+  "optimization": "Original geometry retained; v4 not used."
+}

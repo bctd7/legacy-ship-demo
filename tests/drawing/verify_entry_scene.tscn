@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://drawing/drawing_demo.tscn" id="1"]
+[ext_resource type="Script" path="res://tests/drawing/entry_scene_probe.gd" id="2"]
+
+[node name="DrawingEntrySmoke" instance=ExtResource("1")]
+
+[node name="EntryProbe" type="Node" parent="."]
+script = ExtResource("2")

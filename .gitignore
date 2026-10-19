@@ -1,0 +1,45 @@
+# Godot caches; source assets, scenes, scripts, .import and .uid remain versioned.
+/.godot/
+/.mono/
+
+# Exported builds and temporary output.
+/exports/
+/export/
+/build/
+/dist/
+*.exe
+*.pck
+*.apk
+*.aab
+*.log
+*.tmp
+*.codex-stage.tmp
+
+# Recoverable local history is kept on disk, not in the source commit.
+/docs/backups/
+/docs/archive/
+
+# Local environment / credential files are never project deliverables.
+.env
+.env.*
+/.aws/
+/.codex/
+/.agents/
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+__pycache__/
+*.pyc
+*.pdf
+*.PDF
+*.zip
+private/
+secrets/
+credentials/
+*private_config*
+*api_key*
+*api-key*
+*receipt*
+*metadata.json

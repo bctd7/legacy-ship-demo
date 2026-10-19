@@ -1,0 +1,3148 @@
+{
+  "id": "luban_bridge",
+  "version": "v2",
+  "title": "鲁班桥 · 装配工坊",
+  "units": "metres",
+  "assembly_scene": "res://content/luban_bridge/assets/bridge_v2_assembly.glb",
+  "final_scene": "res://content/luban_bridge/assets/bridge_v2_final.glb",
+  "parts": [
+    "Base_Left",
+    "Base_Right",
+    "Beam_Front_01",
+    "Beam_Front_02",
+    "Beam_Front_03",
+    "Beam_Front_04",
+    "Beam_Front_05",
+    "Beam_Back_01",
+    "Beam_Back_02",
+    "Beam_Back_03",
+    "Beam_Back_04",
+    "Beam_Back_05",
+    "Cross_rod_01",
+    "Cross_rod_02",
+    "Cross_rod_03",
+    "Cross_rod_04",
+    "Cross_rod_05",
+    "Deck_panel_01",
+    "Deck_panel_02",
+    "Deck_panel_03",
+    "Deck_panel_04",
+    "Deck_panel_05"
+  ],
+  "fixtures": [
+    "Fixture_Beam_Front_01_1",
+    "Fixture_Beam_Front_01_2",
+    "Fixture_Beam_Front_02_1",
+    "Fixture_Beam_Front_02_2",
+    "Fixture_Beam_Front_03_1",
+    "Fixture_Beam_Front_03_2",
+    "Fixture_Beam_Front_04_1",
+    "Fixture_Beam_Front_04_2",
+    "Fixture_Beam_Front_05_1",
+    "Fixture_Beam_Front_05_2",
+    "Fixture_Beam_Back_01_1",
+    "Fixture_Beam_Back_01_2",
+    "Fixture_Beam_Back_02_1",
+    "Fixture_Beam_Back_02_2",
+    "Fixture_Beam_Back_03_1",
+    "Fixture_Beam_Back_03_2",
+    "Fixture_Beam_Back_04_1",
+    "Fixture_Beam_Back_04_2",
+    "Fixture_Beam_Back_05_1",
+    "Fixture_Beam_Back_05_2"
+  ],
+  "base_parts": [
+    "Base_Left",
+    "Base_Right"
+  ],
+  "target_pose": {
+    "Base_Left": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Base_Right": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Beam_Front_01": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Beam_Front_02": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Beam_Front_03": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Beam_Front_04": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Beam_Front_05": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Beam_Back_01": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Beam_Back_02": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Beam_Back_03": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Beam_Back_04": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Beam_Back_05": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Cross_rod_01": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Cross_rod_02": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Cross_rod_03": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Cross_rod_04": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Cross_rod_05": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Deck_panel_01": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Deck_panel_02": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Deck_panel_03": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Deck_panel_04": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Deck_panel_05": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Front_01_1": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Front_01_2": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Front_02_1": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Front_02_2": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Front_03_1": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Front_03_2": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Front_04_1": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Front_04_2": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Front_05_1": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Front_05_2": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Back_01_1": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Back_01_2": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Back_02_1": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Back_02_2": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Back_03_1": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Back_03_2": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Back_04_1": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Back_04_2": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Back_05_1": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Fixture_Beam_Back_05_2": {
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "steps": [
+    {
+      "id": "step_01",
+      "index": 1,
+      "part_id": "Beam_Front_01",
+      "label": "前侧梁 01",
+      "description": "梁沿规定竖直路径放到蓝色临时托柱；外部操作保持姿态。",
+      "requires": [],
+      "moving": [
+        "Beam_Front_01"
+      ],
+      "slot": {
+        "id": "slot_01",
+        "anchor_m": [
+          -0.18589355051517487,
+          0.058810871094465256,
+          0.07750000432133675
+        ],
+        "radius_m": 0.036
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        1,
+        25
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "临时托柱在位，梁件同组可任选顺序。",
+      "action_kind": "install",
+      "inventory_type_id": "beam_end"
+    },
+    {
+      "id": "step_02",
+      "index": 2,
+      "part_id": "Beam_Front_02",
+      "label": "前侧梁 02",
+      "description": "梁沿规定竖直路径放到蓝色临时托柱；外部操作保持姿态。",
+      "requires": [],
+      "moving": [
+        "Beam_Front_02"
+      ],
+      "slot": {
+        "id": "slot_02",
+        "anchor_m": [
+          -0.11785589903593063,
+          0.11175771802663803,
+          0.09249999932944775
+        ],
+        "radius_m": 0.036
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        31,
+        55
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "临时托柱在位，梁件同组可任选顺序。",
+      "action_kind": "install",
+      "inventory_type_id": "beam_flank"
+    },
+    {
+      "id": "step_03",
+      "index": 3,
+      "part_id": "Beam_Front_03",
+      "label": "前侧梁 03",
+      "description": "梁沿规定竖直路径放到蓝色临时托柱；外部操作保持姿态。",
+      "requires": [],
+      "moving": [
+        "Beam_Front_03"
+      ],
+      "slot": {
+        "id": "slot_03",
+        "anchor_m": [
+          -0.04500000178813934,
+          0.13865375518798828,
+          0.1074999924749136
+        ],
+        "radius_m": 0.036,
+        "trigger_points_m": [
+          [
+            -0.08219241499900819,
+            0.14665376394987106,
+            0.10500000044703484
+          ],
+          [
+            -0.041096207499504094,
+            0.14665376394987106,
+            0.10500000044703484
+          ],
+          [
+            0.0,
+            0.14665376394987106,
+            0.10500000044703484
+          ],
+          [
+            0.041096207499504094,
+            0.14665376394987106,
+            0.10500000044703484
+          ],
+          [
+            0.08219241499900819,
+            0.14665376394987106,
+            0.10500000044703484
+          ],
+          [
+            -0.04500000178813934,
+            0.13865375518798828,
+            0.1074999924749136
+          ]
+        ],
+        "marker_points_m": [
+          [
+            -0.08219241499900819,
+            0.14665376394987106,
+            0.10500000044703484
+          ],
+          [
+            -0.041096207499504094,
+            0.14665376394987106,
+            0.10500000044703484
+          ],
+          [
+            0.0,
+            0.14665376394987106,
+            0.10500000044703484
+          ],
+          [
+            0.041096207499504094,
+            0.14665376394987106,
+            0.10500000044703484
+          ],
+          [
+            0.08219241499900819,
+            0.14665376394987106,
+            0.10500000044703484
+          ]
+        ],
+        "trigger_labels": [
+          "beam_segment_0",
+          "beam_segment_1",
+          "beam_centre",
+          "beam_segment_3",
+          "beam_segment_4",
+          "legacy_reference"
+        ]
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        61,
+        85
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "临时托柱在位，梁件同组可任选顺序。",
+      "action_kind": "install",
+      "inventory_type_id": "beam_crown"
+    },
+    {
+      "id": "step_04",
+      "index": 4,
+      "part_id": "Beam_Front_04",
+      "label": "前侧梁 04",
+      "description": "梁沿规定竖直路径放到蓝色临时托柱；外部操作保持姿态。",
+      "requires": [],
+      "moving": [
+        "Beam_Front_04"
+      ],
+      "slot": {
+        "id": "slot_04",
+        "anchor_m": [
+          0.04268048331141472,
+          0.13911932706832886,
+          0.07750000432133675
+        ],
+        "radius_m": 0.036
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        91,
+        115
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "临时托柱在位，梁件同组可任选顺序。",
+      "action_kind": "install",
+      "inventory_type_id": "beam_flank"
+    },
+    {
+      "id": "step_05",
+      "index": 5,
+      "part_id": "Beam_Front_05",
+      "label": "前侧梁 05",
+      "description": "梁沿规定竖直路径放到蓝色临时托柱；外部操作保持姿态。",
+      "requires": [],
+      "moving": [
+        "Beam_Front_05"
+      ],
+      "slot": {
+        "id": "slot_05",
+        "anchor_m": [
+          0.12460999935865402,
+          0.11023388057947159,
+          0.09249999932944775
+        ],
+        "radius_m": 0.036
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        121,
+        145
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "临时托柱在位，梁件同组可任选顺序。",
+      "action_kind": "install",
+      "inventory_type_id": "beam_end"
+    },
+    {
+      "id": "step_06",
+      "index": 6,
+      "part_id": "Beam_Back_01",
+      "label": "后侧梁 01",
+      "description": "梁沿规定竖直路径放到蓝色临时托柱；外部操作保持姿态。",
+      "requires": [],
+      "moving": [
+        "Beam_Back_01"
+      ],
+      "slot": {
+        "id": "slot_06",
+        "anchor_m": [
+          -0.18589355051517487,
+          0.058810871094465256,
+          -0.07250000163912773
+        ],
+        "radius_m": 0.036
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        151,
+        175
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "临时托柱在位，梁件同组可任选顺序。",
+      "action_kind": "install",
+      "inventory_type_id": "beam_end"
+    },
+    {
+      "id": "step_07",
+      "index": 7,
+      "part_id": "Beam_Back_02",
+      "label": "后侧梁 02",
+      "description": "梁沿规定竖直路径放到蓝色临时托柱；外部操作保持姿态。",
+      "requires": [],
+      "moving": [
+        "Beam_Back_02"
+      ],
+      "slot": {
+        "id": "slot_07",
+        "anchor_m": [
+          -0.11785589903593063,
+          0.11175771802663803,
+          -0.08750000037252903
+        ],
+        "radius_m": 0.036
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        181,
+        205
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "临时托柱在位，梁件同组可任选顺序。",
+      "action_kind": "install",
+      "inventory_type_id": "beam_flank"
+    },
+    {
+      "id": "step_08",
+      "index": 8,
+      "part_id": "Beam_Back_03",
+      "label": "后侧梁 03",
+      "description": "梁沿规定竖直路径放到蓝色临时托柱；外部操作保持姿态。",
+      "requires": [],
+      "moving": [
+        "Beam_Back_03"
+      ],
+      "slot": {
+        "id": "slot_08",
+        "anchor_m": [
+          -0.04500000178813934,
+          0.13865375518798828,
+          -0.10249999351799488
+        ],
+        "radius_m": 0.036,
+        "trigger_points_m": [
+          [
+            -0.08219241499900819,
+            0.14665376394987106,
+            -0.10500000044703484
+          ],
+          [
+            -0.041096207499504094,
+            0.14665376394987106,
+            -0.10500000044703484
+          ],
+          [
+            0.0,
+            0.14665376394987106,
+            -0.10500000044703484
+          ],
+          [
+            0.041096207499504094,
+            0.14665376394987106,
+            -0.10500000044703484
+          ],
+          [
+            0.08219241499900819,
+            0.14665376394987106,
+            -0.10500000044703484
+          ],
+          [
+            -0.04500000178813934,
+            0.13865375518798828,
+            -0.10249999351799488
+          ]
+        ],
+        "marker_points_m": [
+          [
+            -0.08219241499900819,
+            0.14665376394987106,
+            -0.10500000044703484
+          ],
+          [
+            -0.041096207499504094,
+            0.14665376394987106,
+            -0.10500000044703484
+          ],
+          [
+            0.0,
+            0.14665376394987106,
+            -0.10500000044703484
+          ],
+          [
+            0.041096207499504094,
+            0.14665376394987106,
+            -0.10500000044703484
+          ],
+          [
+            0.08219241499900819,
+            0.14665376394987106,
+            -0.10500000044703484
+          ]
+        ],
+        "trigger_labels": [
+          "beam_segment_0",
+          "beam_segment_1",
+          "beam_centre",
+          "beam_segment_3",
+          "beam_segment_4",
+          "legacy_reference"
+        ]
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        211,
+        235
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "临时托柱在位，梁件同组可任选顺序。",
+      "action_kind": "install",
+      "inventory_type_id": "beam_crown"
+    },
+    {
+      "id": "step_09",
+      "index": 9,
+      "part_id": "Beam_Back_04",
+      "label": "后侧梁 04",
+      "description": "梁沿规定竖直路径放到蓝色临时托柱；外部操作保持姿态。",
+      "requires": [],
+      "moving": [
+        "Beam_Back_04"
+      ],
+      "slot": {
+        "id": "slot_09",
+        "anchor_m": [
+          0.04268048331141472,
+          0.13911932706832886,
+          -0.07250000163912773
+        ],
+        "radius_m": 0.036
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        241,
+        265
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "临时托柱在位，梁件同组可任选顺序。",
+      "action_kind": "install",
+      "inventory_type_id": "beam_flank"
+    },
+    {
+      "id": "step_10",
+      "index": 10,
+      "part_id": "Beam_Back_05",
+      "label": "后侧梁 05",
+      "description": "梁沿规定竖直路径放到蓝色临时托柱；外部操作保持姿态。",
+      "requires": [],
+      "moving": [
+        "Beam_Back_05"
+      ],
+      "slot": {
+        "id": "slot_10",
+        "anchor_m": [
+          0.12460999935865402,
+          0.11023388057947159,
+          -0.08750000037252903
+        ],
+        "radius_m": 0.036
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        271,
+        295
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "临时托柱在位，梁件同组可任选顺序。",
+      "action_kind": "install",
+      "inventory_type_id": "beam_end"
+    },
+    {
+      "id": "step_11",
+      "index": 11,
+      "part_id": "Cross_rod_01",
+      "label": "横向圆杆 01",
+      "description": "圆杆沿自身轴向穿入，临时支撑保持在位。",
+      "requires": [
+        "Beam_Front_01",
+        "Beam_Front_02",
+        "Beam_Front_03",
+        "Beam_Front_04",
+        "Beam_Front_05",
+        "Beam_Back_01",
+        "Beam_Back_02",
+        "Beam_Back_03",
+        "Beam_Back_04",
+        "Beam_Back_05"
+      ],
+      "moving": [
+        "Cross_rod_01"
+      ],
+      "slot": {
+        "id": "slot_11",
+        "anchor_m": [
+          -0.1705363765358925,
+          0.09258358925580978,
+          -0.07500000000000001
+        ],
+        "radius_m": 0.036,
+        "trigger_points_m": [
+          [
+            -0.1705363765358925,
+            0.09258358925580978,
+            -0.1274999976158142
+          ],
+          [
+            -0.1705363765358925,
+            0.09258358925580978,
+            0.1274999976158142
+          ],
+          [
+            -0.1705363765358925,
+            0.09258358925580978,
+            -0.07500000000000001
+          ],
+          [
+            -0.1705363765358925,
+            0.09258358925580978,
+            0.07500000000000001
+          ]
+        ],
+        "marker_points_m": [
+          [
+            -0.1705363765358925,
+            0.09258358925580978,
+            -0.1274999976158142
+          ],
+          [
+            -0.1705363765358925,
+            0.09258358925580978,
+            0.1274999976158142
+          ]
+        ],
+        "trigger_labels": [
+          "negative_end",
+          "positive_end",
+          "negative_mount",
+          "positive_mount"
+        ]
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.0,
+          -0.4000000059604645
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        301,
+        325
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "先装齐梁件；当前保守保留已验证的先梁后杆通道。",
+      "action_kind": "install",
+      "inventory_type_id": "round_rod",
+      "trigger_note": "两侧均可放置，系统按既定方向装入。"
+    },
+    {
+      "id": "step_12",
+      "index": 12,
+      "part_id": "Cross_rod_02",
+      "label": "横向圆杆 02",
+      "description": "圆杆沿自身轴向穿入，临时支撑保持在位。",
+      "requires": [
+        "Beam_Front_01",
+        "Beam_Front_02",
+        "Beam_Front_03",
+        "Beam_Front_04",
+        "Beam_Front_05",
+        "Beam_Back_01",
+        "Beam_Back_02",
+        "Beam_Back_03",
+        "Beam_Back_04",
+        "Beam_Back_05"
+      ],
+      "moving": [
+        "Cross_rod_02"
+      ],
+      "slot": {
+        "id": "slot_12",
+        "anchor_m": [
+          -0.09074050933122635,
+          0.13865376263856888,
+          -0.09000000000000001
+        ],
+        "radius_m": 0.036,
+        "trigger_points_m": [
+          [
+            -0.09074050933122635,
+            0.13865376263856888,
+            -0.1274999976158142
+          ],
+          [
+            -0.09074050933122635,
+            0.13865376263856888,
+            0.1274999976158142
+          ],
+          [
+            -0.09074050933122635,
+            0.13865376263856888,
+            -0.09000000000000001
+          ],
+          [
+            -0.09074050933122635,
+            0.13865376263856888,
+            0.09000000000000001
+          ]
+        ],
+        "marker_points_m": [
+          [
+            -0.09074050933122635,
+            0.13865376263856888,
+            -0.1274999976158142
+          ],
+          [
+            -0.09074050933122635,
+            0.13865376263856888,
+            0.1274999976158142
+          ]
+        ],
+        "trigger_labels": [
+          "negative_end",
+          "positive_end",
+          "negative_mount",
+          "positive_mount"
+        ]
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.0,
+          -0.4000000059604645
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        331,
+        355
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "先装齐梁件；当前保守保留已验证的先梁后杆通道。",
+      "action_kind": "install",
+      "inventory_type_id": "round_rod",
+      "trigger_note": "两侧均可放置，系统按既定方向装入。"
+    },
+    {
+      "id": "step_13",
+      "index": 13,
+      "part_id": "Cross_rod_03",
+      "label": "横向圆杆 03",
+      "description": "圆杆沿自身轴向穿入，临时支撑保持在位。",
+      "requires": [
+        "Beam_Front_01",
+        "Beam_Front_02",
+        "Beam_Front_03",
+        "Beam_Front_04",
+        "Beam_Front_05",
+        "Beam_Back_01",
+        "Beam_Back_02",
+        "Beam_Back_03",
+        "Beam_Back_04",
+        "Beam_Back_05"
+      ],
+      "moving": [
+        "Cross_rod_03"
+      ],
+      "slot": {
+        "id": "slot_13",
+        "anchor_m": [
+          0.0,
+          0.15465375036001205,
+          -0.10500000000000001
+        ],
+        "radius_m": 0.036,
+        "trigger_points_m": [
+          [
+            0.0,
+            0.15465375036001205,
+            -0.1274999976158142
+          ],
+          [
+            0.0,
+            0.15465375036001205,
+            0.1274999976158142
+          ],
+          [
+            0.0,
+            0.15465375036001205,
+            -0.10500000000000001
+          ],
+          [
+            0.0,
+            0.15465375036001205,
+            0.10500000000000001
+          ]
+        ],
+        "marker_points_m": [
+          [
+            0.0,
+            0.15465375036001205,
+            -0.1274999976158142
+          ],
+          [
+            0.0,
+            0.15465375036001205,
+            0.1274999976158142
+          ]
+        ],
+        "trigger_labels": [
+          "negative_end",
+          "positive_end",
+          "negative_mount",
+          "positive_mount"
+        ]
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.0,
+          -0.4000000059604645
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        361,
+        385
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "先装齐梁件；当前保守保留已验证的先梁后杆通道。",
+      "action_kind": "install",
+      "inventory_type_id": "round_rod",
+      "trigger_note": "两侧均可放置，系统按既定方向装入。"
+    },
+    {
+      "id": "step_14",
+      "index": 14,
+      "part_id": "Cross_rod_04",
+      "label": "横向圆杆 04",
+      "description": "圆杆沿自身轴向穿入，临时支撑保持在位。",
+      "requires": [
+        "Beam_Front_01",
+        "Beam_Front_02",
+        "Beam_Front_03",
+        "Beam_Front_04",
+        "Beam_Front_05",
+        "Beam_Back_01",
+        "Beam_Back_02",
+        "Beam_Back_03",
+        "Beam_Back_04",
+        "Beam_Back_05"
+      ],
+      "moving": [
+        "Cross_rod_04"
+      ],
+      "slot": {
+        "id": "slot_14",
+        "anchor_m": [
+          0.09074050933122635,
+          0.13865376263856888,
+          -0.07500000000000001
+        ],
+        "radius_m": 0.036,
+        "trigger_points_m": [
+          [
+            0.09074050933122635,
+            0.13865376263856888,
+            -0.1274999976158142
+          ],
+          [
+            0.09074050933122635,
+            0.13865376263856888,
+            0.1274999976158142
+          ],
+          [
+            0.09074050933122635,
+            0.13865376263856888,
+            -0.07500000000000001
+          ],
+          [
+            0.09074050933122635,
+            0.13865376263856888,
+            0.07500000000000001
+          ]
+        ],
+        "marker_points_m": [
+          [
+            0.09074050933122635,
+            0.13865376263856888,
+            -0.1274999976158142
+          ],
+          [
+            0.09074050933122635,
+            0.13865376263856888,
+            0.1274999976158142
+          ]
+        ],
+        "trigger_labels": [
+          "negative_end",
+          "positive_end",
+          "negative_mount",
+          "positive_mount"
+        ]
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.0,
+          -0.4000000059604645
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        391,
+        415
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "先装齐梁件；当前保守保留已验证的先梁后杆通道。",
+      "action_kind": "install",
+      "inventory_type_id": "round_rod",
+      "trigger_note": "两侧均可放置，系统按既定方向装入。"
+    },
+    {
+      "id": "step_15",
+      "index": 15,
+      "part_id": "Cross_rod_05",
+      "label": "横向圆杆 05",
+      "description": "圆杆沿自身轴向穿入，临时支撑保持在位。",
+      "requires": [
+        "Beam_Front_01",
+        "Beam_Front_02",
+        "Beam_Front_03",
+        "Beam_Front_04",
+        "Beam_Front_05",
+        "Beam_Back_01",
+        "Beam_Back_02",
+        "Beam_Back_03",
+        "Beam_Back_04",
+        "Beam_Back_05"
+      ],
+      "moving": [
+        "Cross_rod_05"
+      ],
+      "slot": {
+        "id": "slot_15",
+        "anchor_m": [
+          0.1705363765358925,
+          0.09258358925580978,
+          -0.09000000000000001
+        ],
+        "radius_m": 0.036,
+        "trigger_points_m": [
+          [
+            0.1705363765358925,
+            0.09258358925580978,
+            -0.1274999976158142
+          ],
+          [
+            0.1705363765358925,
+            0.09258358925580978,
+            0.1274999976158142
+          ],
+          [
+            0.1705363765358925,
+            0.09258358925580978,
+            -0.09000000000000001
+          ],
+          [
+            0.1705363765358925,
+            0.09258358925580978,
+            0.09000000000000001
+          ]
+        ],
+        "marker_points_m": [
+          [
+            0.1705363765358925,
+            0.09258358925580978,
+            -0.1274999976158142
+          ],
+          [
+            0.1705363765358925,
+            0.09258358925580978,
+            0.1274999976158142
+          ]
+        ],
+        "trigger_labels": [
+          "negative_end",
+          "positive_end",
+          "negative_mount",
+          "positive_mount"
+        ]
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.0,
+          -0.4000000059604645
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        421,
+        445
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "先装齐梁件；当前保守保留已验证的先梁后杆通道。",
+      "action_kind": "install",
+      "inventory_type_id": "round_rod",
+      "trigger_note": "两侧均可放置，系统按既定方向装入。"
+    },
+    {
+      "id": "step_16",
+      "index": 16,
+      "part_id": "Deck_panel_01",
+      "label": "桥面板 01",
+      "description": "桥面板沿规定竖直路径放下，四个支脚落到前后梁上。",
+      "requires": [
+        "Cross_rod_01",
+        "Cross_rod_02",
+        "Cross_rod_03",
+        "Cross_rod_04",
+        "Cross_rod_05"
+      ],
+      "moving": [
+        "Deck_panel_01"
+      ],
+      "slot": {
+        "id": "slot_16",
+        "anchor_m": [
+          -0.19351770877838137,
+          0.0732999563217163,
+          0.07500000000000001
+        ],
+        "radius_m": 0.036,
+        "trigger_points_m": [
+          [
+            -0.18219756335020065,
+            0.10527706146240234,
+            0.0
+          ],
+          [
+            -0.19351770877838137,
+            0.0732999563217163,
+            0.07500000000000001
+          ]
+        ],
+        "marker_points_m": [
+          [
+            -0.18219756335020065,
+            0.10527706146240234,
+            0.0
+          ]
+        ],
+        "trigger_labels": [
+          "surface_centre",
+          "legacy_bearing_reference"
+        ],
+        "common_preview_rotation_rows": [
+          [
+            0.766044443118978,
+            -0.6427876096865393,
+            0
+          ],
+          [
+            0.6427876096865393,
+            0.766044443118978,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        451,
+        475
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "先穿齐圆杆；当前只开放已验证的先杆后桥面通道。",
+      "action_kind": "install",
+      "inventory_type_id": "deck_narrow_support"
+    },
+    {
+      "id": "step_17",
+      "index": 17,
+      "part_id": "Deck_panel_02",
+      "label": "桥面板 02",
+      "description": "桥面板沿规定竖直路径放下，四个支脚落到前后梁上。",
+      "requires": [
+        "Cross_rod_01",
+        "Cross_rod_02",
+        "Cross_rod_03",
+        "Cross_rod_04",
+        "Cross_rod_05"
+      ],
+      "moving": [
+        "Deck_panel_02"
+      ],
+      "slot": {
+        "id": "slot_17",
+        "anchor_m": [
+          -0.11893129348754883,
+          0.12839314937591553,
+          0.08999999761581422
+        ],
+        "radius_m": 0.036,
+        "trigger_points_m": [
+          [
+            -0.09826496057212353,
+            0.1522400975227356,
+            0.0
+          ],
+          [
+            -0.11893129348754883,
+            0.12839314937591553,
+            0.08999999761581422
+          ]
+        ],
+        "marker_points_m": [
+          [
+            -0.09826496057212353,
+            0.1522400975227356,
+            0.0
+          ]
+        ],
+        "trigger_labels": [
+          "surface_centre",
+          "legacy_bearing_reference"
+        ],
+        "common_preview_rotation_rows": [
+          [
+            0.9396926207859084,
+            -0.3420201433256687,
+            0
+          ],
+          [
+            0.3420201433256687,
+            0.9396926207859084,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        481,
+        505
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "先穿齐圆杆；当前只开放已验证的先杆后桥面通道。",
+      "action_kind": "install",
+      "inventory_type_id": "deck_mid_support"
+    },
+    {
+      "id": "step_18",
+      "index": 18,
+      "part_id": "Deck_panel_03",
+      "label": "桥面板 03",
+      "description": "桥面板沿规定竖直路径放下，四个支脚落到前后梁上。",
+      "requires": [
+        "Cross_rod_01",
+        "Cross_rod_02",
+        "Cross_rod_03",
+        "Cross_rod_04",
+        "Cross_rod_05"
+      ],
+      "moving": [
+        "Deck_panel_03"
+      ],
+      "slot": {
+        "id": "slot_18",
+        "anchor_m": [
+          -0.030000001192092896,
+          0.15465376377105713,
+          0.10499999523162842
+        ],
+        "radius_m": 0.036,
+        "trigger_points_m": [
+          [
+            0.0,
+            0.16752877086400986,
+            0.0
+          ],
+          [
+            -0.030000001192092896,
+            0.15465376377105713,
+            0.10499999523162842
+          ]
+        ],
+        "marker_points_m": [
+          [
+            0.0,
+            0.16752877086400986,
+            0.0
+          ]
+        ],
+        "trigger_labels": [
+          "surface_centre",
+          "legacy_bearing_reference"
+        ],
+        "common_preview_rotation_rows": [
+          [
+            1.0,
+            -0.0,
+            0
+          ],
+          [
+            0.0,
+            1.0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        511,
+        535
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "先穿齐圆杆；当前只开放已验证的先杆后桥面通道。",
+      "action_kind": "install",
+      "inventory_type_id": "deck_wide_support"
+    },
+    {
+      "id": "step_19",
+      "index": 19,
+      "part_id": "Deck_panel_04",
+      "label": "桥面板 04",
+      "description": "桥面板沿规定竖直路径放下，四个支脚落到前后梁上。",
+      "requires": [
+        "Cross_rod_01",
+        "Cross_rod_02",
+        "Cross_rod_03",
+        "Cross_rod_04",
+        "Cross_rod_05"
+      ],
+      "moving": [
+        "Deck_panel_04"
+      ],
+      "slot": {
+        "id": "slot_19",
+        "anchor_m": [
+          0.0625497341156006,
+          0.14891436100006103,
+          0.07500000000000001
+        ],
+        "radius_m": 0.036,
+        "trigger_points_m": [
+          [
+            0.09826496057212353,
+            0.1522400975227356,
+            0.0
+          ],
+          [
+            0.0625497341156006,
+            0.14891436100006103,
+            0.07500000000000001
+          ]
+        ],
+        "marker_points_m": [
+          [
+            0.09826496057212353,
+            0.1522400975227356,
+            0.0
+          ]
+        ],
+        "trigger_labels": [
+          "surface_centre",
+          "legacy_bearing_reference"
+        ],
+        "common_preview_rotation_rows": [
+          [
+            0.9396926207859084,
+            0.3420201433256687,
+            0
+          ],
+          [
+            -0.3420201433256687,
+            0.9396926207859084,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        541,
+        565
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "先穿齐圆杆；当前只开放已验证的先杆后桥面通道。",
+      "action_kind": "install",
+      "inventory_type_id": "deck_narrow_support"
+    },
+    {
+      "id": "step_20",
+      "index": 20,
+      "part_id": "Deck_panel_05",
+      "label": "桥面板 05",
+      "description": "桥面板沿规定竖直路径放下，四个支脚落到前后梁上。",
+      "requires": [
+        "Cross_rod_01",
+        "Cross_rod_02",
+        "Cross_rod_03",
+        "Cross_rod_04",
+        "Cross_rod_05"
+      ],
+      "moving": [
+        "Deck_panel_05"
+      ],
+      "slot": {
+        "id": "slot_20",
+        "anchor_m": [
+          0.1475550413131714,
+          0.11186721324920655,
+          0.08999999761581422
+        ],
+        "radius_m": 0.036,
+        "trigger_points_m": [
+          [
+            0.18219756335020065,
+            0.10527706146240234,
+            0.0
+          ],
+          [
+            0.1475550413131714,
+            0.11186721324920655,
+            0.08999999761581422
+          ]
+        ],
+        "marker_points_m": [
+          [
+            0.18219756335020065,
+            0.10527706146240234,
+            0.0
+          ]
+        ],
+        "trigger_labels": [
+          "surface_centre",
+          "legacy_bearing_reference"
+        ],
+        "common_preview_rotation_rows": [
+          [
+            0.766044443118978,
+            0.6427876096865393,
+            0
+          ],
+          [
+            -0.6427876096865393,
+            0.766044443118978,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "path": {
+        "from_m": [
+          0.0,
+          0.3499999940395355,
+          -0.0
+        ],
+        "to_m": [
+          0,
+          0,
+          0
+        ],
+        "duration_s": 1.0
+      },
+      "source_frames": [
+        571,
+        595
+      ],
+      "interaction": {
+        "mode": "place"
+      },
+      "dependency_reason": "先穿齐圆杆；当前只开放已验证的先杆后桥面通道。",
+      "action_kind": "install",
+      "inventory_type_id": "deck_mid_support"
+    },
+    {
+      "id": "step_21",
+      "index": 21,
+      "part_id": "fixtures_release",
+      "label": "撤出临时支撑",
+      "description": "选中蓝色临时支撑，向下拖动至绿色提示后松手。",
+      "requires": [
+        "Beam_Front_01",
+        "Beam_Front_02",
+        "Beam_Front_03",
+        "Beam_Front_04",
+        "Beam_Front_05",
+        "Beam_Back_01",
+        "Beam_Back_02",
+        "Beam_Back_03",
+        "Beam_Back_04",
+        "Beam_Back_05",
+        "Cross_rod_01",
+        "Cross_rod_02",
+        "Cross_rod_03",
+        "Cross_rod_04",
+        "Cross_rod_05",
+        "Deck_panel_01",
+        "Deck_panel_02",
+        "Deck_panel_03",
+        "Deck_panel_04",
+        "Deck_panel_05"
+      ],
+      "moving": [
+        "Fixture_Beam_Front_01_1",
+        "Fixture_Beam_Front_01_2",
+        "Fixture_Beam_Front_02_1",
+        "Fixture_Beam_Front_02_2",
+        "Fixture_Beam_Front_03_1",
+        "Fixture_Beam_Front_03_2",
+        "Fixture_Beam_Front_04_1",
+        "Fixture_Beam_Front_04_2",
+        "Fixture_Beam_Front_05_1",
+        "Fixture_Beam_Front_05_2",
+        "Fixture_Beam_Back_01_1",
+        "Fixture_Beam_Back_01_2",
+        "Fixture_Beam_Back_02_1",
+        "Fixture_Beam_Back_02_2",
+        "Fixture_Beam_Back_03_1",
+        "Fixture_Beam_Back_03_2",
+        "Fixture_Beam_Back_04_1",
+        "Fixture_Beam_Back_04_2",
+        "Fixture_Beam_Back_05_1",
+        "Fixture_Beam_Back_05_2"
+      ],
+      "slot": {
+        "id": "slot_21",
+        "anchor_m": [
+          -0.18589355051517487,
+          0.058810871094465256,
+          0.07750000432133675
+        ],
+        "radius_m": 0.022
+      },
+      "path": {
+        "from_m": [
+          0,
+          0,
+          0
+        ],
+        "to_m": [
+          0,
+          -0.3,
+          0
+        ],
+        "duration_s": 1.25
+      },
+      "source_frames": [
+        601,
+        631
+      ],
+      "interaction": {
+        "mode": "pull",
+        "axis_m": [
+          0,
+          -1,
+          0
+        ],
+        "min_distance_m": 0.018,
+        "max_distance_m": 0.6,
+        "max_lateral_m": 0.12,
+        "grab_ids": [
+          "Fixture_Beam_Front_01_1",
+          "Fixture_Beam_Front_01_2",
+          "Fixture_Beam_Front_02_1",
+          "Fixture_Beam_Front_02_2",
+          "Fixture_Beam_Front_03_1",
+          "Fixture_Beam_Front_03_2",
+          "Fixture_Beam_Front_04_1",
+          "Fixture_Beam_Front_04_2",
+          "Fixture_Beam_Front_05_1",
+          "Fixture_Beam_Front_05_2",
+          "Fixture_Beam_Back_01_1",
+          "Fixture_Beam_Back_01_2",
+          "Fixture_Beam_Back_02_1",
+          "Fixture_Beam_Back_02_2",
+          "Fixture_Beam_Back_03_1",
+          "Fixture_Beam_Back_03_2",
+          "Fixture_Beam_Back_04_1",
+          "Fixture_Beam_Back_04_2",
+          "Fixture_Beam_Back_05_1",
+          "Fixture_Beam_Back_05_2",
+          "fixtures_release"
+        ]
+      },
+      "dependency_reason": "所有20个可装正式构件就位后，才可撤出临时支撑。",
+      "action_kind": "withdraw"
+    }
+  ],
+  "view": {
+    "focus_m": [
+      0,
+      0.095,
+      0
+    ],
+    "distance_m": 0.92
+  },
+  "provenance": {
+    "library_id": "libfile_58f65d3ef27881918185062ce5f80316",
+    "archive_sha256": "40db151a4f6bdf2725d3575862732a22ca9e0e358c8252f464fe15b13ad64d74"
+  },
+  "limits": [
+    "教学改型，非原物测绘",
+    "运动学装配，非重力自承或承载模拟",
+    "黄色吊索仅为外部操作示意"
+  ],
+  "pick_aliases": {
+    "Fixture_Beam_Front_01_1": "fixtures_release",
+    "Fixture_Beam_Front_01_2": "fixtures_release",
+    "Fixture_Beam_Front_02_1": "fixtures_release",
+    "Fixture_Beam_Front_02_2": "fixtures_release",
+    "Fixture_Beam_Front_03_1": "fixtures_release",
+    "Fixture_Beam_Front_03_2": "fixtures_release",
+    "Fixture_Beam_Front_04_1": "fixtures_release",
+    "Fixture_Beam_Front_04_2": "fixtures_release",
+    "Fixture_Beam_Front_05_1": "fixtures_release",
+    "Fixture_Beam_Front_05_2": "fixtures_release",
+    "Fixture_Beam_Back_01_1": "fixtures_release",
+    "Fixture_Beam_Back_01_2": "fixtures_release",
+    "Fixture_Beam_Back_02_1": "fixtures_release",
+    "Fixture_Beam_Back_02_2": "fixtures_release",
+    "Fixture_Beam_Back_03_1": "fixtures_release",
+    "Fixture_Beam_Back_03_2": "fixtures_release",
+    "Fixture_Beam_Back_04_1": "fixtures_release",
+    "Fixture_Beam_Back_04_2": "fixtures_release",
+    "Fixture_Beam_Back_05_1": "fixtures_release",
+    "Fixture_Beam_Back_05_2": "fixtures_release"
+  },
+  "ruleset_version": "inventory_slots_2",
+  "installable_part_ids": [
+    "Beam_Front_01",
+    "Beam_Front_02",
+    "Beam_Front_03",
+    "Beam_Front_04",
+    "Beam_Front_05",
+    "Beam_Back_01",
+    "Beam_Back_02",
+    "Beam_Back_03",
+    "Beam_Back_04",
+    "Beam_Back_05",
+    "Cross_rod_01",
+    "Cross_rod_02",
+    "Cross_rod_03",
+    "Cross_rod_04",
+    "Cross_rod_05",
+    "Deck_panel_01",
+    "Deck_panel_02",
+    "Deck_panel_03",
+    "Deck_panel_04",
+    "Deck_panel_05"
+  ],
+  "withdraw_action_id": "fixtures_release",
+  "assembly_policy": {
+    "groups": [
+      {
+        "id": "beams",
+        "members": [
+          "Beam_Front_01",
+          "Beam_Front_02",
+          "Beam_Front_03",
+          "Beam_Front_04",
+          "Beam_Front_05",
+          "Beam_Back_01",
+          "Beam_Back_02",
+          "Beam_Back_03",
+          "Beam_Back_04",
+          "Beam_Back_05"
+        ]
+      },
+      {
+        "id": "rods",
+        "members": [
+          "Cross_rod_01",
+          "Cross_rod_02",
+          "Cross_rod_03",
+          "Cross_rod_04",
+          "Cross_rod_05"
+        ]
+      },
+      {
+        "id": "decks",
+        "members": [
+          "Deck_panel_01",
+          "Deck_panel_02",
+          "Deck_panel_03",
+          "Deck_panel_04",
+          "Deck_panel_05"
+        ]
+      }
+    ],
+    "cross_group_order": [
+      "beams",
+      "rods",
+      "decks",
+      "withdraw"
+    ],
+    "certificate": "res://content/luban_bridge/reference/free_order_certificate.json"
+  },
+  "inventory_types": [
+    {
+      "id": "beam_end",
+      "label": "端部梁",
+      "quantity": 4,
+      "representative_part_id": "Beam_Front_01",
+      "compatible_slot_parts": [
+        "Beam_Front_01",
+        "Beam_Back_01",
+        "Beam_Front_05",
+        "Beam_Back_05"
+      ],
+      "to_slot_pose": {
+        "Beam_Front_01": {
+          "rotation_rows": [
+            [
+              0.9999999999999999,
+              -4.0418127008487015e-18,
+              0.0
+            ],
+            [
+              -4.0418127008487015e-18,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            -2.7755575615628914e-17,
+            1.3877787807814457e-17,
+            0.0
+          ]
+        },
+        "Beam_Back_01": {
+          "rotation_rows": [
+            [
+              0.9999999999999999,
+              -4.0418127008487015e-18,
+              0.0
+            ],
+            [
+              -4.0418127008487015e-18,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            -2.7755575615628914e-17,
+            1.3877787807814457e-17,
+            -0.15000000000000002
+          ]
+        },
+        "Beam_Front_05": {
+          "rotation_rows": [
+            [
+              -0.9999999999999999,
+              4.0418127008487015e-18,
+              0.0
+            ],
+            [
+              -4.0418127008487015e-18,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "translation_m": [
+            2.7755575615628914e-17,
+            1.3877787807814457e-17,
+            0.16500000000000004
+          ]
+        },
+        "Beam_Back_05": {
+          "rotation_rows": [
+            [
+              -0.9999999999999999,
+              4.0418127008487015e-18,
+              0.0
+            ],
+            [
+              -4.0418127008487015e-18,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "translation_m": [
+            2.7755575615628914e-17,
+            1.3877787807814457e-17,
+            -0.015
+          ]
+        }
+      }
+    },
+    {
+      "id": "beam_flank",
+      "label": "侧段梁",
+      "quantity": 4,
+      "representative_part_id": "Beam_Front_02",
+      "compatible_slot_parts": [
+        "Beam_Front_02",
+        "Beam_Back_02",
+        "Beam_Front_04",
+        "Beam_Back_04"
+      ],
+      "to_slot_pose": {
+        "Beam_Front_02": {
+          "rotation_rows": [
+            [
+              0.9999999999999999,
+              1.1377979983821338e-17,
+              0.0
+            ],
+            [
+              1.1377979983821338e-17,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            -1.3877787807814457e-17,
+            2.7755575615628914e-17,
+            0.0
+          ]
+        },
+        "Beam_Back_02": {
+          "rotation_rows": [
+            [
+              0.9999999999999999,
+              1.1377979983821338e-17,
+              0.0
+            ],
+            [
+              1.1377979983821338e-17,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            -1.3877787807814457e-17,
+            2.7755575615628914e-17,
+            -0.18000000000000002
+          ]
+        },
+        "Beam_Front_04": {
+          "rotation_rows": [
+            [
+              -0.9999999999999999,
+              -1.1377979983821338e-17,
+              0.0
+            ],
+            [
+              1.1377979983821338e-17,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "translation_m": [
+            1.3877787807814457e-17,
+            2.7755575615628914e-17,
+            0.16500000000000004
+          ]
+        },
+        "Beam_Back_04": {
+          "rotation_rows": [
+            [
+              -0.9999999999999999,
+              -1.1377979983821338e-17,
+              0.0
+            ],
+            [
+              1.1377979983821338e-17,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "translation_m": [
+            1.3877787807814457e-17,
+            2.7755575615628914e-17,
+            0.015
+          ]
+        }
+      }
+    },
+    {
+      "id": "beam_crown",
+      "label": "中梁",
+      "quantity": 2,
+      "representative_part_id": "Beam_Front_03",
+      "compatible_slot_parts": [
+        "Beam_Front_03",
+        "Beam_Back_03"
+      ],
+      "to_slot_pose": {
+        "Beam_Front_03": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Beam_Back_03": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.0,
+            0.0,
+            -0.21000000089406967
+          ]
+        }
+      }
+    },
+    {
+      "id": "round_rod",
+      "label": "横向圆杆",
+      "quantity": 5,
+      "representative_part_id": "Cross_rod_01",
+      "compatible_slot_parts": [
+        "Cross_rod_01",
+        "Cross_rod_02",
+        "Cross_rod_03",
+        "Cross_rod_04",
+        "Cross_rod_05"
+      ],
+      "to_slot_pose": {
+        "Cross_rod_01": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Cross_rod_02": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.07979586720466614,
+            0.046070173382759094,
+            0.0
+          ]
+        },
+        "Cross_rod_03": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.1705363765358925,
+            0.06207016110420227,
+            0.0
+          ]
+        },
+        "Cross_rod_04": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.26127688586711884,
+            0.046070173382759094,
+            0.0
+          ]
+        },
+        "Cross_rod_05": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.341072753071785,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "deck_narrow_support",
+      "label": "桥面 · 窄支脚距",
+      "quantity": 2,
+      "representative_part_id": "Deck_panel_01",
+      "compatible_slot_parts": [
+        "Deck_panel_01",
+        "Deck_panel_04"
+      ],
+      "to_slot_pose": {
+        "Deck_panel_01": {
+          "rotation_rows": [
+            [
+              0.9999999999999999,
+              -4.0418127008487015e-18,
+              0.0
+            ],
+            [
+              -4.0418127008487015e-18,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            -2.7755575615628914e-17,
+            1.3877787807814457e-17,
+            -0.0
+          ]
+        },
+        "Deck_panel_04": {
+          "rotation_rows": [
+            [
+              0.4999999999999999,
+              0.8660254037844386,
+              0.0
+            ],
+            [
+              -0.8660254037844386,
+              0.4999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.09582895844616139,
+            -0.05532687495505273,
+            -0.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "deck_mid_support",
+      "label": "桥面 · 中支脚距",
+      "quantity": 2,
+      "representative_part_id": "Deck_panel_02",
+      "compatible_slot_parts": [
+        "Deck_panel_02",
+        "Deck_panel_05"
+      ],
+      "to_slot_pose": {
+        "Deck_panel_02": {
+          "rotation_rows": [
+            [
+              0.9999999999999999,
+              1.1377979983821338e-17,
+              0.0
+            ],
+            [
+              1.1377979983821338e-17,
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            -1.3877787807814457e-17,
+            2.7755575615628914e-17,
+            -0.0
+          ]
+        },
+        "Deck_panel_05": {
+          "rotation_rows": [
+            [
+              0.4999999999999999,
+              0.8660254037844386,
+              0.0
+            ],
+            [
+              -0.8660254037844386,
+              0.4999999999999999,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.0958289584461614,
+            -0.05532687495505274,
+            -0.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "deck_wide_support",
+      "label": "桥面 · 宽支脚距",
+      "quantity": 1,
+      "representative_part_id": "Deck_panel_03",
+      "compatible_slot_parts": [
+        "Deck_panel_03"
+      ],
+      "to_slot_pose": {
+        "Deck_panel_03": {
+          "rotation_rows": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_m": [
+            0.0,
+            0.0,
+            -0.0
+          ]
+        }
+      }
+    }
+  ],
+  "slot_type_map": {
+    "slot_01": "beam_end",
+    "slot_02": "beam_flank",
+    "slot_03": "beam_crown",
+    "slot_04": "beam_flank",
+    "slot_05": "beam_end",
+    "slot_06": "beam_end",
+    "slot_07": "beam_flank",
+    "slot_08": "beam_crown",
+    "slot_09": "beam_flank",
+    "slot_10": "beam_end",
+    "slot_11": "round_rod",
+    "slot_12": "round_rod",
+    "slot_13": "round_rod",
+    "slot_14": "round_rod",
+    "slot_15": "round_rod",
+    "slot_16": "deck_narrow_support",
+    "slot_17": "deck_mid_support",
+    "slot_18": "deck_wide_support",
+    "slot_19": "deck_narrow_support",
+    "slot_20": "deck_mid_support"
+  },
+  "tray_entries": [
+    {
+      "id": "beam_end",
+      "label": "端部梁",
+      "representative_part_id": "Beam_Front_01",
+      "kind": "stock"
+    },
+    {
+      "id": "beam_flank",
+      "label": "侧段梁",
+      "representative_part_id": "Beam_Front_02",
+      "kind": "stock"
+    },
+    {
+      "id": "beam_crown",
+      "label": "中梁",
+      "representative_part_id": "Beam_Front_03",
+      "kind": "stock"
+    },
+    {
+      "id": "round_rod",
+      "label": "横向圆杆",
+      "representative_part_id": "Cross_rod_01",
+      "kind": "stock"
+    },
+    {
+      "id": "deck",
+      "label": "桥面",
+      "representative_part_id": "Deck_panel_01",
+      "kind": "stock",
+      "action_hint": "拖到任一亮起的桥面空位，系统自动匹配支脚。"
+    },
+    {
+      "id": "fixtures_release",
+      "label": "辅助支撑",
+      "representative_part_id": "Fixture_Beam_Front_01_1",
+      "kind": "withdraw"
+    }
+  ],
+  "legacy_inventory_migrations": {
+    "inventory_slots_1": {
+      "type_aliases": {
+        "unique_Beam_Back_03": "beam_crown"
+      },
+      "slot_restrictions": {
+        "beam_crown": [
+          "slot_03"
+        ],
+        "unique_Beam_Back_03": [
+          "slot_08"
+        ]
+      }
+    }
+  },
+  "inventory_families": [
+    {
+      "id": "deck",
+      "member_type_ids": [
+        "deck_narrow_support",
+        "deck_mid_support",
+        "deck_wide_support"
+      ],
+      "common_preview": {
+        "size_m": [
+          0.09,
+          0.0075,
+          0.134
+        ],
+        "scope": "Shared top panel only; arms and feet are target-specific and appear after release."
+      }
+    }
+  ]
+}

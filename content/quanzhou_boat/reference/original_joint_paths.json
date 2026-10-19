@@ -1,0 +1,99 @@
+{
+  "keel": {
+    "offset": [
+      -0.65,
+      0,
+      0
+    ],
+    "units": "metres, same world axes as resource",
+    "approved_for_sampled_animation": true,
+    "resource_sha256": "204691281f992a7cc81cad0db019670a3eb9d8759bf99b1db6a24380b3bce876",
+    "sample_count": 109,
+    "nonseated_intersection_poses": 0,
+    "seated_max_sampled_depth_m": 1.3109989787096765e-06,
+    "seated_exact": {
+      "volume_m3": 1.2871705594848698e-11,
+      "nonmanifold_edges": 0,
+      "faces": 22
+    },
+    "limitation": "101 equal path samples plus eight near-contact separations; no continuous collision or strength proof. Nonmanifold intersection volume is not valid.",
+    "animation": "Moving.location = offset*u; u=1 open, u=0 seated; Fixed unchanged",
+    "topology": {
+      "Fixed": {
+        "volume_m3": 0.07897827659338426,
+        "nonmanifold_edges": 0,
+        "face_count": 159
+      },
+      "Moving": {
+        "volume_m3": 0.047089044637670247,
+        "nonmanifold_edges": 0,
+        "face_count": 101
+      }
+    }
+  },
+  "flush": {
+    "offset": [
+      0,
+      -0.65,
+      -0.3
+    ],
+    "units": "metres, same world axes as resource",
+    "approved_for_sampled_animation": true,
+    "resource_sha256": "f6a47cd8694de501b4475af6db411de5ef06eade09c7beceaa2c575f36f9bc86",
+    "sample_count": 109,
+    "nonseated_intersection_poses": 0,
+    "seated_max_sampled_depth_m": 0,
+    "seated_exact": {
+      "volume_m3": 0.0,
+      "nonmanifold_edges": 0,
+      "faces": 0
+    },
+    "limitation": "101 equal path samples plus eight near-contact separations; no continuous collision or strength proof. Nonmanifold intersection volume is not valid.",
+    "animation": "Moving.location = offset*u; u=1 open, u=0 seated; Fixed unchanged",
+    "topology": {
+      "Fixed": {
+        "volume_m3": 0.04976055320331935,
+        "nonmanifold_edges": 0,
+        "face_count": 254
+      },
+      "Moving": {
+        "volume_m3": 0.04809826434197854,
+        "nonmanifold_edges": 0,
+        "face_count": 254
+      }
+    }
+  },
+  "clinker": {
+    "offset": [
+      0,
+      -0.65,
+      -0.3
+    ],
+    "units": "metres, same world axes as resource",
+    "approved_for_sampled_animation": true,
+    "resource_sha256": "05c495fc422a4fa9fa86338ba4abc1c9919ddf4ab7412375e3211a4d1e80d01f",
+    "sample_count": 109,
+    "nonseated_intersection_poses": 0,
+    "seated_max_sampled_depth_m": 0,
+    "seated_exact": {
+      "volume_m3": 4.33743355424696e-12,
+      "nonmanifold_edges": 2,
+      "faces": 172
+    },
+    "limitation": "101 equal path samples plus eight near-contact separations; no continuous collision or strength proof. Nonmanifold intersection volume is not valid.",
+    "animation": "Moving.location = offset*u; u=1 open, u=0 seated; Fixed unchanged",
+    "local_adjustment": "Moving minus Fixed at seated pose, 0.0000620707187 m3 removed (about 0.125%); no added clearance; original preserved as clinker_extracted_original.blend/.glb",
+    "topology": {
+      "Fixed": {
+        "volume_m3": 0.05279957396490454,
+        "nonmanifold_edges": 0,
+        "face_count": 212
+      },
+      "Moving": {
+        "volume_m3": 0.04969848248461559,
+        "nonmanifold_edges": 0,
+        "face_count": 283
+      }
+    }
+  }
+}

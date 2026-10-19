@@ -1,0 +1,96 @@
+extends "res://tests/levels/integrated_entry_probe.gd"
+## Focused presentation QA. Reuses the accepted entry and pointer helpers.
+func run() -> void:
+	app = get_parent()
+	var args := OS.get_cmdline_user_args()
+	evidence = args[0] if not args.is_empty() else "user://level_visual_evidence"
+	DirAccess.make_dir_recursive_absolute(evidence)
+	await frames(8)
+	check(ProjectSettings.get_setting("rendering/renderer/rendering_method") == "gl_compatibility", "presentation retains Compatibility renderer")
+	check(not get_tree().debug_collisions_hint and not get_tree().debug_navigation_hint, "engine debug collision and navigation drawing stay off")
+	var model_ref: WeakRef = weakref(app.flow.current_stage)
+	check(app.size.x >= 1000 and app.size.y >= 700, "styled entry boots with normal project layout")
+	check(app.reset_button.size.y >= 40 and app.next_button.size.y >= 40, "header controls have readable padding")
+	check(app.reset_button.get_global_rect().end.x < app.next_button.get_global_rect().position.x, "header controls retain separate bounds")
+	check(app.status.get_global_rect().end.y <= app.host.get_global_rect().position.y, "progress caption does not overlap model stage")
+	var workshop = app.flow.current_stage.adapter.workshop
+	var previous_session = workshop.session
+	var original_feedback: String = workshop.feedback.text
+	workshop._message("visual feedback fixture", false)
+	var normal_color: Color = workshop.feedback.get_theme_color("font_color")
+	workshop._message("visual feedback fixture", true)
+	check(workshop.feedback.get_theme_color("font_color") != normal_color, "identical feedback text refreshes when severity changes")
+	check(not workshop.ui.set_feedback("visual feedback fixture", true), "identical feedback text and severity are deduplicated")
+	workshop._message(original_feedback, false)
+	await capture("integrated_bridge_after")
+	await finish_bridge()
+	await frames(3)
+	check(model_ref.get_ref() == null and app.find_children("*", "SubViewport", true, false).is_empty(), "leaving assembly frees stage and its 3D viewports")
+	check(previous_session.changed.get_connections().is_empty(), "exited model session has no remaining UI or adapter subscriptions")
+	previous_session = null
+	var stage = app.flow.current_stage
+	var surface: Control = stage.surface
+	check(stage.toolbar.get_global_rect().end.y <= surface.get_global_rect().position.y, "drawing tools occupy a separate padded row")
+	check(surface.paper_rect().size.x >= 500 and surface.paper_rect().size.y >= 300, "paper keeps useful drawing area at initial window size")
+	check(surface.paper_rect().size.is_equal_approx(Vector2(surface.document.paper_size) * surface.paper_rect().size.y / surface.document.paper_size.y), "paper aspect ratio is unchanged by styling")
+	await RenderingServer.frame_post_draw
+	var image := get_tree().root.get_texture().get_image()
+	var sample: Vector2 = get_tree().root.get_final_transform() * surface.get_global_transform_with_canvas() * surface.paper_to_local(Vector2(30, 30))
+	check(image.get_pixelv(Vector2i(sample)) == Color.WHITE, "rendered paper remains pure white without texture")
+	check(image.get_pixel(2, 2).is_equal_approx(Color("eae6df")), "surrounding canvas uses warm ivory palette")
+	check(surface.document.materials.size() == 1, "current canvas has one model image and no required scenic placeholder")
+	var config: Dictionary = load("res://levels/level_catalog.gd").bridge_demo(app.output_directory, {"include_optional_materials": true}).stages[1]
+	check(config.materials[0].target_position.y < config.materials[1].target_position.y and config.materials[0].layer < config.materials[1].layer, "distant image and near image retain configured order and placement")
+	var idle_updates := {"count": 0}
+	surface.document_changed.connect(func(): idle_updates.count += 1)
+	await frames(12)
+	check(idle_updates.count == 0 and not surface.is_processing(), "idle drawing does not run per-frame processing or rebuild document textures")
+	check(stage.toolbar.undo_button.disabled and stage.toolbar.redo_button.disabled, "shared toolbar initially reflects empty history")
+	surface.document.begin_stroke(Vector2(10, 10), Color("245b77"), 12)
+	surface.document.append_stroke(Vector2(40, 30))
+	surface.document.end_stroke()
+	check(not stage.toolbar.undo_button.disabled, "shared toolbar refreshes undo from public document change")
+	await click(stage.toolbar.undo_button)
+	check(surface.document.strokes.is_empty() and not stage.toolbar.redo_button.disabled, "shared undo click updates document and redo availability")
+	await click(stage.toolbar.redo_button)
+	check(surface.document.strokes.size() == 1, "shared redo click restores the stroke")
+	await click(stage.toolbar.undo_button)
+	await draw_and_export(true)
+	var pixels: PackedByteArray = surface.document.compose().get_data()
+	surface.queue_redraw()
+	await frames(3)
+	check(surface.document.compose().get_data() == pixels, "presentation redraw does not alter document pixels")
+	var exported := Image.load_from_file(app.flow.results.drawing.payload.texture_path)
+	check(exported.get_data() == pixels, "export still contains only document paper, images and strokes")
+	check(app.flow.progress().finished and surface.process_mode == Node.PROCESS_MODE_DISABLED, "completion and frozen paper semantics remain intact")
+	check(stage.toolbar.undo_button.disabled and stage.toolbar.redo_button.disabled, "completed stage keeps shared history actions locked")
+	await capture("integrated_complete_after")
+	get_tree().root.size = Vector2i(1920, 1080)
+	await frames(6)
+	var target_rect := Rect2(Vector2.ZERO, get_viewport().get_visible_rect().size)
+	check(target_rect.encloses(app.reset_button.get_global_rect()) and target_rect.encloses(app.optional_button.get_global_rect()), "1080p header actions fit target window")
+	check(surface.paper_rect().size.y >= 300 and stage.toolbar.get_global_rect().end.y <= surface.get_global_rect().position.y, "1080p paper and toolbar remain separated")
+	await capture("drawing_1920x1080_after")
+	get_tree().root.size = Vector2i(1100, 720)
+	await frames(6)
+	var visible := Rect2(Vector2.ZERO, get_viewport().get_visible_rect().size)
+	check(visible.encloses(app.reset_button.get_global_rect()) and visible.encloses(app.optional_button.get_global_rect()), "header actions fit smaller window")
+	check(stage.toolbar.get_global_rect().end.y <= surface.get_global_rect().position.y and surface.paper_rect().size.y >= 200, "smaller window retains separated toolbar and usable paper")
+	for i in range(surface.document.materials.size()):
+		check(surface.get_global_rect().encloses(Rect2(surface.global_position + surface.tray_rect(i).position, surface.tray_rect(i).size)), "material card fits within smaller window")
+	await capture("drawing_1100x720_after")
+	var surface_ref: WeakRef = weakref(surface)
+	var document_ref: WeakRef = weakref(surface.document)
+	await click(app.reset_button)
+	await frames(3)
+	check(surface_ref.get_ref() == null and document_ref.get_ref() == null, "reset releases drawing surface and document")
+	check(app.flow.progress().stage_id == "assembly" and app.flow.results.is_empty(), "styled reset action still starts a fresh model stage")
+	var report := {"engine": Engine.get_version_info().string, "checks": checks, "failures": failures,
+		"paper": "pure_white", "model_art": "approved_stylized_bridge_illustration",
+		"scope": "presentation_and_verified_cleanup", "initial_window": "ordinary_project_boot", "resize": ["1920x1080", "1100x720"],
+		"target_hardware_performance": "not_measured"}
+	var file := FileAccess.open(evidence.path_join("visual_validation.json"), FileAccess.WRITE)
+	if file != null: file.store_string(JSON.stringify(report, "\t")); file.close()
+	print("VISUAL_RESULT: %d checks, %d failures" % [checks, failures.size()])
+	app.flow.stop()
+	get_tree().quit(0 if failures.is_empty() else 1)

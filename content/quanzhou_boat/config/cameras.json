@@ -1,0 +1,109 @@
+{
+  "navigation": {"pan_limit_m": 6.0, "joint_pan_limit_m": 1.0, "pitch_min_rad": 0.03, "pitch_max_rad": 1.48},
+  "assembly_director": {
+    "key_groups": ["keel_bow", "shell_port", "mast_bed_main", "deck_bow", "rudder"],
+    "approach_seconds": 1.05,
+    "settle_seconds": 0.45,
+    "return_seconds": 0.85,
+    "detail_min_distance_m": 0.65,
+    "detail_max_distance_m": 1.10,
+    "detail_distance_ratio": 0.24,
+    "standoff_max_m": 0.025,
+    "complete_hold_seconds": 0.65,
+    "repeat_complete_hold_seconds": 0.12,
+    "repeat_wood_seconds": 0.38,
+    "context_opacity": 0.22,
+    "nail_focus_radius_m": 0.18,
+    "nail_stroke_ratio": 0.8,
+    "nail_count": 3
+  },
+  "overview": {
+    "focus": [
+      1.4,
+      0.7,
+      0
+    ],
+    "yaw": -0.7,
+    "pitch": 0.46,
+    "distance": 4.25,
+    "min": 0.28,
+    "max": 20.0
+  },
+  "joints": [
+    {
+      "id": "keel",
+      "label": "龙骨短斜接",
+      "path": "res://content/quanzhou_boat/assets/keel.glb",
+      "extension": false,
+      "yaw": -0.6,
+      "pitch": 0.35,
+      "distance": 2.9,
+      "separation": [
+        -0.65,
+        0,
+        0
+      ],
+      "note": "取自原整船局部。观察斜接承压面，不推断它可独立自锁。"
+    },
+    {
+      "id": "flush",
+      "label": "舷板平接",
+      "path": "res://content/quanzhou_boat/assets/flush.glb",
+      "extension": false,
+      "yaw": -0.75,
+      "pitch": 0.35,
+      "distance": 2.2,
+      "separation": [
+        0,
+        -0.3,
+        0.65
+      ],
+      "note": "原件接缝裁切示意：平接并不自锁，真实装配仍需紧固与密封。"
+    },
+    {
+      "id": "clinker",
+      "label": "舷板搭接",
+      "path": "res://content/quanzhou_boat/assets/clinker.glb",
+      "extension": false,
+      "yaw": -0.75,
+      "pitch": 0.35,
+      "distance": 2.2,
+      "separation": [
+        0,
+        -0.3,
+        0.65
+      ],
+      "note": "原件接缝裁切示意：搭接不等于榫卯自锁。"
+    },
+    {
+      "id": "mast_foot",
+      "label": "桅脚直榫",
+      "path": "res://content/quanzhou_boat/assets/mast_foot.glb",
+      "extension": true,
+      "yaw": -0.75,
+      "pitch": 0.6,
+      "distance": 2.8,
+      "separation": [
+        0,
+        0.45,
+        0
+      ],
+      "note": "互动扩展，非考古原件复原。直榫仍可向上拔出，不是自锁。"
+    },
+    {
+      "id": "deck_tenon",
+      "label": "柱梁方榫",
+      "path": "res://content/quanzhou_boat/assets/deck_tenon.glb",
+      "extension": true,
+      "yaw": -0.75,
+      "pitch": 0.5,
+      "distance": 2.0,
+      "separation": [
+        0,
+        0.45,
+        0
+      ],
+      "note": "互动扩展，非考古原件复原；所依附甲板本身亦为假设复原。"
+    }
+  ]
+}

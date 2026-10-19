@@ -1,0 +1,50 @@
+[
+  {
+    "id": "keel",
+    "source_objects": [
+      "Keel segment 1",
+      "Keel segment 0"
+    ],
+    "source_center_m": [
+      7.429999828338623,
+      0.0,
+      0.36093229055404663
+    ],
+    "section_x_center_m": 7.43,
+    "section_length_m": 1.8,
+    "scale": "1 Blender unit = 1 actual metre",
+    "changes": "Clipped copies only; no newly invented joint features"
+  },
+  {
+    "id": "flush",
+    "source_objects": [
+      "Inner strake -1 03 board 2",
+      "Inner strake -1 04 board 2"
+    ],
+    "source_center_m": [
+      14.530000686645508,
+      -1.2593891620635986,
+      0.651565670967102
+    ],
+    "section_x_center_m": 14.53,
+    "section_length_m": 1.5,
+    "scale": "1 Blender unit = 1 actual metre",
+    "changes": "Clipped copies only; no newly invented joint features"
+  },
+  {
+    "id": "clinker",
+    "source_objects": [
+      "Inner strake -1 02 board 2",
+      "Inner strake -1 03 board 2"
+    ],
+    "source_center_m": [
+      14.530000686645508,
+      -0.86986243724823,
+      0.534022331237793
+    ],
+    "section_x_center_m": 14.53,
+    "section_length_m": 1.5,
+    "scale": "1 Blender unit = 1 actual metre",
+    "changes": "Clipped copies only; no newly invented joint features"
+  }
+]

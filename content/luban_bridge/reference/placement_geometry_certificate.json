@@ -1,0 +1,524 @@
+{
+  "asset_sha256": "754dedef24453088a530f5f2c723d2a675ad7e9b4ec60b650b28b657cbf6f58e",
+  "deck_geometry": [
+    {
+      "part": "Deck_panel_01",
+      "plate_extents_mm": [
+        90.00001247416961,
+        7.4999852329742485,
+        134.0000033378601
+      ],
+      "arm_transverse_span_mm": 163.00000250339508,
+      "foot_centre_transverse_mm": [
+        -75.00000298023224,
+        75.00000298023224
+      ],
+      "foot_centre_span_mm": 150.00000596046448,
+      "signed_mesh_volume_mm3": 114978.84887090379,
+      "mesh_aabb_centre_m": [
+        -0.18219756335020065,
+        0.10527706146240234,
+        0.0
+      ]
+    },
+    {
+      "part": "Deck_panel_02",
+      "plate_extents_mm": [
+        90.00000699165744,
+        7.500006237291738,
+        134.0000033378601
+      ],
+      "arm_transverse_span_mm": 193.00000369548798,
+      "foot_centre_transverse_mm": [
+        -89.99999985098839,
+        89.99999985098839
+      ],
+      "foot_centre_span_mm": 179.99999970197678,
+      "signed_mesh_volume_mm3": 118579.04367521981,
+      "mesh_aabb_centre_m": [
+        -0.09826496057212353,
+        0.1522400975227356,
+        0.0
+      ]
+    },
+    {
+      "part": "Deck_panel_03",
+      "plate_extents_mm": [
+        89.99999612569809,
+        7.500007748603821,
+        134.0000033378601
+      ],
+      "arm_transverse_span_mm": 223.00000488758087,
+      "foot_centre_transverse_mm": [
+        -104.99999299645424,
+        104.99999299645424
+      ],
+      "foot_centre_span_mm": 209.99998599290848,
+      "signed_mesh_volume_mm3": 122178.99681753328,
+      "mesh_aabb_centre_m": [
+        0.0,
+        0.16752877086400986,
+        0.0
+      ]
+    },
+    {
+      "part": "Deck_panel_04",
+      "plate_extents_mm": [
+        90.00000699165744,
+        7.500006237291738,
+        134.0000033378601
+      ],
+      "arm_transverse_span_mm": 163.00000250339508,
+      "foot_centre_transverse_mm": [
+        -75.00000298023224,
+        75.00000298023224
+      ],
+      "foot_centre_span_mm": 150.00000596046448,
+      "signed_mesh_volume_mm3": 114979.04658862561,
+      "mesh_aabb_centre_m": [
+        0.09826496057212353,
+        0.1522400975227356,
+        0.0
+      ]
+    },
+    {
+      "part": "Deck_panel_05",
+      "plate_extents_mm": [
+        90.00001247416961,
+        7.4999852329742485,
+        134.0000033378601
+      ],
+      "arm_transverse_span_mm": 193.00000369548798,
+      "foot_centre_transverse_mm": [
+        -89.99999985098839,
+        89.99999985098839
+      ],
+      "foot_centre_span_mm": 179.99999970197678,
+      "signed_mesh_volume_mm3": 118578.8401541789,
+      "mesh_aabb_centre_m": [
+        0.18219756335020065,
+        0.10527706146240234,
+        0.0
+      ]
+    }
+  ],
+  "pair_checks": [
+    {
+      "source": "Deck_panel_01",
+      "target": "Deck_panel_04",
+      "proper_rotation_determinant": 0.9999999999999999,
+      "bidirectional_vertex_centroid_to_surface_max_mm": 4.280960462133711e-05,
+      "structural_evidence": "Same plate/arm/foot nominal dimensions and certified bearing contact positions; triangulation/bevel may differ."
+    },
+    {
+      "source": "Deck_panel_02",
+      "target": "Deck_panel_05",
+      "proper_rotation_determinant": 0.9999999999999999,
+      "bidirectional_vertex_centroid_to_surface_max_mm": 4.280960462516371e-05,
+      "structural_evidence": "Same plate/arm/foot nominal dimensions and certified bearing contact positions; triangulation/bevel may differ."
+    }
+  ],
+  "conclusion": "Three structural sizes, not five identical parts: 01/04, 02/05, 03. Face panels match; transverse arms and foot spacing differ. Existing type partition retained.",
+  "trigger_policy": {
+    "separate_final_reference_and_trigger_positions": true,
+    "radius_unchanged_m": 0.036,
+    "rod_both_ends_same_slot": true,
+    "positive_end_uses_original_negative_z_install_path": true,
+    "reverse_path_not_claimed_validated": true
+  },
+  "triggers": [
+    {
+      "slot_id": "slot_11",
+      "part_id": "Cross_rod_01",
+      "final_reference_anchor_m": [
+        -0.1705363765358925,
+        0.09258358925580978,
+        -0.07500000000000001
+      ],
+      "trigger_points_m": [
+        [
+          -0.1705363765358925,
+          0.09258358925580978,
+          -0.1274999976158142
+        ],
+        [
+          -0.1705363765358925,
+          0.09258358925580978,
+          0.1274999976158142
+        ],
+        [
+          -0.1705363765358925,
+          0.09258358925580978,
+          -0.07500000000000001
+        ],
+        [
+          -0.1705363765358925,
+          0.09258358925580978,
+          0.07500000000000001
+        ]
+      ],
+      "labels": [
+        "negative_end",
+        "positive_end",
+        "negative_mount",
+        "positive_mount"
+      ],
+      "radius_m": 0.036,
+      "original_path_from_m": [
+        0.0,
+        0.0,
+        -0.4000000059604645
+      ]
+    },
+    {
+      "slot_id": "slot_12",
+      "part_id": "Cross_rod_02",
+      "final_reference_anchor_m": [
+        -0.09074050933122635,
+        0.13865376263856888,
+        -0.09000000000000001
+      ],
+      "trigger_points_m": [
+        [
+          -0.09074050933122635,
+          0.13865376263856888,
+          -0.1274999976158142
+        ],
+        [
+          -0.09074050933122635,
+          0.13865376263856888,
+          0.1274999976158142
+        ],
+        [
+          -0.09074050933122635,
+          0.13865376263856888,
+          -0.09000000000000001
+        ],
+        [
+          -0.09074050933122635,
+          0.13865376263856888,
+          0.09000000000000001
+        ]
+      ],
+      "labels": [
+        "negative_end",
+        "positive_end",
+        "negative_mount",
+        "positive_mount"
+      ],
+      "radius_m": 0.036,
+      "original_path_from_m": [
+        0.0,
+        0.0,
+        -0.4000000059604645
+      ]
+    },
+    {
+      "slot_id": "slot_13",
+      "part_id": "Cross_rod_03",
+      "final_reference_anchor_m": [
+        0.0,
+        0.15465375036001205,
+        -0.10500000000000001
+      ],
+      "trigger_points_m": [
+        [
+          0.0,
+          0.15465375036001205,
+          -0.1274999976158142
+        ],
+        [
+          0.0,
+          0.15465375036001205,
+          0.1274999976158142
+        ],
+        [
+          0.0,
+          0.15465375036001205,
+          -0.10500000000000001
+        ],
+        [
+          0.0,
+          0.15465375036001205,
+          0.10500000000000001
+        ]
+      ],
+      "labels": [
+        "negative_end",
+        "positive_end",
+        "negative_mount",
+        "positive_mount"
+      ],
+      "radius_m": 0.036,
+      "original_path_from_m": [
+        0.0,
+        0.0,
+        -0.4000000059604645
+      ]
+    },
+    {
+      "slot_id": "slot_14",
+      "part_id": "Cross_rod_04",
+      "final_reference_anchor_m": [
+        0.09074050933122635,
+        0.13865376263856888,
+        -0.07500000000000001
+      ],
+      "trigger_points_m": [
+        [
+          0.09074050933122635,
+          0.13865376263856888,
+          -0.1274999976158142
+        ],
+        [
+          0.09074050933122635,
+          0.13865376263856888,
+          0.1274999976158142
+        ],
+        [
+          0.09074050933122635,
+          0.13865376263856888,
+          -0.07500000000000001
+        ],
+        [
+          0.09074050933122635,
+          0.13865376263856888,
+          0.07500000000000001
+        ]
+      ],
+      "labels": [
+        "negative_end",
+        "positive_end",
+        "negative_mount",
+        "positive_mount"
+      ],
+      "radius_m": 0.036,
+      "original_path_from_m": [
+        0.0,
+        0.0,
+        -0.4000000059604645
+      ]
+    },
+    {
+      "slot_id": "slot_15",
+      "part_id": "Cross_rod_05",
+      "final_reference_anchor_m": [
+        0.1705363765358925,
+        0.09258358925580978,
+        -0.09000000000000001
+      ],
+      "trigger_points_m": [
+        [
+          0.1705363765358925,
+          0.09258358925580978,
+          -0.1274999976158142
+        ],
+        [
+          0.1705363765358925,
+          0.09258358925580978,
+          0.1274999976158142
+        ],
+        [
+          0.1705363765358925,
+          0.09258358925580978,
+          -0.09000000000000001
+        ],
+        [
+          0.1705363765358925,
+          0.09258358925580978,
+          0.09000000000000001
+        ]
+      ],
+      "labels": [
+        "negative_end",
+        "positive_end",
+        "negative_mount",
+        "positive_mount"
+      ],
+      "radius_m": 0.036,
+      "original_path_from_m": [
+        0.0,
+        0.0,
+        -0.4000000059604645
+      ]
+    },
+    {
+      "slot_id": "slot_16",
+      "part_id": "Deck_panel_01",
+      "final_reference_anchor_m": [
+        -0.19351770877838137,
+        0.0732999563217163,
+        0.07500000000000001
+      ],
+      "trigger_points_m": [
+        [
+          -0.18219756335020065,
+          0.10527706146240234,
+          0.0
+        ],
+        [
+          -0.19351770877838137,
+          0.0732999563217163,
+          0.07500000000000001
+        ]
+      ],
+      "labels": [
+        "surface_centre",
+        "legacy_bearing_reference"
+      ],
+      "radius_m": 0.036,
+      "original_path_from_m": [
+        0.0,
+        0.3499999940395355,
+        -0.0
+      ]
+    },
+    {
+      "slot_id": "slot_17",
+      "part_id": "Deck_panel_02",
+      "final_reference_anchor_m": [
+        -0.11893129348754883,
+        0.12839314937591553,
+        0.08999999761581422
+      ],
+      "trigger_points_m": [
+        [
+          -0.09826496057212353,
+          0.1522400975227356,
+          0.0
+        ],
+        [
+          -0.11893129348754883,
+          0.12839314937591553,
+          0.08999999761581422
+        ]
+      ],
+      "labels": [
+        "surface_centre",
+        "legacy_bearing_reference"
+      ],
+      "radius_m": 0.036,
+      "original_path_from_m": [
+        0.0,
+        0.3499999940395355,
+        -0.0
+      ]
+    },
+    {
+      "slot_id": "slot_18",
+      "part_id": "Deck_panel_03",
+      "final_reference_anchor_m": [
+        -0.030000001192092896,
+        0.15465376377105713,
+        0.10499999523162842
+      ],
+      "trigger_points_m": [
+        [
+          0.0,
+          0.16752877086400986,
+          0.0
+        ],
+        [
+          -0.030000001192092896,
+          0.15465376377105713,
+          0.10499999523162842
+        ]
+      ],
+      "labels": [
+        "surface_centre",
+        "legacy_bearing_reference"
+      ],
+      "radius_m": 0.036,
+      "original_path_from_m": [
+        0.0,
+        0.3499999940395355,
+        -0.0
+      ]
+    },
+    {
+      "slot_id": "slot_19",
+      "part_id": "Deck_panel_04",
+      "final_reference_anchor_m": [
+        0.0625497341156006,
+        0.14891436100006103,
+        0.07500000000000001
+      ],
+      "trigger_points_m": [
+        [
+          0.09826496057212353,
+          0.1522400975227356,
+          0.0
+        ],
+        [
+          0.0625497341156006,
+          0.14891436100006103,
+          0.07500000000000001
+        ]
+      ],
+      "labels": [
+        "surface_centre",
+        "legacy_bearing_reference"
+      ],
+      "radius_m": 0.036,
+      "original_path_from_m": [
+        0.0,
+        0.3499999940395355,
+        -0.0
+      ]
+    },
+    {
+      "slot_id": "slot_20",
+      "part_id": "Deck_panel_05",
+      "final_reference_anchor_m": [
+        0.1475550413131714,
+        0.11186721324920655,
+        0.08999999761581422
+      ],
+      "trigger_points_m": [
+        [
+          0.18219756335020065,
+          0.10527706146240234,
+          0.0
+        ],
+        [
+          0.1475550413131714,
+          0.11186721324920655,
+          0.08999999761581422
+        ]
+      ],
+      "labels": [
+        "surface_centre",
+        "legacy_bearing_reference"
+      ],
+      "radius_m": 0.036,
+      "original_path_from_m": [
+        0.0,
+        0.3499999940395355,
+        -0.0
+      ]
+    }
+  ],
+  "operation_family": {
+    "id": "deck",
+    "internal_types_unchanged": [
+      "deck_narrow_support",
+      "deck_mid_support",
+      "deck_wide_support"
+    ],
+    "common_panel_size_m": [
+      0.09,
+      0.0075,
+      0.134
+    ],
+    "preview_orientation_degrees_z": [
+      40,
+      20,
+      0,
+      -20,
+      -40
+    ],
+    "orientation_source": "Original build_v2.py deck uses front-beam rotation; Godot Y-up conversion gives rotations about Z.",
+    "full_parts_not_equivalent": true,
+    "release_policy": "Resolve chosen slot to original stock type, original full mesh and original path; store actual type in placements."
+  }
+}

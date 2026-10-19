@@ -1,0 +1,605 @@
+{
+  "method": "Conservative complete translation-sweep AABBs computed from every exported POSITION vertex, not sampled animation frames. Disjoint AABBs imply disjoint physical sweeps. Only within-stage permutations are enabled.",
+  "units": "metres",
+  "separation_guard_m": 1e-06,
+  "pairs": [
+    {
+      "a": "Beam_Front_01",
+      "b": "Beam_Front_02",
+      "separating_axis": "Z",
+      "separation_m": 0.001999996602535248
+    },
+    {
+      "a": "Beam_Front_01",
+      "b": "Beam_Front_03",
+      "separating_axis": "Z",
+      "separation_m": 0.016999997198581696
+    },
+    {
+      "a": "Beam_Front_01",
+      "b": "Beam_Front_04",
+      "separating_axis": "X",
+      "separation_m": 0.07064902130514383
+    },
+    {
+      "a": "Beam_Front_01",
+      "b": "Beam_Front_05",
+      "separating_axis": "X",
+      "separation_m": 0.16350865364074707
+    },
+    {
+      "a": "Beam_Front_01",
+      "b": "Beam_Back_01",
+      "separating_axis": "Z",
+      "separation_m": 0.13700000941753387
+    },
+    {
+      "a": "Beam_Front_01",
+      "b": "Beam_Back_02",
+      "separating_axis": "Z",
+      "separation_m": 0.15200000256299973
+    },
+    {
+      "a": "Beam_Front_01",
+      "b": "Beam_Back_03",
+      "separating_axis": "Z",
+      "separation_m": 0.16700000315904617
+    },
+    {
+      "a": "Beam_Front_01",
+      "b": "Beam_Back_04",
+      "separating_axis": "Z",
+      "separation_m": 0.13700000941753387
+    },
+    {
+      "a": "Beam_Front_01",
+      "b": "Beam_Back_05",
+      "separating_axis": "X",
+      "separation_m": 0.16350865364074707
+    },
+    {
+      "a": "Beam_Front_02",
+      "b": "Beam_Front_03",
+      "separating_axis": "Z",
+      "separation_m": 0.001999996602535248
+    },
+    {
+      "a": "Beam_Front_02",
+      "b": "Beam_Front_04",
+      "separating_axis": "Z",
+      "separation_m": 0.001999996602535248
+    },
+    {
+      "a": "Beam_Front_02",
+      "b": "Beam_Front_05",
+      "separating_axis": "X",
+      "separation_m": 0.07064902130514383
+    },
+    {
+      "a": "Beam_Front_02",
+      "b": "Beam_Back_01",
+      "separating_axis": "Z",
+      "separation_m": 0.15200000256299973
+    },
+    {
+      "a": "Beam_Front_02",
+      "b": "Beam_Back_02",
+      "separating_axis": "Z",
+      "separation_m": 0.16699999570846558
+    },
+    {
+      "a": "Beam_Front_02",
+      "b": "Beam_Back_03",
+      "separating_axis": "Z",
+      "separation_m": 0.18199999630451202
+    },
+    {
+      "a": "Beam_Front_02",
+      "b": "Beam_Back_04",
+      "separating_axis": "Z",
+      "separation_m": 0.15200000256299973
+    },
+    {
+      "a": "Beam_Front_02",
+      "b": "Beam_Back_05",
+      "separating_axis": "Z",
+      "separation_m": 0.16699999570846558
+    },
+    {
+      "a": "Beam_Front_03",
+      "b": "Beam_Front_04",
+      "separating_axis": "Z",
+      "separation_m": 0.016999997198581696
+    },
+    {
+      "a": "Beam_Front_03",
+      "b": "Beam_Front_05",
+      "separating_axis": "Z",
+      "separation_m": 0.001999996602535248
+    },
+    {
+      "a": "Beam_Front_03",
+      "b": "Beam_Back_01",
+      "separating_axis": "Z",
+      "separation_m": 0.16700000315904617
+    },
+    {
+      "a": "Beam_Front_03",
+      "b": "Beam_Back_02",
+      "separating_axis": "Z",
+      "separation_m": 0.18199999630451202
+    },
+    {
+      "a": "Beam_Front_03",
+      "b": "Beam_Back_03",
+      "separating_axis": "Z",
+      "separation_m": 0.19699999690055847
+    },
+    {
+      "a": "Beam_Front_03",
+      "b": "Beam_Back_04",
+      "separating_axis": "Z",
+      "separation_m": 0.16700000315904617
+    },
+    {
+      "a": "Beam_Front_03",
+      "b": "Beam_Back_05",
+      "separating_axis": "Z",
+      "separation_m": 0.18199999630451202
+    },
+    {
+      "a": "Beam_Front_04",
+      "b": "Beam_Front_05",
+      "separating_axis": "Z",
+      "separation_m": 0.001999996602535248
+    },
+    {
+      "a": "Beam_Front_04",
+      "b": "Beam_Back_01",
+      "separating_axis": "Z",
+      "separation_m": 0.13700000941753387
+    },
+    {
+      "a": "Beam_Front_04",
+      "b": "Beam_Back_02",
+      "separating_axis": "Z",
+      "separation_m": 0.15200000256299973
+    },
+    {
+      "a": "Beam_Front_04",
+      "b": "Beam_Back_03",
+      "separating_axis": "Z",
+      "separation_m": 0.16700000315904617
+    },
+    {
+      "a": "Beam_Front_04",
+      "b": "Beam_Back_04",
+      "separating_axis": "Z",
+      "separation_m": 0.13700000941753387
+    },
+    {
+      "a": "Beam_Front_04",
+      "b": "Beam_Back_05",
+      "separating_axis": "Z",
+      "separation_m": 0.15200000256299973
+    },
+    {
+      "a": "Beam_Front_05",
+      "b": "Beam_Back_01",
+      "separating_axis": "X",
+      "separation_m": 0.16350865364074707
+    },
+    {
+      "a": "Beam_Front_05",
+      "b": "Beam_Back_02",
+      "separating_axis": "Z",
+      "separation_m": 0.16699999570846558
+    },
+    {
+      "a": "Beam_Front_05",
+      "b": "Beam_Back_03",
+      "separating_axis": "Z",
+      "separation_m": 0.18199999630451202
+    },
+    {
+      "a": "Beam_Front_05",
+      "b": "Beam_Back_04",
+      "separating_axis": "Z",
+      "separation_m": 0.15200000256299973
+    },
+    {
+      "a": "Beam_Front_05",
+      "b": "Beam_Back_05",
+      "separating_axis": "Z",
+      "separation_m": 0.16699999570846558
+    },
+    {
+      "a": "Beam_Back_01",
+      "b": "Beam_Back_02",
+      "separating_axis": "Z",
+      "separation_m": 0.001999996602535248
+    },
+    {
+      "a": "Beam_Back_01",
+      "b": "Beam_Back_03",
+      "separating_axis": "Z",
+      "separation_m": 0.016999997198581696
+    },
+    {
+      "a": "Beam_Back_01",
+      "b": "Beam_Back_04",
+      "separating_axis": "X",
+      "separation_m": 0.07064902130514383
+    },
+    {
+      "a": "Beam_Back_01",
+      "b": "Beam_Back_05",
+      "separating_axis": "X",
+      "separation_m": 0.16350865364074707
+    },
+    {
+      "a": "Beam_Back_02",
+      "b": "Beam_Back_03",
+      "separating_axis": "Z",
+      "separation_m": 0.001999996602535248
+    },
+    {
+      "a": "Beam_Back_02",
+      "b": "Beam_Back_04",
+      "separating_axis": "Z",
+      "separation_m": 0.001999996602535248
+    },
+    {
+      "a": "Beam_Back_02",
+      "b": "Beam_Back_05",
+      "separating_axis": "X",
+      "separation_m": 0.07064902130514383
+    },
+    {
+      "a": "Beam_Back_03",
+      "b": "Beam_Back_04",
+      "separating_axis": "Z",
+      "separation_m": 0.016999997198581696
+    },
+    {
+      "a": "Beam_Back_03",
+      "b": "Beam_Back_05",
+      "separating_axis": "Z",
+      "separation_m": 0.001999996602535248
+    },
+    {
+      "a": "Beam_Back_04",
+      "b": "Beam_Back_05",
+      "separating_axis": "Z",
+      "separation_m": 0.001999996602535248
+    },
+    {
+      "a": "Cross_rod_01",
+      "b": "Cross_rod_02",
+      "separating_axis": "X",
+      "separation_m": 0.06499586999416351
+    },
+    {
+      "a": "Cross_rod_01",
+      "b": "Cross_rod_03",
+      "separating_axis": "X",
+      "separation_m": 0.155736377928406
+    },
+    {
+      "a": "Cross_rod_01",
+      "b": "Cross_rod_04",
+      "separating_axis": "X",
+      "separation_m": 0.2464768886566162
+    },
+    {
+      "a": "Cross_rod_01",
+      "b": "Cross_rod_05",
+      "separating_axis": "X",
+      "separation_m": 0.32627275586128235
+    },
+    {
+      "a": "Cross_rod_02",
+      "b": "Cross_rod_03",
+      "separating_axis": "X",
+      "separation_m": 0.07594051072373986
+    },
+    {
+      "a": "Cross_rod_02",
+      "b": "Cross_rod_04",
+      "separating_axis": "X",
+      "separation_m": 0.16668102145195007
+    },
+    {
+      "a": "Cross_rod_02",
+      "b": "Cross_rod_05",
+      "separating_axis": "X",
+      "separation_m": 0.2464768886566162
+    },
+    {
+      "a": "Cross_rod_03",
+      "b": "Cross_rod_04",
+      "separating_axis": "X",
+      "separation_m": 0.07594051072373986
+    },
+    {
+      "a": "Cross_rod_03",
+      "b": "Cross_rod_05",
+      "separating_axis": "X",
+      "separation_m": 0.155736377928406
+    },
+    {
+      "a": "Cross_rod_04",
+      "b": "Cross_rod_05",
+      "separating_axis": "X",
+      "separation_m": 0.06499586999416351
+    },
+    {
+      "a": "Deck_panel_01",
+      "b": "Deck_panel_02",
+      "separating_axis": "X",
+      "separation_m": 0.0012276619672775269
+    },
+    {
+      "a": "Deck_panel_01",
+      "b": "Deck_panel_03",
+      "separating_axis": "X",
+      "separation_m": 0.0979587621986866
+    },
+    {
+      "a": "Deck_panel_01",
+      "b": "Deck_panel_04",
+      "separating_axis": "X",
+      "separation_m": 0.19775758311152458
+    },
+    {
+      "a": "Deck_panel_01",
+      "b": "Deck_panel_05",
+      "separating_axis": "X",
+      "separation_m": 0.2859175205230713
+    },
+    {
+      "a": "Deck_panel_02",
+      "b": "Deck_panel_03",
+      "separating_axis": "X",
+      "separation_m": 0.009798824787139893
+    },
+    {
+      "a": "Deck_panel_02",
+      "b": "Deck_panel_04",
+      "separating_axis": "X",
+      "separation_m": 0.10959764569997787
+    },
+    {
+      "a": "Deck_panel_02",
+      "b": "Deck_panel_05",
+      "separating_axis": "X",
+      "separation_m": 0.19775758311152458
+    },
+    {
+      "a": "Deck_panel_03",
+      "b": "Deck_panel_04",
+      "separating_axis": "X",
+      "separation_m": 0.009798824787139893
+    },
+    {
+      "a": "Deck_panel_03",
+      "b": "Deck_panel_05",
+      "separating_axis": "X",
+      "separation_m": 0.0979587621986866
+    },
+    {
+      "a": "Deck_panel_04",
+      "b": "Deck_panel_05",
+      "separating_axis": "X",
+      "separation_m": 0.0012276619672775269
+    }
+  ],
+  "proof_limits": [
+    "The canonical cross-stage sequence is retained. Cross-stage AABB overlaps are broad-phase possibilities, not certified collisions.",
+    "Original source certificate is reused for earlier stages, bases and temporary fixtures. Removing pending, off-workspace pieces cannot introduce a collision.",
+    "Only one action animates at a time. No gravity, friction, strength or external handling model."
+  ],
+  "canonical_segments_covered": {
+    "original_progress_report": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "supplement": [
+      19,
+      20,
+      21
+    ]
+  },
+  "supplement_sha256": "6ff0a2a92920742db98b10c0e364b10514ef619f84552d08253f76533e3946ca",
+  "source_sha256": {
+    "assets/bridge_v2_final.glb": "754dedef24453088a530f5f2c723d2a675ad7e9b4ec60b650b28b657cbf6f58e",
+    "assets/bridge_v2_assembly.glb": "a32bbec02e44201289545c4f99bd401e0869815cc55b360f87ed8e14313d64a8",
+    "reference/path_validation.json": "21178a5493a7bc2d891b6d80a1de3efb2b4ea7b1a142f02e588dc98caffb861d"
+  },
+  "pair_count": 65,
+  "minimum_separation_m": 0.0012276619672775269,
+  "groups": [
+    {
+      "id": "beams",
+      "members": [
+        "Beam_Front_01",
+        "Beam_Front_02",
+        "Beam_Front_03",
+        "Beam_Front_04",
+        "Beam_Front_05",
+        "Beam_Back_01",
+        "Beam_Back_02",
+        "Beam_Back_03",
+        "Beam_Back_04",
+        "Beam_Back_05"
+      ]
+    },
+    {
+      "id": "rods",
+      "members": [
+        "Cross_rod_01",
+        "Cross_rod_02",
+        "Cross_rod_03",
+        "Cross_rod_04",
+        "Cross_rod_05"
+      ]
+    },
+    {
+      "id": "decks",
+      "members": [
+        "Deck_panel_01",
+        "Deck_panel_02",
+        "Deck_panel_03",
+        "Deck_panel_04",
+        "Deck_panel_05"
+      ]
+    }
+  ],
+  "conservative_cross_stage_sweep_aabb_candidates": [
+    [
+      [
+        "Beam_Front_01",
+        "Cross_rod_01"
+      ],
+      [
+        "Beam_Front_01",
+        "Cross_rod_02"
+      ],
+      [
+        "Beam_Front_02",
+        "Cross_rod_01"
+      ],
+      [
+        "Beam_Front_02",
+        "Cross_rod_02"
+      ],
+      [
+        "Beam_Front_02",
+        "Cross_rod_03"
+      ],
+      [
+        "Beam_Front_03",
+        "Cross_rod_02"
+      ],
+      [
+        "Beam_Front_03",
+        "Cross_rod_03"
+      ],
+      [
+        "Beam_Front_03",
+        "Cross_rod_04"
+      ],
+      [
+        "Beam_Front_04",
+        "Cross_rod_03"
+      ],
+      [
+        "Beam_Front_04",
+        "Cross_rod_04"
+      ],
+      [
+        "Beam_Front_04",
+        "Cross_rod_05"
+      ],
+      [
+        "Beam_Front_05",
+        "Cross_rod_04"
+      ],
+      [
+        "Beam_Front_05",
+        "Cross_rod_05"
+      ],
+      [
+        "Beam_Back_01",
+        "Cross_rod_01"
+      ],
+      [
+        "Beam_Back_01",
+        "Cross_rod_02"
+      ],
+      [
+        "Beam_Back_02",
+        "Cross_rod_01"
+      ],
+      [
+        "Beam_Back_02",
+        "Cross_rod_02"
+      ],
+      [
+        "Beam_Back_02",
+        "Cross_rod_03"
+      ],
+      [
+        "Beam_Back_03",
+        "Cross_rod_02"
+      ],
+      [
+        "Beam_Back_03",
+        "Cross_rod_03"
+      ],
+      [
+        "Beam_Back_03",
+        "Cross_rod_04"
+      ],
+      [
+        "Beam_Back_04",
+        "Cross_rod_03"
+      ],
+      [
+        "Beam_Back_04",
+        "Cross_rod_04"
+      ],
+      [
+        "Beam_Back_04",
+        "Cross_rod_05"
+      ],
+      [
+        "Beam_Back_05",
+        "Cross_rod_04"
+      ],
+      [
+        "Beam_Back_05",
+        "Cross_rod_05"
+      ]
+    ],
+    [
+      [
+        "Cross_rod_01",
+        "Deck_panel_01"
+      ],
+      [
+        "Cross_rod_02",
+        "Deck_panel_02"
+      ],
+      [
+        "Cross_rod_03",
+        "Deck_panel_03"
+      ],
+      [
+        "Cross_rod_04",
+        "Deck_panel_04"
+      ],
+      [
+        "Cross_rod_05",
+        "Deck_panel_05"
+      ]
+    ]
+  ],
+  "result": "PASS_WITHIN_GROUP_PERMUTATIONS_ONLY"
+}

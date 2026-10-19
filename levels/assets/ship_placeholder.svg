@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+<!-- Oblique 2D placeholder only: bow toward the distant upper-right bridge. -->
+<ellipse cx="190" cy="208" rx="147" ry="31" fill="#6b9aa2" opacity=".15"/>
+<path d="M71 190L288 48L329 89L289 158L136 256Z" fill="#795d45"/>
+<path d="M71 174L288 34L329 75L276 135L132 237Z" fill="#d5b482" stroke="#795d45" stroke-width="6" stroke-linejoin="round"/>
+<path d="M107 177L282 62L298 78L131 205Z" fill="#ebd5ad"/>
+<path d="M158 152L202 126L229 151L184 182Z" fill="#92724e"/>
+<path d="M199 143L193 53" fill="none" stroke="#795d45" stroke-width="7"/>
+<path d="M191 61L126 140L191 108Z" fill="#eee4c9" stroke="#a48d68" stroke-width="3"/>
+<path d="M64 231Q104 251 146 248M38 213Q77 229 98 225M276 191L307 179" fill="none" stroke="#759da5" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,50 @@
+{
+  "mast_foot": {
+    "offset": [
+      0,
+      0,
+      0.45
+    ],
+    "resource_sha256": "6bf64b61c76a2f3cb2afdb271a8f4b21c0e4d7a5e7339369d58203c73bef365e",
+    "units": "metres",
+    "sample_count": 109,
+    "poses_with_boundary_contact": 35,
+    "max_sampled_inside_depth_m": 0,
+    "inside_test_reporting_threshold_m": 1e-06,
+    "approved_for_sampled_animation": true,
+    "contact_explanation": "Matching zero-clearance mortise side faces slide in coplanar contact until the 120 mm tenon clears. These triangle overlaps are not positive penetration. Nonmanifold Boolean intersections cannot supply valid volume.",
+    "topology": {
+      "Fixed": {
+        "volume_m3": 0.20505261293498128,
+        "nonmanifold_edges": 0,
+        "faces": 2132
+      },
+      "Moving": {
+        "volume_m3": 0.09575999410629295,
+        "nonmanifold_edges": 0,
+        "faces": 15
+      }
+    },
+    "limitations": "109 finite positions, including 101 equal increments and eight extra near-seat positions; no physical tolerance, friction, rotational-locking, strength or general continuous-path certificate. Can be withdrawn vertically; not self-locking.",
+    "game_extension_dimensions_m": {
+      "cheek_original": [
+        0.54,
+        0.28,
+        0.6
+      ],
+      "tenon": [
+        0.3,
+        0.14,
+        0.12
+      ],
+      "mortise_nominal": [
+        0.3,
+        0.14,
+        0.12
+      ],
+      "fore_aft_shoulder_each": 0.12,
+      "transverse_shoulder_each": 0.07,
+      "added_clearance": 0
+    }
+  }
+}

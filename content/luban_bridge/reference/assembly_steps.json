@@ -1,0 +1,676 @@
+{
+  "units": "metres",
+  "parts": [
+    "Base_Left",
+    "Base_Right",
+    "Beam_Front_01",
+    "Beam_Front_02",
+    "Beam_Front_03",
+    "Beam_Front_04",
+    "Beam_Front_05",
+    "Beam_Back_01",
+    "Beam_Back_02",
+    "Beam_Back_03",
+    "Beam_Back_04",
+    "Beam_Back_05",
+    "Cross_rod_01",
+    "Cross_rod_02",
+    "Cross_rod_03",
+    "Cross_rod_04",
+    "Cross_rod_05",
+    "Deck_panel_01",
+    "Deck_panel_02",
+    "Deck_panel_03",
+    "Deck_panel_04",
+    "Deck_panel_05"
+  ],
+  "fixtures": [
+    "Fixture_Beam_Front_01_1",
+    "Fixture_Beam_Front_01_2",
+    "Fixture_Beam_Front_02_1",
+    "Fixture_Beam_Front_02_2",
+    "Fixture_Beam_Front_03_1",
+    "Fixture_Beam_Front_03_2",
+    "Fixture_Beam_Front_04_1",
+    "Fixture_Beam_Front_04_2",
+    "Fixture_Beam_Front_05_1",
+    "Fixture_Beam_Front_05_2",
+    "Fixture_Beam_Back_01_1",
+    "Fixture_Beam_Back_01_2",
+    "Fixture_Beam_Back_02_1",
+    "Fixture_Beam_Back_02_2",
+    "Fixture_Beam_Back_03_1",
+    "Fixture_Beam_Back_03_2",
+    "Fixture_Beam_Back_04_1",
+    "Fixture_Beam_Back_04_2",
+    "Fixture_Beam_Back_05_1",
+    "Fixture_Beam_Back_05_2"
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "moving": [
+        "Beam_Front_01"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 1,
+      "frame_end": 25,
+      "support": "Visible temporary columns support beam; external operator holds moving part until seated"
+    },
+    {
+      "index": 2,
+      "moving": [
+        "Beam_Front_02"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 31,
+      "frame_end": 55,
+      "support": "Visible temporary columns support beam; external operator holds moving part until seated"
+    },
+    {
+      "index": 3,
+      "moving": [
+        "Beam_Front_03"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 61,
+      "frame_end": 85,
+      "support": "Visible temporary columns support beam; external operator holds moving part until seated"
+    },
+    {
+      "index": 4,
+      "moving": [
+        "Beam_Front_04"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 91,
+      "frame_end": 115,
+      "support": "Visible temporary columns support beam; external operator holds moving part until seated"
+    },
+    {
+      "index": 5,
+      "moving": [
+        "Beam_Front_05"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 121,
+      "frame_end": 145,
+      "support": "Visible temporary columns support beam; external operator holds moving part until seated"
+    },
+    {
+      "index": 6,
+      "moving": [
+        "Beam_Back_01"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 151,
+      "frame_end": 175,
+      "support": "Visible temporary columns support beam; external operator holds moving part until seated"
+    },
+    {
+      "index": 7,
+      "moving": [
+        "Beam_Back_02"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 181,
+      "frame_end": 205,
+      "support": "Visible temporary columns support beam; external operator holds moving part until seated"
+    },
+    {
+      "index": 8,
+      "moving": [
+        "Beam_Back_03"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 211,
+      "frame_end": 235,
+      "support": "Visible temporary columns support beam; external operator holds moving part until seated"
+    },
+    {
+      "index": 9,
+      "moving": [
+        "Beam_Back_04"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 241,
+      "frame_end": 265,
+      "support": "Visible temporary columns support beam; external operator holds moving part until seated"
+    },
+    {
+      "index": 10,
+      "moving": [
+        "Beam_Back_05"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 271,
+      "frame_end": 295,
+      "support": "Visible temporary columns support beam; external operator holds moving part until seated"
+    },
+    {
+      "index": 11,
+      "moving": [
+        "Cross_rod_01"
+      ],
+      "start_m": [
+        0.0,
+        0.4000000059604645,
+        0.0
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 301,
+      "frame_end": 325,
+      "support": "Columns hold beams during axial rod insertion"
+    },
+    {
+      "index": 12,
+      "moving": [
+        "Cross_rod_02"
+      ],
+      "start_m": [
+        0.0,
+        0.4000000059604645,
+        0.0
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 331,
+      "frame_end": 355,
+      "support": "Columns hold beams during axial rod insertion"
+    },
+    {
+      "index": 13,
+      "moving": [
+        "Cross_rod_03"
+      ],
+      "start_m": [
+        0.0,
+        0.4000000059604645,
+        0.0
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 361,
+      "frame_end": 385,
+      "support": "Columns hold beams during axial rod insertion"
+    },
+    {
+      "index": 14,
+      "moving": [
+        "Cross_rod_04"
+      ],
+      "start_m": [
+        0.0,
+        0.4000000059604645,
+        0.0
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 391,
+      "frame_end": 415,
+      "support": "Columns hold beams during axial rod insertion"
+    },
+    {
+      "index": 15,
+      "moving": [
+        "Cross_rod_05"
+      ],
+      "start_m": [
+        0.0,
+        0.4000000059604645,
+        0.0
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 421,
+      "frame_end": 445,
+      "support": "Columns hold beams during axial rod insertion"
+    },
+    {
+      "index": 16,
+      "moving": [
+        "Deck_panel_01"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 451,
+      "frame_end": 475,
+      "support": "Four integral flat feet seat onto front/back beam pair"
+    },
+    {
+      "index": 17,
+      "moving": [
+        "Deck_panel_02"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 481,
+      "frame_end": 505,
+      "support": "Four integral flat feet seat onto front/back beam pair"
+    },
+    {
+      "index": 18,
+      "moving": [
+        "Deck_panel_03"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 511,
+      "frame_end": 535,
+      "support": "Four integral flat feet seat onto front/back beam pair"
+    },
+    {
+      "index": 19,
+      "moving": [
+        "Deck_panel_04"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 541,
+      "frame_end": 565,
+      "support": "Four integral flat feet seat onto front/back beam pair"
+    },
+    {
+      "index": 20,
+      "moving": [
+        "Deck_panel_05"
+      ],
+      "start_m": [
+        0.0,
+        0.0,
+        0.3499999940395355
+      ],
+      "end_m": [
+        0,
+        0,
+        0
+      ],
+      "frame_start": 571,
+      "frame_end": 595,
+      "support": "Four integral flat feet seat onto front/back beam pair"
+    },
+    {
+      "index": 21,
+      "moving": [
+        "Fixture_Beam_Front_01_1",
+        "Fixture_Beam_Front_01_2",
+        "Fixture_Beam_Front_02_1",
+        "Fixture_Beam_Front_02_2",
+        "Fixture_Beam_Front_03_1",
+        "Fixture_Beam_Front_03_2",
+        "Fixture_Beam_Front_04_1",
+        "Fixture_Beam_Front_04_2",
+        "Fixture_Beam_Front_05_1",
+        "Fixture_Beam_Front_05_2",
+        "Fixture_Beam_Back_01_1",
+        "Fixture_Beam_Back_01_2",
+        "Fixture_Beam_Back_02_1",
+        "Fixture_Beam_Back_02_2",
+        "Fixture_Beam_Back_03_1",
+        "Fixture_Beam_Back_03_2",
+        "Fixture_Beam_Back_04_1",
+        "Fixture_Beam_Back_04_2",
+        "Fixture_Beam_Back_05_1",
+        "Fixture_Beam_Back_05_2"
+      ],
+      "start_m": [
+        0,
+        0,
+        0
+      ],
+      "end_m": [
+        0,
+        0,
+        -0.3
+      ],
+      "frame_start": 601,
+      "frame_end": 631,
+      "support": "Temporary columns lowered away; ideal final contact graph remains connected to base plates, no dynamic stability claim"
+    }
+  ],
+  "design_contacts": [
+    {
+      "a": "Deck_panel_01",
+      "b": "Beam_Front_01",
+      "type": "deck flat bearing",
+      "point_m": [
+        -0.19351770877838137,
+        -0.07500000000000001,
+        0.0732999563217163
+      ]
+    },
+    {
+      "a": "Deck_panel_01",
+      "b": "Beam_Back_01",
+      "type": "deck flat bearing",
+      "point_m": [
+        -0.19351770877838137,
+        0.07500000000000001,
+        0.0732999563217163
+      ]
+    },
+    {
+      "a": "Deck_panel_01",
+      "b": "Beam_Front_01",
+      "type": "deck flat bearing",
+      "point_m": [
+        -0.1475550413131714,
+        -0.07500000000000001,
+        0.11186721324920655
+      ]
+    },
+    {
+      "a": "Deck_panel_01",
+      "b": "Beam_Back_01",
+      "type": "deck flat bearing",
+      "point_m": [
+        -0.1475550413131714,
+        0.07500000000000001,
+        0.11186721324920655
+      ]
+    },
+    {
+      "a": "Deck_panel_02",
+      "b": "Beam_Front_02",
+      "type": "deck flat bearing",
+      "point_m": [
+        -0.11893129348754883,
+        -0.08999999761581422,
+        0.12839314937591553
+      ]
+    },
+    {
+      "a": "Deck_panel_02",
+      "b": "Beam_Back_02",
+      "type": "deck flat bearing",
+      "point_m": [
+        -0.11893129348754883,
+        0.08999999761581422,
+        0.12839314937591553
+      ]
+    },
+    {
+      "a": "Deck_panel_02",
+      "b": "Beam_Front_02",
+      "type": "deck flat bearing",
+      "point_m": [
+        -0.0625497341156006,
+        -0.08999999761581422,
+        0.14891436100006103
+      ]
+    },
+    {
+      "a": "Deck_panel_02",
+      "b": "Beam_Back_02",
+      "type": "deck flat bearing",
+      "point_m": [
+        -0.0625497341156006,
+        0.08999999761581422,
+        0.14891436100006103
+      ]
+    },
+    {
+      "a": "Deck_panel_03",
+      "b": "Beam_Front_03",
+      "type": "deck flat bearing",
+      "point_m": [
+        -0.030000001192092896,
+        -0.10499999523162842,
+        0.15465376377105713
+      ]
+    },
+    {
+      "a": "Deck_panel_03",
+      "b": "Beam_Back_03",
+      "type": "deck flat bearing",
+      "point_m": [
+        -0.030000001192092896,
+        0.10499999523162842,
+        0.15465376377105713
+      ]
+    },
+    {
+      "a": "Deck_panel_03",
+      "b": "Beam_Front_03",
+      "type": "deck flat bearing",
+      "point_m": [
+        0.030000001192092896,
+        -0.10499999523162842,
+        0.15465376377105713
+      ]
+    },
+    {
+      "a": "Deck_panel_03",
+      "b": "Beam_Back_03",
+      "type": "deck flat bearing",
+      "point_m": [
+        0.030000001192092896,
+        0.10499999523162842,
+        0.15465376377105713
+      ]
+    },
+    {
+      "a": "Deck_panel_04",
+      "b": "Beam_Front_04",
+      "type": "deck flat bearing",
+      "point_m": [
+        0.0625497341156006,
+        -0.07500000000000001,
+        0.14891436100006103
+      ]
+    },
+    {
+      "a": "Deck_panel_04",
+      "b": "Beam_Back_04",
+      "type": "deck flat bearing",
+      "point_m": [
+        0.0625497341156006,
+        0.07500000000000001,
+        0.14891436100006103
+      ]
+    },
+    {
+      "a": "Deck_panel_04",
+      "b": "Beam_Front_04",
+      "type": "deck flat bearing",
+      "point_m": [
+        0.11893129348754883,
+        -0.07500000000000001,
+        0.12839314937591553
+      ]
+    },
+    {
+      "a": "Deck_panel_04",
+      "b": "Beam_Back_04",
+      "type": "deck flat bearing",
+      "point_m": [
+        0.11893129348754883,
+        0.07500000000000001,
+        0.12839314937591553
+      ]
+    },
+    {
+      "a": "Deck_panel_05",
+      "b": "Beam_Front_05",
+      "type": "deck flat bearing",
+      "point_m": [
+        0.1475550413131714,
+        -0.08999999761581422,
+        0.11186721324920655
+      ]
+    },
+    {
+      "a": "Deck_panel_05",
+      "b": "Beam_Back_05",
+      "type": "deck flat bearing",
+      "point_m": [
+        0.1475550413131714,
+        0.08999999761581422,
+        0.11186721324920655
+      ]
+    },
+    {
+      "a": "Deck_panel_05",
+      "b": "Beam_Front_05",
+      "type": "deck flat bearing",
+      "point_m": [
+        0.19351770877838137,
+        -0.08999999761581422,
+        0.0732999563217163
+      ]
+    },
+    {
+      "a": "Deck_panel_05",
+      "b": "Beam_Back_05",
+      "type": "deck flat bearing",
+      "point_m": [
+        0.19351770877838137,
+        0.08999999761581422,
+        0.0732999563217163
+      ]
+    }
+  ],
+  "notes": [
+    "Ideal conformal zero-clearance groove, not manufacturing tolerance",
+    "Visible schematic hoist cables represent external six-degree-of-freedom controlled handling, not a validated crane mechanism",
+    "Fixture withdrawal and final stability are kinematic only; no dynamics/FEA"
+  ]
+}

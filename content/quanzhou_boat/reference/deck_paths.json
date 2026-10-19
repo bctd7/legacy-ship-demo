@@ -1,0 +1,1116 @@
+{
+  "method": "101 uniform rigid translations plus eight submillimetre/near-contact separations; actual clipped resource triangles; intersecting poses checked by exact Boolean and bidirectional 15 barycentric points per triangle with three ray votes. Finite sampling, not continuous proof.",
+  "results": [
+    {
+      "id": "deck_tenon",
+      "resource_sha256": "548b1bd75e0caacb61d5104733c4db6d25258d0fe9f1609aaed0c588a9bb328c",
+      "moving_separated_offset_m": [
+        0,
+        0,
+        0.45
+      ],
+      "samples": [
+        {
+          "u_separated": 0.0,
+          "distance_m": 0.0,
+          "triangle_pairs": 10,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 2.22222230071394e-05,
+          "distance_m": 1e-05,
+          "triangle_pairs": 13,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 6.66666690214182e-05,
+          "distance_m": 3.0000000000000004e-05,
+          "triangle_pairs": 13,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.00022222223007139396,
+          "distance_m": 0.0001,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.0006666666902141818,
+          "distance_m": 0.0003,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.0022222223007139397,
+          "distance_m": 0.001,
+          "triangle_pairs": 13,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.004444444601427879,
+          "distance_m": 0.002,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.006666666902141819,
+          "distance_m": 0.003,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.01,
+          "distance_m": 0.0044999998410542785,
+          "triangle_pairs": 13,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.011111111503569698,
+          "distance_m": 0.005,
+          "triangle_pairs": 14,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.02,
+          "distance_m": 0.008999999682108557,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.03,
+          "distance_m": 0.013499999523162833,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.04,
+          "distance_m": 0.017999999364217114,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.05,
+          "distance_m": 0.02249999920527139,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.06,
+          "distance_m": 0.026999999046325666,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.07,
+          "distance_m": 0.03149999888737995,
+          "triangle_pairs": 13,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.08,
+          "distance_m": 0.03599999872843423,
+          "triangle_pairs": 13,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.09,
+          "distance_m": 0.0404999985694885,
+          "triangle_pairs": 13,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.1,
+          "distance_m": 0.04499999841054278,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.11,
+          "distance_m": 0.04949999825159706,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.12,
+          "distance_m": 0.05399999809265133,
+          "triangle_pairs": 13,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.13,
+          "distance_m": 0.05849999793370562,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.14,
+          "distance_m": 0.0629999977747599,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.15,
+          "distance_m": 0.06749999761581417,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.16,
+          "distance_m": 0.07199999745686846,
+          "triangle_pairs": 13,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.17,
+          "distance_m": 0.07649999729792273,
+          "triangle_pairs": 13,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.18,
+          "distance_m": 0.080999997138977,
+          "triangle_pairs": 13,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.19,
+          "distance_m": 0.08549999698003129,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.2,
+          "distance_m": 0.08999999682108556,
+          "triangle_pairs": 13,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.21,
+          "distance_m": 0.09449999666213983,
+          "triangle_pairs": 13,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.22,
+          "distance_m": 0.09899999650319412,
+          "triangle_pairs": 13,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.23,
+          "distance_m": 0.1034999963442484,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.24,
+          "distance_m": 0.10799999618530266,
+          "triangle_pairs": 12,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.25,
+          "distance_m": 0.11249999602635695,
+          "triangle_pairs": 2,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.26,
+          "distance_m": 0.11699999586741124,
+          "triangle_pairs": 2,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.27,
+          "distance_m": 0.12149999570846551,
+          "triangle_pairs": 2,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.28,
+          "distance_m": 0.1259999955495198,
+          "triangle_pairs": 2,
+          "moving_inside_fixed": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "fixed_inside_moving": {
+            "max_depth_m": 0,
+            "point": null,
+            "inside_sample_count": 0
+          },
+          "exact": {
+            "volume_m3": 0.0,
+            "nonmanifold_edges": 0,
+            "faces": 0
+          }
+        },
+        {
+          "u_separated": 0.29,
+          "distance_m": 0.13049999539057405,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.3,
+          "distance_m": 0.13499999523162834,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.31,
+          "distance_m": 0.13949999507268263,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.32,
+          "distance_m": 0.1439999949137369,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.33,
+          "distance_m": 0.14849999475479117,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.34,
+          "distance_m": 0.15299999459584546,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.35,
+          "distance_m": 0.15749999443689972,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.36,
+          "distance_m": 0.161999994277954,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.37,
+          "distance_m": 0.1664999941190083,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.38,
+          "distance_m": 0.17099999396006257,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.39,
+          "distance_m": 0.17549999380111686,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.4,
+          "distance_m": 0.17999999364217112,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.41,
+          "distance_m": 0.18449999348322538,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.42,
+          "distance_m": 0.18899999332427966,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.43,
+          "distance_m": 0.19349999316533395,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.44,
+          "distance_m": 0.19799999300638824,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.45,
+          "distance_m": 0.20249999284744252,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.46,
+          "distance_m": 0.2069999926884968,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.47,
+          "distance_m": 0.21149999252955104,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.48,
+          "distance_m": 0.21599999237060533,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.49,
+          "distance_m": 0.2204999922116596,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.5,
+          "distance_m": 0.2249999920527139,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.51,
+          "distance_m": 0.22949999189376818,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.52,
+          "distance_m": 0.23399999173482247,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.53,
+          "distance_m": 0.23849999157587676,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.54,
+          "distance_m": 0.24299999141693102,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.55,
+          "distance_m": 0.2474999912579853,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.56,
+          "distance_m": 0.2519999910990396,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.57,
+          "distance_m": 0.25649999094009385,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.58,
+          "distance_m": 0.2609999907811481,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.59,
+          "distance_m": 0.26549999062220236,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.6,
+          "distance_m": 0.2699999904632567,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.61,
+          "distance_m": 0.27449999030431094,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.62,
+          "distance_m": 0.27899999014536525,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.63,
+          "distance_m": 0.2834999899864195,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.64,
+          "distance_m": 0.2879999898274738,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.65,
+          "distance_m": 0.2924999896685281,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.66,
+          "distance_m": 0.29699998950958234,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.67,
+          "distance_m": 0.30149998935063665,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.68,
+          "distance_m": 0.3059999891916909,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.69,
+          "distance_m": 0.31049998903274517,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.7,
+          "distance_m": 0.31499998887379943,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.71,
+          "distance_m": 0.31949998871485374,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.72,
+          "distance_m": 0.323999988555908,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.73,
+          "distance_m": 0.32849998839696226,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.74,
+          "distance_m": 0.3329999882380166,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.75,
+          "distance_m": 0.33749998807907083,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.76,
+          "distance_m": 0.34199998792012515,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.77,
+          "distance_m": 0.3464999877611794,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.78,
+          "distance_m": 0.3509999876022337,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.79,
+          "distance_m": 0.355499987443288,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.8,
+          "distance_m": 0.35999998728434224,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.81,
+          "distance_m": 0.36449998712539655,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.82,
+          "distance_m": 0.36899998696645075,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.83,
+          "distance_m": 0.37349998680750507,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.84,
+          "distance_m": 0.3779999866485593,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.85,
+          "distance_m": 0.38249998648961364,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.86,
+          "distance_m": 0.3869999863306679,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.87,
+          "distance_m": 0.39149998617172216,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.88,
+          "distance_m": 0.3959999860127765,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.89,
+          "distance_m": 0.40049998585383073,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.9,
+          "distance_m": 0.40499998569488505,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.91,
+          "distance_m": 0.4094999855359393,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.92,
+          "distance_m": 0.4139999853769936,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.93,
+          "distance_m": 0.4184999852180479,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.94,
+          "distance_m": 0.4229999850591021,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.95,
+          "distance_m": 0.4274999849001564,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.96,
+          "distance_m": 0.43199998474121065,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.97,
+          "distance_m": 0.43649998458226497,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.98,
+          "distance_m": 0.4409999844233192,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 0.99,
+          "distance_m": 0.44549998426437354,
+          "triangle_pairs": 0
+        },
+        {
+          "u_separated": 1.0,
+          "distance_m": 0.4499999841054278,
+          "triangle_pairs": 0
+        }
+      ]
+    }
+  ]
+}

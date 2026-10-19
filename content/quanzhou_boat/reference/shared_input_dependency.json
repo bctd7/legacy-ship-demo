@@ -1,0 +1,36 @@
+{
+  "source": "User-designated stable shared operation package in main project; source was read and copied without edits.",
+  "scope": "Independent checkout dependency snapshot only. Main integration uses its existing identical package and must not overwrite it with a boat copy.",
+  "files": [
+    {
+      "path": "interaction/CONTRACT.md",
+      "sha256": "30C9822B2607E3531EFE183E02C08A4CF4307BF8EBF59CFD258AD3DF30BDD0CA",
+      "source_copy_identical": true
+    },
+    {
+      "path": "interaction/drag_contract.gd",
+      "sha256": "9E109C774B189D16932FCAE2ED404251957F91A977EE4958AD783995412CF08D",
+      "source_copy_identical": true
+    },
+    {
+      "path": "interaction/drag_interaction.gd",
+      "sha256": "FE8251CBB2EE4B7FD8CBB91FEB0274873F7E7DBFA431D85FC8BA079FCDE699FE",
+      "source_copy_identical": true
+    },
+    {
+      "path": "interaction/orbit_camera.gd",
+      "sha256": "0FF7DD649DA8508F009CAFC63649B82FC71DAB41966CED665B7F6CE69532E00E",
+      "source_copy_identical": true
+    },
+    {
+      "path": "interaction/gesture_router.gd",
+      "sha256": "12830CF2FBF5238618E90D517ED7F4EF7ED97D57833F482634E075138639DAE8",
+      "source_copy_identical": true
+    },
+    {
+      "path": "interaction/mouse_input_adapter.gd",
+      "sha256": "329C86A2C77AB77ED6203D21E94B096E346CCF2CA9B165731BB0C21C3E46B821",
+      "source_copy_identical": true
+    }
+  ]
+}

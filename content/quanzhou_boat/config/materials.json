@@ -1,0 +1,12 @@
+{
+  "source": "boat_source.zip/build_ship.py:10-11 and scene_tools.py:5-8; procedural Blender materials were not included in GLB",
+  "Camphor keel": [0.18, 0.078, 0.030],
+  "Dark end grain": [0.12, 0.053, 0.028],
+  "Cedar 00": [0.28, 0.125, 0.052],
+  "Cedar 01": [0.302, 0.137, 0.058],
+  "Cedar 02": [0.324, 0.149, 0.064],
+  "Cedar 03": [0.346, 0.161, 0.070],
+  "Cedar 04": [0.368, 0.173, 0.076],
+  "Cedar 05": [0.390, 0.185, 0.082],
+  "Cedar 06": [0.412, 0.197, 0.088]
+}

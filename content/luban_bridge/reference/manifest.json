@@ -1,0 +1,106 @@
+{
+  "build_v2.py": {
+    "bytes": 9406,
+    "sha256": "3bb7ab1ac5884d77b6bb6201d3d37e9513bf18f014c6544b6620a547fa010491"
+  },
+  "assembly_sequence.mp4": {
+    "bytes": 258723,
+    "sha256": "fe395cf5aa41a4ef29687b0d7ba76a9747234430664c3b98754c03e64c619a31"
+  },
+  "bridge_v2_assembly.glb": {
+    "bytes": 1287988,
+    "sha256": "a32bbec02e44201289545c4f99bd401e0869815cc55b360f87ed8e14313d64a8"
+  },
+  "diagnose_raw_boolean.py": {
+    "bytes": 2241,
+    "sha256": "f3c695d9cdf56ffcdd15e77b4c07276aaf4e0c0c2105878d450576614bae534c"
+  },
+  "validate_exported_animation.py": {
+    "bytes": 1997,
+    "sha256": "bdb822a45d16c7ee49d987bcc2ffc0802db10e292b1676d6112a541cbd2232c5"
+  },
+  "bridge_v2_final.glb": {
+    "bytes": 583884,
+    "sha256": "754dedef24453088a530f5f2c723d2a675ad7e9b4ec60b650b28b657cbf6f58e"
+  },
+  "validate_bearings.py": {
+    "bytes": 2241,
+    "sha256": "333a4594e893090d14d777c7982467ea5846db947508865c427e183a490a850c"
+  },
+  "bridge_v2_assembly.blend": {
+    "bytes": 1339132,
+    "sha256": "7254da82196518e76a4c4bda4e693cc53efd6935f6a80552c2535ad6785b889c"
+  },
+  "render_animation.py": {
+    "bytes": 1049,
+    "sha256": "26bbc9ac42ea66f1a5f8ef5281208e7c5c7090d559a6e969a8f112e11e833426"
+  },
+  "rod_halfspace_validation.json": {
+    "bytes": 8358,
+    "sha256": "0401dc10b90577ec94857dcc42496ddf8902de2bb676c14ae73d8562110febc8"
+  },
+  "\u8bf4\u660e_README.txt": {
+    "bytes": 5233,
+    "sha256": "0c79c67b7b79d3ceb95d8b81fe4429c91006a1297f980f30695418ff619caa83"
+  },
+  "export_assembly_clip.py": {
+    "bytes": 482,
+    "sha256": "55777d47c520ad8b6d77588d6cd4b26ac56e95c981c791138ca4e140e4fe23f4"
+  },
+  "assembled_v2.png": {
+    "bytes": 620362,
+    "sha256": "8ec5e00f3e40abf881bd02f25ec3eacfe5fdfffe1b8a3ea5d06f4e0919dda4b4"
+  },
+  "raw_boolean_diagnostics.json": {
+    "bytes": 11070,
+    "sha256": "422d4dc470b68cf5bfb8790c123aeefd3abf69e9ebfbe47dbb09000e8efb3704"
+  },
+  "frame_v2.png": {
+    "bytes": 583627,
+    "sha256": "28d82705b281a1bb999422b2a42ab435a731bfac99f85a41475f7892184fe42c"
+  },
+  "assembly_captions.srt": {
+    "bytes": 2379,
+    "sha256": "e93f7c2e7da58f2fc76ad1d6c93a8b0427fff2359ad91a7ee75ba574b82ab198"
+  },
+  "bearings_validation.json": {
+    "bytes": 8190,
+    "sha256": "bfc0b0374255a910ae2ddaf34c3c51931bf3830405a76d4d80c2279d0e03b69a"
+  },
+  "export_validation.json": {
+    "bytes": 1611,
+    "sha256": "76bbb21e7407989fbe47d825c814934c683175e777727444ff485439efacc037"
+  },
+  "assembly_steps.json": {
+    "bytes": 14051,
+    "sha256": "79c4fc8db5ab53944201251c7847a5bf7e8a0f9d949357527ce89575a4a48b48"
+  },
+  "merge_animation_clip.py": {
+    "bytes": 817,
+    "sha256": "4e398c5989a71d0406d9588bf59f83f5c1741b61802e6f92cd201dd9a309971a"
+  },
+  "validate_paths.py": {
+    "bytes": 16569,
+    "sha256": "18911886516fff4a1156c3a270ec146bf2d76a5e1996cd4430f2725293ec6d8d"
+  },
+  "run_checks.sh": {
+    "bytes": 237,
+    "sha256": "0dfbcea55409560f90507e7439be3269bd3f86bcdd5be354e48584bcb9d14038"
+  },
+  "path_validation.json": {
+    "bytes": 30178,
+    "sha256": "21178a5493a7bc2d891b6d80a1de3efb2b4ea7b1a142f02e588dc98caffb861d"
+  },
+  "validate_rod_halfspace.py": {
+    "bytes": 1160,
+    "sha256": "be550fa2eebdfe96d3b82fde7083b227134d6f0d6e85afb892c087dfdfc912ae"
+  },
+  "render_final.py": {
+    "bytes": 803,
+    "sha256": "cc263193761b56d043386f008417c79890921bf587871bc95211fb27afbb226d"
+  },
+  "animation_validation.json": {
+    "bytes": 156,
+    "sha256": "fbca2e8778694c10237dec5fceb38e740af3a9bd7f3840592a05be277f8d2a31"
+  }
+}
